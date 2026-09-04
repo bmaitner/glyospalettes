@@ -1,0 +1,26 @@
+Package: rglyos
+Title: Color Palettes Inspired by Glyos Colorways
+Version: 0.1.0
+Authors@R: 
+    person("Brian", "Maitner", , "bmaitner@gmail.com", role = c("aut", "cre"))
+Description: Color palettes based on the named production colorways of the
+    Glyos System Series toy line by Onell Design, with ggplot2 colour and fill
+    scales for discrete and continuous data. Hex values are approximations
+    curated from product photography and Onell Design's published color
+    descriptions; rglyos is a fan project and is not affiliated with or
+    endorsed by Onell Design.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Depends: 
+    R (>= 3.5)
+Imports: 
+    ggplot2,
+    grDevices,
+    graphics
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+URL: https://github.com/bmaitner/rglyos
+BugReports: https://github.com/bmaitner/rglyos/issues
