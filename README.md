@@ -1,5 +1,9 @@
 # rglyos
 
+<!-- badges: start -->
+[![R-CMD-check](https://github.com/bmaitner/rglyos/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/bmaitner/rglyos/actions/workflows/R-CMD-check.yaml)
+<!-- badges: end -->
+
 Color palettes for R and ggplot2 based on the named colorways of the
 [Glyos](https://www.onelldesign.com/) toy system: Onell Design's own Glyos
 line plus the Glyos-compatible lines from partner companies such as
