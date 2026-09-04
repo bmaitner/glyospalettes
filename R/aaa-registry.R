@@ -626,7 +626,7 @@ zb <- function(...) partner(..., company = "Zullbeasts", line = "Zullbeasts")
      "Goldlander"),
   ni("outlander_crim", c("#6C1312", "#E01A1C", "#B1A9A3", "#7E7F81", "#F0F0F0"),
      "Crim-Outlander", "Red plastic with white paint.",
-     "Crim–Outlander"),
+     paste0("Crim", intToUtf8(0x2013), "Outlander")),  # wiki title has an en dash
   ni("outlander_otherlander", c("#059D6F", "#0CC6A9", "#7D867E", "#AEB0A9", "#F0F0F0"),
      "Otherlander", "Green plastic with white paint.",
      "Otherlander"),
