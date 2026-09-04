@@ -1,8 +1,11 @@
 test_that("glyos_show_palettes draws without error", {
   tmp <- tempfile(fileext = ".png")
-  grDevices::png(tmp)
+  grDevices::png(tmp, width = 2000, height = 4000)
   on.exit(grDevices::dev.off(), add = TRUE)
-  expect_invisible(glyos_show_palettes())
+  expect_invisible(glyos_show_palettes(company = "Onell Design"))
   expect_equal(glyos_show_palettes(c("spectre", "hades")), c("spectre", "hades"))
+  gb <- glyos_show_palettes(company = "TheGodBeast", ncol = 2)
+  expect_equal(gb, glyos_palette_names(company = "TheGodBeast"))
   expect_error(glyos_show_palettes("nope"))
+  expect_error(glyos_show_palettes(company = "nope"))
 })

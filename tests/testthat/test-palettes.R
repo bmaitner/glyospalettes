@@ -17,12 +17,37 @@ test_that("palette names are lowercase snake_case and unique", {
 
 test_that("metadata table matches the palette list", {
   expect_s3_class(glyos_colorways, "data.frame")
-  expect_setequal(glyos_colorways$palette, names(glyos_palettes))
+  expect_equal(glyos_colorways$palette, names(glyos_palettes))
   expect_equal(anyDuplicated(glyos_colorways$palette), 0)
   expect_true(all(nzchar(glyos_colorways$description)))
-  expect_true(all(nzchar(glyos_colorways$source)))
-  expect_equal(glyos_colorways$n_colours,
-               unname(lengths(glyos_palettes[glyos_colorways$palette])))
+  expect_true(all(nzchar(glyos_colorways$company)))
+  expect_true(all(nzchar(glyos_colorways$line)))
+  expect_true(all(grepl("^https://", glyos_colorways$source)))
+  expect_equal(glyos_colorways$n_colours, unname(lengths(glyos_palettes)))
+  expect_type(glyos_colorways$year, "integer")
+  expect_type(glyos_colorways$wave, "character")
+})
+
+test_that("companies are listed with Onell first and cover every row", {
+  cos <- glyos_companies()
+  expect_equal(cos[1], "Onell Design")
+  expect_setequal(cos, unique(glyos_colorways$company))
+  expect_gt(length(cos), 10)
+})
+
+test_that("palette names can be filtered by company and line", {
+  gb <- glyos_palette_names(company = "TheGodBeast")
+  expect_true(length(gb) > 0)
+  expect_true(all(glyos_colorways$company[match(gb, glyos_colorways$palette)] == "TheGodBeast"))
+  expect_equal(glyos_palette_names(company = "godbeast"), gb)
+  expect_equal(glyos_palette_names(company = "the god beast"), gb)
+
+  bt <- glyos_palette_names(line = "Battle Tribes")
+  expect_true(all(startsWith(bt, "bt_")))
+  expect_equal(glyos_palette_names(company = "spy monkey", line = "battle tribes"), bt)
+
+  expect_error(glyos_palette_names(company = "nope"), "Unknown or ambiguous")
+  expect_error(glyos_palette_names(company = c("a", "b")), "single string")
 })
 
 test_that("glyos_palette returns the full palette by default", {
@@ -50,11 +75,16 @@ test_that("glyos_palette matches names case-insensitively and errors on unknown"
     as.character(glyos_palette("Spectre")),
     as.character(glyos_palette("spectre"))
   )
+  expect_equal(
+    as.character(glyos_palette("Kabuto Infection")),
+    glyos_palettes[["kabuto_infection"]]
+  )
   expect_error(glyos_palette("not_a_colorway"), "Unknown Glyos colorway")
 })
 
-test_that("print method runs without error", {
+test_that("print method runs without error and names the company", {
   grDevices::pdf(NULL)
   on.exit(grDevices::dev.off(), add = TRUE)
-  expect_output(print(glyos_palette("hades")), "hades")
+  expect_output(print(glyos_palette("hades")), "Onell Design")
+  expect_output(print(glyos_palette("wom_empyreus")), "Spy Monkey")
 })

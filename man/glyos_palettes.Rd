@@ -11,27 +11,32 @@ A named list of character vectors of hex colors.
 glyos_palettes
 }
 \description{
-A named list of color palettes, one per Glyos colorway. Each element is a
-character vector of hex colors ordered so that the first few colors are the
-most distinct from one another (body color first, then secondary plastic,
-then paint accents). Use \code{\link[=glyos_palette]{glyos_palette()}} to pull colors from a palette
-and \link{glyos_colorways} for background on each colorway.
+A named list of color palettes, one per colorway, covering Onell Design's
+Glyos line and the Glyos-compatible lines from partner companies such as
+TheGodBeast, Spy Monkey Creations, Toyfinity and the Four Horsemen. Each
+element is a character vector of hex colors ordered so that the first few
+colors are the most distinct from one another (body color first, then
+secondary plastic, then paint accents). Use \code{\link[=glyos_palette]{glyos_palette()}} to pull colors
+from a palette and \link{glyos_colorways} for background on each colorway,
+including which company made it.
 }
 \details{
-Hex values are approximations. They were curated by sampling the dominant
-colors of the reference product photograph for each colorway in the
-Official Glyos Database (\url{https://database.glyos.com/}) and adjusting them
-against Onell Design's published color descriptions (for example
-"Pappysoup Green/Olive Green with light green visors"). Plastics that are
-clear, glow-in-the-dark, metallic or pearlescent cannot be captured by a
-single flat color; those palettes reflect how the plastic photographs.
+Hex values are approximations. Onell Design palettes were sampled from the
+reference product photograph in the Official Glyos Database
+(\url{https://database.glyos.com/}) and adjusted against Onell's published
+color descriptions. Partner-company palettes were sampled from the lead
+photograph of the figure's page on the Glyos Wiki
+(\url{https://glyos.fandom.com/}). Clear, glow-in-the-dark, metallic and
+pearlescent plastics cannot be captured by a single flat color; those
+palettes reflect how the plastic photographs.
 }
 \examples{
-names(glyos_palettes)
+length(glyos_palettes)
 glyos_palettes$spectre
+glyos_palettes$kabuto_infection
 }
 \seealso{
-\code{\link[=glyos_palette]{glyos_palette()}}, \code{\link[=glyos_palette_names]{glyos_palette_names()}}, \link{glyos_colorways},
-\code{\link[=glyos_show_palettes]{glyos_show_palettes()}}
+\code{\link[=glyos_palette]{glyos_palette()}}, \code{\link[=glyos_palette_names]{glyos_palette_names()}}, \code{\link[=glyos_companies]{glyos_companies()}},
+\link{glyos_colorways}, \code{\link[=glyos_show_palettes]{glyos_show_palettes()}}
 }
 \keyword{datasets}

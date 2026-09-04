@@ -4,7 +4,15 @@
 \alias{glyos_palette_names}
 \title{List the available Glyos palettes}
 \usage{
-glyos_palette_names()
+glyos_palette_names(company = NULL, line = NULL)
+}
+\arguments{
+\item{company}{Optional company name (see \code{\link[=glyos_companies]{glyos_companies()}}) to restrict
+the list to. Matched case-insensitively and by unique prefix, so
+\code{"godbeast"} and \code{"spy monkey"} work.}
+
+\item{line}{Optional product line (see the \code{line} column of
+\link{glyos_colorways}) to restrict the list to, matched the same way.}
 }
 \value{
 A character vector of palette names accepted by \code{\link[=glyos_palette]{glyos_palette()}}
@@ -15,4 +23,6 @@ List the available Glyos palettes
 }
 \examples{
 glyos_palette_names()
+glyos_palette_names(company = "TheGodBeast")
+glyos_palette_names(line = "Battle Tribes")
 }

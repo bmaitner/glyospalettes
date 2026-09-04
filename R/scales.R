@@ -9,6 +9,9 @@
 #' @param discrete Logical. If `TRUE` (default) build a discrete scale,
 #'   otherwise a continuous gradient scale.
 #' @param reverse Logical. Reverse the order of colors in the palette?
+#' @param sort Logical, continuous scales only. Order the palette from darkest
+#'   to lightest before building the gradient, so the scale reads as
+#'   low-to-high. See [glyos_find_palettes()] for palettes that suit this.
 #' @param ... Additional arguments passed on to
 #'   [ggplot2::discrete_scale()] (discrete) or
 #'   [ggplot2::scale_colour_gradientn()] / [ggplot2::scale_fill_gradientn()]
@@ -70,16 +73,18 @@ scale_fill_glyos_d <- function(palette = "standard", reverse = FALSE, ...) {
 
 #' @rdname scale_glyos
 #' @export
-scale_colour_glyos_c <- function(palette = "standard", reverse = FALSE, ...) {
-  cols <- as.character(glyos_palette(palette))
+scale_colour_glyos_c <- function(palette = "standard", reverse = FALSE,
+                                 sort = FALSE, ...) {
+  cols <- as.character(glyos_palette(palette, sort = sort))
   if (reverse) cols <- rev(cols)
   ggplot2::scale_colour_gradientn(colours = cols, ...)
 }
 
 #' @rdname scale_glyos
 #' @export
-scale_fill_glyos_c <- function(palette = "standard", reverse = FALSE, ...) {
-  cols <- as.character(glyos_palette(palette))
+scale_fill_glyos_c <- function(palette = "standard", reverse = FALSE,
+                               sort = FALSE, ...) {
+  cols <- as.character(glyos_palette(palette, sort = sort))
   if (reverse) cols <- rev(cols)
   ggplot2::scale_fill_gradientn(colours = cols, ...)
 }
@@ -87,22 +92,22 @@ scale_fill_glyos_c <- function(palette = "standard", reverse = FALSE, ...) {
 #' @rdname scale_glyos
 #' @export
 scale_colour_glyos <- function(palette = "standard", discrete = TRUE,
-                               reverse = FALSE, ...) {
+                               reverse = FALSE, sort = FALSE, ...) {
   if (discrete) {
     scale_colour_glyos_d(palette = palette, reverse = reverse, ...)
   } else {
-    scale_colour_glyos_c(palette = palette, reverse = reverse, ...)
+    scale_colour_glyos_c(palette = palette, reverse = reverse, sort = sort, ...)
   }
 }
 
 #' @rdname scale_glyos
 #' @export
 scale_fill_glyos <- function(palette = "standard", discrete = TRUE,
-                             reverse = FALSE, ...) {
+                             reverse = FALSE, sort = FALSE, ...) {
   if (discrete) {
     scale_fill_glyos_d(palette = palette, reverse = reverse, ...)
   } else {
-    scale_fill_glyos_c(palette = palette, reverse = reverse, ...)
+    scale_fill_glyos_c(palette = palette, reverse = reverse, sort = sort, ...)
   }
 }
 

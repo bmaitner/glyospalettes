@@ -8,31 +8,39 @@
 A data frame with one row per palette and the columns:
 \describe{
 \item{palette}{Palette name, as used by \code{\link[=glyos_palette]{glyos_palette()}}.}
-\item{colorway}{Colorway name as used by Onell Design.}
-\item{year}{Year of the reference release.}
-\item{wave}{Onell Design wave number of the reference release.}
+\item{company}{Company that produced the colorway, e.g. \code{"Onell Design"}
+or \code{"TheGodBeast"}. See \code{\link[=glyos_companies]{glyos_companies()}}.}
+\item{line}{Product line, e.g. \code{"Glyos"}, \code{"Kabuto Mushi"} or
+\code{"Battle Tribes"}.}
+\item{colorway}{Colorway or figure name as used by the manufacturer.}
+\item{year}{Year of the reference release, or \code{NA} where not recorded.}
+\item{wave}{Release wave or series of the reference release, or \code{NA}.}
 \item{n_colours}{Number of colors in the palette.}
 \item{description}{Description of the plastic and paint colors.}
 \item{reference_figure}{Figure the palette was sampled from.}
-\item{source}{URL of the reference figure in the Official Glyos Database.}
+\item{source}{URL of the reference figure.}
 }
 }
 \source{
-Official Glyos Database, \url{https://database.glyos.com/}, and the
-Glyos Transmission Web Log, \url{https://onelldesign.blogspot.com/}.
+Official Glyos Database, \url{https://database.glyos.com/}; the Glyos
+Transmission Web Log, \url{https://onelldesign.blogspot.com/}; and the Glyos
+Wiki, \url{https://glyos.fandom.com/}.
 }
 \usage{
 glyos_colorways
 }
 \description{
-Background information for every palette in \link{glyos_palettes}: the colorway
-name as used by Onell Design, the year and wave of the reference release,
-a plain-language description of the colors, the reference figure whose
-product photograph the palette was sampled from, and a link to that
-figure's entry in the Official Glyos Database.
+Background information for every palette in \link{glyos_palettes}: the company
+and product line it comes from, the colorway name as the manufacturer uses
+it, the year and wave of the reference release where known, a
+plain-language description of the colors, the reference figure whose
+photograph the palette was sampled from, and a link to that figure's entry
+in the Official Glyos Database (Onell Design) or the Glyos Wiki (partner
+companies).
 }
 \examples{
 head(glyos_colorways)
-glyos_colorways[glyos_colorways$year < 2010, c("palette", "description")]
+table(glyos_colorways$company)
+subset(glyos_colorways, company == "TheGodBeast", c(palette, colorway))
 }
 \keyword{datasets}

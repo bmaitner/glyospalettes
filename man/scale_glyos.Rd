@@ -17,19 +17,37 @@ scale_colour_glyos_d(palette = "standard", reverse = FALSE, ...)
 
 scale_fill_glyos_d(palette = "standard", reverse = FALSE, ...)
 
-scale_colour_glyos_c(palette = "standard", reverse = FALSE, ...)
+scale_colour_glyos_c(palette = "standard", reverse = FALSE, sort = FALSE, ...)
 
-scale_fill_glyos_c(palette = "standard", reverse = FALSE, ...)
+scale_fill_glyos_c(palette = "standard", reverse = FALSE, sort = FALSE, ...)
 
-scale_colour_glyos(palette = "standard", discrete = TRUE, reverse = FALSE, ...)
+scale_colour_glyos(
+  palette = "standard",
+  discrete = TRUE,
+  reverse = FALSE,
+  sort = FALSE,
+  ...
+)
 
-scale_fill_glyos(palette = "standard", discrete = TRUE, reverse = FALSE, ...)
+scale_fill_glyos(
+  palette = "standard",
+  discrete = TRUE,
+  reverse = FALSE,
+  sort = FALSE,
+  ...
+)
 
 scale_color_glyos_d(palette = "standard", reverse = FALSE, ...)
 
-scale_color_glyos_c(palette = "standard", reverse = FALSE, ...)
+scale_color_glyos_c(palette = "standard", reverse = FALSE, sort = FALSE, ...)
 
-scale_color_glyos(palette = "standard", discrete = TRUE, reverse = FALSE, ...)
+scale_color_glyos(
+  palette = "standard",
+  discrete = TRUE,
+  reverse = FALSE,
+  sort = FALSE,
+  ...
+)
 }
 \arguments{
 \item{palette}{Name of a Glyos colorway. See \code{\link[=glyos_palette_names]{glyos_palette_names()}}.}
@@ -40,6 +58,10 @@ scale_color_glyos(palette = "standard", discrete = TRUE, reverse = FALSE, ...)
 \code{\link[ggplot2:discrete_scale]{ggplot2::discrete_scale()}} (discrete) or
 \code{\link[ggplot2:scale_gradient]{ggplot2::scale_colour_gradientn()}} / \code{\link[ggplot2:scale_gradient]{ggplot2::scale_fill_gradientn()}}
 (continuous).}
+
+\item{sort}{Logical, continuous scales only. Order the palette from darkest
+to lightest before building the gradient, so the scale reads as
+low-to-high. See \code{\link[=glyos_find_palettes]{glyos_find_palettes()}} for palettes that suit this.}
 
 \item{discrete}{Logical. If \code{TRUE} (default) build a discrete scale,
 otherwise a continuous gradient scale.}

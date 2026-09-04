@@ -2,24 +2,46 @@
 % Please edit documentation in R/show.R
 \name{glyos_show_palettes}
 \alias{glyos_show_palettes}
-\title{Display every Glyos palette}
+\title{Display Glyos palettes}
 \usage{
-glyos_show_palettes(names = glyos_palette_names(), ncol = 3)
+glyos_show_palettes(
+  names = NULL,
+  company = NULL,
+  line = NULL,
+  use = NULL,
+  ncol = 3,
+  hex = TRUE
+)
 }
 \arguments{
 \item{names}{Optional character vector of palette names to show. Defaults
-to all palettes.}
+to every palette matching \code{company}, \code{line} and \code{use}.}
+
+\item{company}{Optional company name to restrict to; see
+\code{\link[=glyos_companies]{glyos_companies()}}.}
+
+\item{line}{Optional product line to restrict to; see the \code{line} column of
+\link{glyos_colorways}.}
+
+\item{use}{Optional use case to restrict to; see \code{\link[=glyos_find_palettes]{glyos_find_palettes()}}.}
 
 \item{ncol}{Number of columns to arrange the swatch strips in.}
+
+\item{hex}{Logical. Print the hex code under each swatch?}
 }
 \value{
 Invisibly, the character vector of palette names that were drawn.
 }
 \description{
 Draws a swatch strip for each colorway on the current graphics device,
-labelled with the palette name. Useful for picking a colorway.
+labelled with the palette name and, by default, the hex code under each
+swatch. Useful for picking a colorway or for reporting a color that looks
+wrong. With no arguments every palette is drawn, which is a lot; filter by
+\code{company}, \code{line} or \code{use} to narrow it down.
 }
 \examples{
-glyos_show_palettes()
+glyos_show_palettes(company = "Onell Design")
+glyos_show_palettes(company = "TheGodBeast", ncol = 2)
+glyos_show_palettes(use = "colorblind", ncol = 4)
 glyos_show_palettes(c("spectre", "hades", "infection"), ncol = 1)
 }

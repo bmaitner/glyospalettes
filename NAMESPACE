@@ -2,8 +2,11 @@
 
 S3method(print,glyos_palette)
 export(glyos_colorways)
+export(glyos_companies)
+export(glyos_find_palettes)
 export(glyos_palette)
 export(glyos_palette_names)
+export(glyos_palette_stats)
 export(glyos_palettes)
 export(glyos_show_palettes)
 export(scale_color_glyos)

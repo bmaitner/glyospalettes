@@ -8,7 +8,8 @@ glyos_palette(
   name,
   n = NULL,
   type = c("discrete", "continuous"),
-  strict = TRUE
+  strict = TRUE,
+  sort = FALSE
 )
 }
 \arguments{
@@ -23,6 +24,10 @@ with \code{\link[grDevices:colorRamp]{grDevices::colorRampPalette()}}.}
 \item{strict}{Logical. For discrete palettes, error when \code{n} exceeds the
 number of curated colors (default). If \code{FALSE}, interpolate to \code{n} colors
 instead.}
+
+\item{sort}{Logical. If \code{TRUE}, order the colors from darkest to lightest
+(by CIE lightness) before selecting or interpolating. Useful when a
+palette is used as a sequential gradient; see \code{\link[=glyos_find_palettes]{glyos_find_palettes()}}.}
 }
 \value{
 A character vector of hex colors with class \code{"glyos_palette"}, which
@@ -37,6 +42,8 @@ palette (\code{type = "continuous"}).
 glyos_palette("spectre")
 glyos_palette("glyaxia", 3)
 glyos_palette("hades", 12, type = "continuous")
+glyos_palette("hades", 12, type = "continuous", sort = TRUE)
+glyos_palette("wom_empyreus")
 
 # base graphics
 barplot(1:5, col = glyos_palette("gatekeeper"))
