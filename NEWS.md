@@ -1,3 +1,11 @@
+# rglyos 0.2.1
+
+* Rebuilt every palette from plastic and paint colors only. The first pass
+  sampled photographs without masking their backgrounds, so studio greys,
+  rock browns and blacks had crept into many palettes (Kabuto Mushi
+  Radioactive, for example, is simply neon green and neon pink). Palettes now
+  range from 2 to 6 colors.
+
 # rglyos 0.2.0
 
 * Added 148 palettes from 17 Glyos-compatible partner companies (TheGodBeast,

@@ -8,7 +8,11 @@ from.
 it lists the reference figure in the Official Glyos Database (title, year,
 wave, entry URL, product image URL) and the seven dominant colors found in the
 central region of the product photograph by k-means clustering, with the
-share of pixels in each cluster.
+share of pixels in each cluster. Those first-pass clusters include background
+colors; the palettes were later rebuilt from a second pass that masked out
+pixels matching the photo border colors (`resample.json` records the
+background-free clusters per palette) so that only plastic and paint colors
+remain. Palettes therefore range from 2 to 6 colors.
 
 `reference_figures_partners.json` covers the partner companies. It is keyed
 by company group and then by Glyos Wiki page title, and holds the wiki image

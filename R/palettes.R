@@ -3,7 +3,8 @@
 #' A named list of color palettes, one per colorway, covering Onell Design's
 #' Glyos line and the Glyos-compatible lines from partner companies such as
 #' TheGodBeast, Spy Monkey Creations, Toyfinity and the Four Horsemen. Each
-#' element is a character vector of hex colors ordered so that the first few
+#' element is a character vector of two to six hex colors holding only the
+#' plastic and paint colors of that colorway, ordered so that the first few
 #' colors are the most distinct from one another (body color first, then
 #' secondary plastic, then paint accents). Use [glyos_palette()] to pull colors
 #' from a palette and [glyos_colorways] for background on each colorway,

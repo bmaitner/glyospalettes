@@ -3,7 +3,7 @@ test_that("all palettes are valid hex colors", {
     cols <- glyos_palettes[[nm]]
     expect_true(is.character(cols), info = nm)
     expect_true(all(grepl("^#[0-9A-Fa-f]{6}$", cols)), info = nm)
-    expect_gte(length(cols), 4)
+    expect_gte(length(cols), 2)
     expect_equal(anyDuplicated(cols), 0, info = nm)
   }
 })

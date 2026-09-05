@@ -174,7 +174,9 @@ approximations built in three steps:
    all visible. For partner companies it is the figure's page on the
    [Glyos Wiki](https://glyos.fandom.com/).
 2. The dominant colors of that figure's lead photograph were extracted with
-   k-means clustering.
+   k-means clustering, after masking out pixels that match the photo's
+   border colors so that studio backgrounds, rocks and tabletops do not leak
+   into the palette.
 3. The clusters were reconciled by eye against the manufacturer's own color
    descriptions where they exist, chiefly the Onell drop announcements on the
    [Glyos Transmission Web Log](https://onelldesign.blogspot.com/) (for
@@ -183,9 +185,12 @@ approximations built in three steps:
    Zorennor) and the wiki's release lists, and ordered so the first few
    colors in each palette are the most distinct.
 
-Clear, glow-in-the-dark, metallic and pearlescent plastics do not reduce to a
-single flat color; those palettes reflect how the plastic photographs rather
-than the pigment itself. Partner-company photographs vary more in lighting
+Each palette contains only plastic and paint colors, so a colorway cast in a
+single clear plastic yields a short palette of that hue's highlight, mid-tone
+and shadow, and a two-color colorway such as Kabuto Mushi Radioactive is just
+two colors. Palettes range from 2 to 6 colors. Clear, glow-in-the-dark,
+metallic and pearlescent plastics do not reduce to a single flat color; those
+palettes reflect how the plastic photographs rather than the pigment itself. Partner-company photographs vary more in lighting
 and background than Onell's, so expect those palettes to be rougher.
 Corrections are welcome, ideally with a photograph or a manufacturer color
 description to back them up; `glyos_show_palettes()` prints the hex codes

@@ -1,0 +1,9076 @@
+{
+ "standard": {
+  "file": "pick/onell__Standard_Pheyden_MK_V.img",
+  "clusters": [
+   [
+    "#84d2ea",
+    0.2
+   ],
+   [
+    "#67b5cd",
+    0.2
+   ],
+   [
+    "#539bb0",
+    0.16
+   ],
+   [
+    "#305d7d",
+    0.11
+   ],
+   [
+    "#1f3d54",
+    0.11
+   ],
+   [
+    "#437b97",
+    0.09
+   ],
+   [
+    "#aaeafb",
+    0.07
+   ],
+   [
+    "#141e28",
+    0.06
+   ]
+  ],
+  "current": [
+   "#8ED7EE",
+   "#4D91A9",
+   "#A8A79A",
+   "#34617B",
+   "#1C3648"
+  ],
+  "company": "Onell Design",
+  "colorway": "Standard",
+  "desc": "Light blue and grey plastic with grey painted eyes and grey detail lines; the original Pheyden colors from Wave 1."
+ },
+ "reverse": {
+  "file": "pick/onell__Reverse_Pheyden_MK_II.img",
+  "clusters": [
+   [
+    "#617681",
+    0.22
+   ],
+   [
+    "#698097",
+    0.21
+   ],
+   [
+    "#4c6071",
+    0.17
+   ],
+   [
+    "#7698ad",
+    0.13
+   ],
+   [
+    "#344455",
+    0.11
+   ],
+   [
+    "#7ecbe7",
+    0.07
+   ],
+   [
+    "#162133",
+    0.04
+   ],
+   [
+    "#93eefe",
+    0.04
+   ]
+  ],
+  "current": [
+   "#B3B6AC",
+   "#728D9F",
+   "#87DAF1",
+   "#576D7C",
+   "#E2769B"
+  ],
+  "company": "Onell Design",
+  "colorway": "Reverse",
+  "desc": "Grey and light blue plastic (the Standard colors swapped) with pink painted eyes."
+ },
+ "spectre": {
+  "file": "pick/onell__Spectre_Pheyden_MK_II.img",
+  "clusters": [
+   [
+    "#f4ffd5",
+    0.21
+   ],
+   [
+    "#b5d5cc",
+    0.2
+   ],
+   [
+    "#fdffe4",
+    0.18
+   ],
+   [
+    "#c3e7dd",
+    0.18
+   ],
+   [
+    "#fefffb",
+    0.11
+   ],
+   [
+    "#d6f9f5",
+    0.11
+   ],
+   [
+    "#3b6157",
+    0.01
+   ],
+   [
+    "#090e0d",
+    0.01
+   ]
+  ],
+  "current": [
+   "#EEFADA",
+   "#BCC99B",
+   "#9EB49A",
+   "#5FC3A8",
+   "#1C1C19"
+  ],
+  "company": "Onell Design",
+  "colorway": "Spectre",
+  "desc": "Glow-in-the-dark green plastic with aqua green painted eyes and black accents."
+ },
+ "hades": {
+  "file": "pick/onell__Hades_Pheyden_MK_IV.img",
+  "clusters": [
+   [
+    "#f6f7f3",
+    0.23
+   ],
+   [
+    "#4d9976",
+    0.19
+   ],
+   [
+    "#3f7a5b",
+    0.18
+   ],
+   [
+    "#2b5940",
+    0.16
+   ],
+   [
+    "#78777a",
+    0.1
+   ],
+   [
+    "#d1d0c9",
+    0.07
+   ],
+   [
+    "#9fa1a0",
+    0.06
+   ],
+   [
+    "#232c4d",
+    0.01
+   ]
+  ],
+  "current": [
+   "#0F1210",
+   "#38403C",
+   "#537667",
+   "#73B79C",
+   "#A3EAD6"
+  ],
+  "company": "Onell Design",
+  "colorway": "Hades Force",
+  "desc": "Black plastic with aqua green accents and a glow-in-the-dark green head."
+ },
+ "infection": {
+  "file": "pick/onell__Infection_Exellis.img",
+  "clusters": [
+   [
+    "#cc0811",
+    0.28
+   ],
+   [
+    "#d21326",
+    0.24
+   ],
+   [
+    "#d7243c",
+    0.15
+   ],
+   [
+    "#e4081a",
+    0.13
+   ],
+   [
+    "#d73c52",
+    0.11
+   ],
+   [
+    "#dd5377",
+    0.05
+   ],
+   [
+    "#d4a47b",
+    0.02
+   ],
+   [
+    "#d686a2",
+    0.02
+   ]
+  ],
+  "current": [
+   "#7A0A12",
+   "#D00615",
+   "#E04A5C",
+   "#F0A0A8",
+   "#D9DBCE"
+  ],
+  "company": "Onell Design",
+  "colorway": "Infection",
+  "desc": "Clear red plastic, originally developed with The GodBeast."
+ },
+ "neo_phase": {
+  "file": "pick/onell__Neo_Phase_Pheyden_MK_II.img",
+  "clusters": [
+   [
+    "#12b94c",
+    0.25
+   ],
+   [
+    "#1fc56a",
+    0.21
+   ],
+   [
+    "#1cdf73",
+    0.16
+   ],
+   [
+    "#1ea94f",
+    0.16
+   ],
+   [
+    "#3de699",
+    0.11
+   ],
+   [
+    "#68d18d",
+    0.07
+   ],
+   [
+    "#87bc8a",
+    0.04
+   ],
+   [
+    "#0d1e12",
+    0.0
+   ]
+  ],
+  "current": [
+   "#0A5C4A",
+   "#09B450",
+   "#0ED675",
+   "#84EDAF",
+   "#F5F5EB"
+  ],
+  "company": "Onell Design",
+  "colorway": "Neo Phase",
+  "desc": "Clear neon green plastic with green painted eyes."
+ },
+ "glyaxia": {
+  "file": "pick/onell__Glyan_Glyaxia_Standard.img",
+  "clusters": [
+   [
+    "#efa821",
+    0.26
+   ],
+   [
+    "#f8ce33",
+    0.23
+   ],
+   [
+    "#c56811",
+    0.1
+   ],
+   [
+    "#25212a",
+    0.1
+   ],
+   [
+    "#647c9e",
+    0.09
+   ],
+   [
+    "#745641",
+    0.09
+   ],
+   [
+    "#0d4195",
+    0.08
+   ],
+   [
+    "#bead8e",
+    0.05
+   ]
+  ],
+  "current": [
+   "#F2B61D",
+   "#1575CC",
+   "#124380",
+   "#B76816",
+   "#25263A"
+  ],
+  "company": "Onell Design",
+  "colorway": "Glyaxia Command",
+  "desc": "Yellow and blue plastic with black visors and white tampo printing."
+ },
+ "ecroyex": {
+  "file": "pick/onell__Standard_Ecroyex_Glyan.img",
+  "clusters": [
+   [
+    "#0b84c4",
+    0.3
+   ],
+   [
+    "#0e1f46",
+    0.19
+   ],
+   [
+    "#1ba4e3",
+    0.14
+   ],
+   [
+    "#243652",
+    0.11
+   ],
+   [
+    "#165b97",
+    0.1
+   ],
+   [
+    "#0f121a",
+    0.09
+   ],
+   [
+    "#74a0b5",
+    0.05
+   ],
+   [
+    "#872626",
+    0.02
+   ]
+  ],
+  "current": [
+   "#0C93D3",
+   "#162E53",
+   "#0B6EA9",
+   "#C8202E",
+   "#0A1227"
+  ],
+  "company": "Onell Design",
+  "colorway": "Ecroyex",
+  "desc": "Bright blue and dark blue plastic with red visors, inspired by Takara's Acroyear figures."
+ },
+ "gatekeeper": {
+  "file": "pick/onell__Neo_Gatekeeper_Sullonev_Pheyden.img",
+  "clusters": [
+   [
+    "#8a47a7",
+    0.22
+   ],
+   [
+    "#dd268b",
+    0.18
+   ],
+   [
+    "#b30c5c",
+    0.18
+   ],
+   [
+    "#691d7a",
+    0.14
+   ],
+   [
+    "#9d063b",
+    0.1
+   ],
+   [
+    "#a472c0",
+    0.09
+   ],
+   [
+    "#ab7f98",
+    0.05
+   ],
+   [
+    "#5b2756",
+    0.04
+   ]
+  ],
+  "current": [
+   "#8E4EA6",
+   "#D20C7A",
+   "#651B70",
+   "#E64DA5",
+   "#A6054A"
+  ],
+  "company": "Onell Design",
+  "colorway": "Neo Gatekeeper",
+  "desc": "Warm purple and magenta plastic with black visors and white tampo printing."
+ },
+ "gatekeeper_classic": {
+  "file": "pick/onell__Gatekeeper_Vollus_Pheyden.img",
+  "clusters": [
+   [
+    "#f73a91",
+    0.27
+   ],
+   [
+    "#ef1564",
+    0.23
+   ],
+   [
+    "#ab0840",
+    0.1
+   ],
+   [
+    "#3f1046",
+    0.1
+   ],
+   [
+    "#6c2d99",
+    0.1
+   ],
+   [
+    "#540a25",
+    0.09
+   ],
+   [
+    "#972566",
+    0.08
+   ],
+   [
+    "#f198d6",
+    0.03
+   ]
+  ],
+  "current": [
+   "#F72E88",
+   "#40062E",
+   "#E10E5E",
+   "#6E2C90",
+   "#F075C3"
+  ],
+  "company": "Onell Design",
+  "colorway": "Gatekeeper",
+  "desc": "The original 2010 Gatekeeper run: hot pink and dark purple plastic with black."
+ },
+ "volkriun": {
+  "file": "pick/onell__Glyan_Task_Force_Volkriun.img",
+  "clusters": [
+   [
+    "#71895a",
+    0.22
+   ],
+   [
+    "#5c6d42",
+    0.21
+   ],
+   [
+    "#44522b",
+    0.16
+   ],
+   [
+    "#8aa276",
+    0.14
+   ],
+   [
+    "#293315",
+    0.11
+   ],
+   [
+    "#aec4a4",
+    0.08
+   ],
+   [
+    "#13180b",
+    0.07
+   ],
+   [
+    "#c1ea97",
+    0.01
+   ]
+  ],
+  "current": [
+   "#667A4E",
+   "#212914",
+   "#809571",
+   "#3F4436",
+   "#A6BD9A"
+  ],
+  "company": "Onell Design",
+  "colorway": "Task Force Volkriun",
+  "desc": "Pappysoup green and olive green plastic with light green visors."
+ },
+ "zorennor": {
+  "file": "pick/onell__Glyan_Zorennor_Exploration_Division.img",
+  "clusters": [
+   [
+    "#999995",
+    0.31
+   ],
+   [
+    "#98999d",
+    0.16
+   ],
+   [
+    "#a19f94",
+    0.14
+   ],
+   [
+    "#0c0a0c",
+    0.12
+   ],
+   [
+    "#969388",
+    0.12
+   ],
+   [
+    "#64929d",
+    0.1
+   ],
+   [
+    "#7aafbb",
+    0.05
+   ],
+   [
+    "#4e4d67",
+    0.0
+   ]
+  ],
+  "current": [
+   "#C1C0BA",
+   "#63666A",
+   "#8FC7E0",
+   "#202020",
+   "#EBEAE6"
+  ],
+  "company": "Onell Design",
+  "colorway": "Zorennor Exploration Division",
+  "desc": "Light grey and grey plastic (Pantone Cool Gray 1C and 8C) with light blue visors and Cool Gray 10C detail lines."
+ },
+ "reydurran": {
+  "file": "pick/onell__Glyan_Reydurran_Science_Division.img",
+  "clusters": [
+   [
+    "#bb0316",
+    0.25
+   ],
+   [
+    "#d71133",
+    0.21
+   ],
+   [
+    "#e30b24",
+    0.2
+   ],
+   [
+    "#9d0512",
+    0.18
+   ],
+   [
+    "#e03557",
+    0.08
+   ],
+   [
+    "#da6576",
+    0.03
+   ],
+   [
+    "#d69c98",
+    0.03
+   ],
+   [
+    "#161014",
+    0.02
+   ]
+  ],
+  "current": [
+   "#D80728",
+   "#A39C91",
+   "#8A0110",
+   "#1A1418",
+   "#E85A6E"
+  ],
+  "company": "Onell Design",
+  "colorway": "Reydurran Science Division",
+  "desc": "True red plastic with black visors and white tampo, alongside the warm grey Engineer Corps."
+ },
+ "sonesidar": {
+  "file": "pick/onell__Glyan_Sonesidar_Rescue_Unit.img",
+  "clusters": [
+   [
+    "#dd9923",
+    0.23
+   ],
+   [
+    "#d5edfe",
+    0.2
+   ],
+   [
+    "#baceef",
+    0.16
+   ],
+   [
+    "#d2973c",
+    0.13
+   ],
+   [
+    "#bb6c10",
+    0.11
+   ],
+   [
+    "#eaba45",
+    0.1
+   ],
+   [
+    "#c49f6b",
+    0.05
+   ],
+   [
+    "#63b73c",
+    0.03
+   ]
+  ],
+  "current": [
+   "#DCA135",
+   "#EDEDE6",
+   "#C37912",
+   "#5FB332",
+   "#A2A092"
+  ],
+  "company": "Onell Design",
+  "colorway": "Sonesidar Rescue Unit",
+  "desc": "White and yellorange plastic with green visors and yellorange tampo printing."
+ },
+ "ivorinium": {
+  "file": "pick/onell__Ivorinium_Pheyden.img",
+  "clusters": [
+   [
+    "#8f8f80",
+    0.24
+   ],
+   [
+    "#9e9f97",
+    0.2
+   ],
+   [
+    "#b2b9b9",
+    0.14
+   ],
+   [
+    "#acb1a6",
+    0.14
+   ],
+   [
+    "#bcc6bf",
+    0.1
+   ],
+   [
+    "#cdd8d6",
+    0.07
+   ],
+   [
+    "#7f7e73",
+    0.07
+   ],
+   [
+    "#e3f0f1",
+    0.05
+   ]
+  ],
+  "current": [
+   "#E3F0F0",
+   "#ACB1A9",
+   "#4A7FB5",
+   "#858475",
+   "#CCD7D5"
+  ],
+  "company": "Onell Design",
+  "colorway": "Ivorinium",
+  "desc": "Pearlescent white plastic with blue painted eyes."
+ },
+ "stealth": {
+  "file": "pick/onell__Stealth_Pheyden_MK_III.img",
+  "clusters": [
+   [
+    "#9db1b8",
+    0.38
+   ],
+   [
+    "#a0b1b2",
+    0.19
+   ],
+   [
+    "#94aab8",
+    0.18
+   ],
+   [
+    "#a2bac8",
+    0.12
+   ],
+   [
+    "#a9afa0",
+    0.09
+   ],
+   [
+    "#111319",
+    0.02
+   ],
+   [
+    "#6d839d",
+    0.01
+   ],
+   [
+    "#2d3954",
+    0.01
+   ]
+  ],
+  "current": [
+   "#E1EDF2",
+   "#A2AEAC",
+   "#CDD7D7",
+   "#6D7465",
+   "#8F9894"
+  ],
+  "company": "Onell Design",
+  "colorway": "Stealth",
+  "desc": "Clear colorless plastic with no paint applications."
+ },
+ "classified": {
+  "file": "pick/onell__Classified_Pheyden_MK_III.img",
+  "clusters": [
+   [
+    "#090508",
+    0.28
+   ],
+   [
+    "#131211",
+    0.22
+   ],
+   [
+    "#181a15",
+    0.2
+   ],
+   [
+    "#21261d",
+    0.12
+   ],
+   [
+    "#2b352b",
+    0.09
+   ],
+   [
+    "#3a4533",
+    0.05
+   ],
+   [
+    "#5c6951",
+    0.03
+   ],
+   [
+    "#43544d",
+    0.02
+   ]
+  ],
+  "current": [
+   "#0A0708",
+   "#5E6854",
+   "#2D362B",
+   "#A9AC8B",
+   "#171915"
+  ],
+  "company": "Onell Design",
+  "colorway": "Classified",
+  "desc": "Solid black plastic with grey visors or painted eyes."
+ },
+ "mordireus": {
+  "file": "pick/onell__Mordireus_Mutation_Skeleden.img",
+  "clusters": [
+   [
+    "#ea386e",
+    0.24
+   ],
+   [
+    "#e3415a",
+    0.18
+   ],
+   [
+    "#f14c8e",
+    0.18
+   ],
+   [
+    "#ee6b90",
+    0.15
+   ],
+   [
+    "#bc4860",
+    0.09
+   ],
+   [
+    "#ec98b4",
+    0.06
+   ],
+   [
+    "#fb70c3",
+    0.06
+   ],
+   [
+    "#743f49",
+    0.03
+   ]
+  ],
+  "current": [
+   "#E63167",
+   "#F775AA",
+   "#B53752",
+   "#FBB4D0",
+   "#453A3A"
+  ],
+  "company": "Onell Design",
+  "colorway": "Mordireus",
+  "desc": "Neon clear pink plastic."
+ },
+ "cosmic_wave": {
+  "file": "pick/onell__Cosmic_Wave_Pheyden.img",
+  "clusters": [
+   [
+    "#042b7f",
+    0.29
+   ],
+   [
+    "#1366c2",
+    0.15
+   ],
+   [
+    "#164986",
+    0.15
+   ],
+   [
+    "#0545be",
+    0.13
+   ],
+   [
+    "#4b90cd",
+    0.13
+   ],
+   [
+    "#d7e6ee",
+    0.07
+   ],
+   [
+    "#71cef2",
+    0.06
+   ],
+   [
+    "#1a2235",
+    0.02
+   ]
+  ],
+  "current": [
+   "#084EAC",
+   "#74B2DC",
+   "#042E7C",
+   "#1C84DA",
+   "#D3ECF7"
+  ],
+  "company": "Onell Design",
+  "colorway": "Cosmic Wave",
+  "desc": "Clear blue and clear colorless plastic."
+ },
+ "eclipse": {
+  "file": "pick/onell__Pheyden_Eclipse_MK_II.img",
+  "clusters": [
+   [
+    "#898c8a",
+    0.29
+   ],
+   [
+    "#777876",
+    0.23
+   ],
+   [
+    "#6b757d",
+    0.17
+   ],
+   [
+    "#f9fcf9",
+    0.16
+   ],
+   [
+    "#8794aa",
+    0.04
+   ],
+   [
+    "#1a1f46",
+    0.04
+   ],
+   [
+    "#435178",
+    0.03
+   ],
+   [
+    "#766752",
+    0.02
+   ]
+  ],
+  "current": [
+   "#141014",
+   "#BDC5C4",
+   "#47494E",
+   "#EAEEEA",
+   "#6D7276"
+  ],
+  "company": "Onell Design",
+  "colorway": "Eclipse",
+  "desc": "Black and white plastic."
+ },
+ "frontier": {
+  "file": "pick/onell__Pheyden_Frontier_MK_II.img",
+  "clusters": [
+   [
+    "#a53c26",
+    0.15
+   ],
+   [
+    "#421610",
+    0.15
+   ],
+   [
+    "#ecf1ed",
+    0.15
+   ],
+   [
+    "#6a2116",
+    0.14
+   ],
+   [
+    "#867c79",
+    0.12
+   ],
+   [
+    "#b9b5ae",
+    0.12
+   ],
+   [
+    "#6f4737",
+    0.1
+   ],
+   [
+    "#ec6335",
+    0.06
+   ]
+  ],
+  "current": [
+   "#DB5F39",
+   "#452E26",
+   "#EAEFEB",
+   "#88301F",
+   "#1A0E0D"
+  ],
+  "company": "Onell Design",
+  "colorway": "Frontier",
+  "desc": "White, orange and brown plastic."
+ },
+ "neo_nebula": {
+  "file": "pick/onell__Neo_Nebula_Pheyden.img",
+  "clusters": [
+   [
+    "#7456a4",
+    0.27
+   ],
+   [
+    "#937cc9",
+    0.19
+   ],
+   [
+    "#654c87",
+    0.19
+   ],
+   [
+    "#4e2b7a",
+    0.11
+   ],
+   [
+    "#2b1846",
+    0.08
+   ],
+   [
+    "#8c84a5",
+    0.06
+   ],
+   [
+    "#514461",
+    0.06
+   ],
+   [
+    "#181320",
+    0.04
+   ]
+  ],
+  "current": [
+   "#8F78C2",
+   "#2B1A44",
+   "#B9A6DA",
+   "#563C7A",
+   "#C0BEB4"
+  ],
+  "company": "Onell Design",
+  "colorway": "Neo Nebula",
+  "desc": "Light purple and dark purple plastic with grey detail lines."
+ },
+ "dark_nebula": {
+  "file": "pick/onell__Glyan_Dark_Nebula.img",
+  "clusters": [
+   [
+    "#772790",
+    0.23
+   ],
+   [
+    "#5e1b71",
+    0.17
+   ],
+   [
+    "#86539a",
+    0.14
+   ],
+   [
+    "#411351",
+    0.13
+   ],
+   [
+    "#b989d7",
+    0.12
+   ],
+   [
+    "#260d31",
+    0.1
+   ],
+   [
+    "#c0a0cd",
+    0.06
+   ],
+   [
+    "#f1e7f5",
+    0.04
+   ]
+  ],
+  "current": [
+   "#6C2582",
+   "#160E15",
+   "#B588CE",
+   "#441053",
+   "#894F9F",
+   "#E4CBF2"
+  ],
+  "company": "Onell Design",
+  "colorway": "Dark Nebula",
+  "desc": "Deep purple plastic with lighter purple paint and black."
+ },
+ "villser": {
+  "file": "pick/onell__Villser_Standard_MK_II.img",
+  "clusters": [
+   [
+    "#106469",
+    0.22
+   ],
+   [
+    "#208085",
+    0.21
+   ],
+   [
+    "#aaf6e0",
+    0.2
+   ],
+   [
+    "#084748",
+    0.18
+   ],
+   [
+    "#78d1b6",
+    0.08
+   ],
+   [
+    "#77a5ad",
+    0.05
+   ],
+   [
+    "#428a72",
+    0.04
+   ],
+   [
+    "#e1f0f0",
+    0.03
+   ]
+  ],
+  "current": [
+   "#0D6B6F",
+   "#090909",
+   "#75BEB1",
+   "#074444",
+   "#AEF4E0"
+  ],
+  "company": "Onell Design",
+  "colorway": "Villser Standard",
+  "desc": "Black plastic with dark teal and pale aqua paint."
+ },
+ "metran": {
+  "file": "pick/onell__Glyan_Metran_Security_Command.img",
+  "clusters": [
+   [
+    "#345fa4",
+    0.26
+   ],
+   [
+    "#234d8b",
+    0.23
+   ],
+   [
+    "#14396f",
+    0.18
+   ],
+   [
+    "#071d49",
+    0.1
+   ],
+   [
+    "#2d476c",
+    0.1
+   ],
+   [
+    "#5d83c2",
+    0.06
+   ],
+   [
+    "#677a92",
+    0.03
+   ],
+   [
+    "#0a0b1d",
+    0.03
+   ]
+  ],
+  "current": [
+   "#204880",
+   "#B1B1A4",
+   "#06102F",
+   "#6581AB",
+   "#325D9F"
+  ],
+  "company": "Onell Design",
+  "colorway": "Metran Security Command",
+  "desc": "Metran blue plastic with grey accents and white tampo printing."
+ },
+ "ultra_corps": {
+  "file": "pick/onell__Gendrone_Ultra_Corps_Noboto.img",
+  "clusters": [
+   [
+    "#999898",
+    0.22
+   ],
+   [
+    "#858282",
+    0.2
+   ],
+   [
+    "#afafae",
+    0.19
+   ],
+   [
+    "#6a6666",
+    0.15
+   ],
+   [
+    "#cac9c8",
+    0.13
+   ],
+   [
+    "#eeefee",
+    0.08
+   ],
+   [
+    "#275340",
+    0.03
+   ],
+   [
+    "#7bcbaf",
+    0.01
+   ]
+  ],
+  "current": [
+   "#9B9C9B",
+   "#0E0C0B",
+   "#E6E6E6",
+   "#545553",
+   "#BCBCBB"
+  ],
+  "company": "Onell Design",
+  "colorway": "Gendrone Ultra Corps",
+  "desc": "Ultra silver plastic with black visors and white tampo printing."
+ },
+ "redlaw": {
+  "file": "pick/onell__Redlaw_Phanost.img",
+  "clusters": [
+   [
+    "#761f95",
+    0.25
+   ],
+   [
+    "#a629cc",
+    0.17
+   ],
+   [
+    "#632672",
+    0.15
+   ],
+   [
+    "#a952c6",
+    0.12
+   ],
+   [
+    "#6d4c6e",
+    0.09
+   ],
+   [
+    "#170814",
+    0.08
+   ],
+   [
+    "#bb84cc",
+    0.07
+   ],
+   [
+    "#c0b0c0",
+    0.06
+   ]
+  ],
+  "current": [
+   "#711E8B",
+   "#BA97C0",
+   "#A437C6",
+   "#2B1A25",
+   "#E7DFE6"
+  ],
+  "company": "Onell Design",
+  "colorway": "Redlaw",
+  "desc": "Clear purple plastic with metallic silver accents and black detail lines."
+ },
+ "sendollest": {
+  "file": "pick/onell__Noboto_Sendollest_Guard.img",
+  "clusters": [
+   [
+    "#5b3224",
+    0.23
+   ],
+   [
+    "#6e514a",
+    0.21
+   ],
+   [
+    "#814e3c",
+    0.2
+   ],
+   [
+    "#9b7160",
+    0.19
+   ],
+   [
+    "#381512",
+    0.1
+   ],
+   [
+    "#cda08c",
+    0.06
+   ],
+   [
+    "#f1e6e4",
+    0.02
+   ],
+   [
+    "#64b7ac",
+    0.01
+   ]
+  ],
+  "current": [
+   "#815A4B",
+   "#5FC3B8",
+   "#431D13",
+   "#9E7B6C",
+   "#1E7F78"
+  ],
+  "company": "Onell Design",
+  "colorway": "Sendollest Guard",
+  "desc": "Ultra bronze metallic plastic with aqua and dark aqua accents."
+ },
+ "rig_crew": {
+  "file": "pick/onell__Glyan_Rig_Crew_Standard.img",
+  "clusters": [
+   [
+    "#b15c2d",
+    0.34
+   ],
+   [
+    "#924520",
+    0.25
+   ],
+   [
+    "#743a1d",
+    0.12
+   ],
+   [
+    "#b8795b",
+    0.1
+   ],
+   [
+    "#471b11",
+    0.07
+   ],
+   [
+    "#1b0a0e",
+    0.06
+   ],
+   [
+    "#7ec463",
+    0.04
+   ],
+   [
+    "#dececb",
+    0.02
+   ]
+  ],
+  "current": [
+   "#AF5E32",
+   "#271917",
+   "#C8B28C",
+   "#6DB35A",
+   "#853E1B"
+  ],
+  "company": "Onell Design",
+  "colorway": "Rig Crew",
+  "desc": "Brown and black plastic with sand accents and green visors."
+ },
+ "skaterriun": {
+  "file": "pick/onell__Glyan_Skaterriun_Skull_Comando.img",
+  "clusters": [
+   [
+    "#d5dad6",
+    0.26
+   ],
+   [
+    "#b4b3ab",
+    0.21
+   ],
+   [
+    "#908a86",
+    0.16
+   ],
+   [
+    "#e8812e",
+    0.13
+   ],
+   [
+    "#be5922",
+    0.09
+   ],
+   [
+    "#261919",
+    0.07
+   ],
+   [
+    "#852f13",
+    0.06
+   ],
+   [
+    "#f1aa74",
+    0.03
+   ]
+  ],
+  "current": [
+   "#603C2D",
+   "#DD792F",
+   "#D3D8D3",
+   "#3F2820",
+   "#805137"
+  ],
+  "company": "Onell Design",
+  "colorway": "Skaterriun Skull Commando",
+  "desc": "Brown plastic with orange and white paint."
+ },
+ "bio_phantom": {
+  "file": "pick/onell__Pheyden_Bio_Phantom.img",
+  "clusters": [
+   [
+    "#d7cacd",
+    0.26
+   ],
+   [
+    "#b19fab",
+    0.23
+   ],
+   [
+    "#1f1829",
+    0.14
+   ],
+   [
+    "#401f7c",
+    0.1
+   ],
+   [
+    "#d12f61",
+    0.09
+   ],
+   [
+    "#cd809a",
+    0.08
+   ],
+   [
+    "#2e1a9f",
+    0.07
+   ],
+   [
+    "#811f8b",
+    0.03
+   ]
+  ],
+  "current": [
+   "#391C9C",
+   "#C61E57",
+   "#4D4266",
+   "#DB688D",
+   "#D6C6CB",
+   "#261F39"
+  ],
+  "company": "Onell Design",
+  "colorway": "Bio Phantom",
+  "desc": "Clear violet plastic with pink and magenta paint."
+ },
+ "aetheric": {
+  "file": "pick/onell__Glyan_Core_Aetheric_Clone.img",
+  "clusters": [
+   [
+    "#364d45",
+    0.23
+   ],
+   [
+    "#171a19",
+    0.15
+   ],
+   [
+    "#51403e",
+    0.14
+   ],
+   [
+    "#5e1b6c",
+    0.14
+   ],
+   [
+    "#62786c",
+    0.13
+   ],
+   [
+    "#795d50",
+    0.12
+   ],
+   [
+    "#45198d",
+    0.06
+   ],
+   [
+    "#bdb6ad",
+    0.04
+   ]
+  ],
+  "current": [
+   "#583E63",
+   "#181719",
+   "#471A87",
+   "#716F68",
+   "#37333B"
+  ],
+  "company": "Onell Design",
+  "colorway": "Core Aetheric",
+  "desc": "Dark grey-green plastic with violet paint and black."
+ },
+ "white_skull": {
+  "file": "pick/onell__Glyan_Strike_Team_White_Skull.img",
+  "clusters": [
+   [
+    "#3a1317",
+    0.21
+   ],
+   [
+    "#991024",
+    0.2
+   ],
+   [
+    "#180c0d",
+    0.15
+   ],
+   [
+    "#cb233a",
+    0.15
+   ],
+   [
+    "#6e0d1b",
+    0.13
+   ],
+   [
+    "#663138",
+    0.08
+   ],
+   [
+    "#d55c6c",
+    0.06
+   ],
+   [
+    "#d3c5c9",
+    0.02
+   ]
+  ],
+  "current": [
+   "#920C21",
+   "#220F11",
+   "#C82D43",
+   "#52131C",
+   "#DB9AA4"
+  ],
+  "company": "Onell Design",
+  "colorway": "Strike Team White Skull",
+  "desc": "Red and maroon plastic with white and black details."
+ },
+ "gendrone_union": {
+  "file": "pick/onell__Glyan_Gendrone_Union_Commando.img",
+  "clusters": [
+   [
+    "#b9542c",
+    0.17
+   ],
+   [
+    "#84331d",
+    0.15
+   ],
+   [
+    "#e7e9e6",
+    0.15
+   ],
+   [
+    "#939095",
+    0.13
+   ],
+   [
+    "#d6864f",
+    0.11
+   ],
+   [
+    "#ae6c53",
+    0.11
+   ],
+   [
+    "#e1b592",
+    0.1
+   ],
+   [
+    "#64342a",
+    0.09
+   ]
+  ],
+  "current": [
+   "#B9653F",
+   "#282323",
+   "#DA9E78",
+   "#803621",
+   "#E7E1DA"
+  ],
+  "company": "Onell Design",
+  "colorway": "Gendrone Union",
+  "desc": "Metallic copper plastic with black and cream accents."
+ },
+ "gendrone_alliance": {
+  "file": "pick/onell__Gobon_Gendrone_Alliance.img",
+  "clusters": [
+   [
+    "#702c61",
+    0.22
+   ],
+   [
+    "#a53b8c",
+    0.18
+   ],
+   [
+    "#44183c",
+    0.16
+   ],
+   [
+    "#e7e4e8",
+    0.11
+   ],
+   [
+    "#925e87",
+    0.11
+   ],
+   [
+    "#dba9d4",
+    0.08
+   ],
+   [
+    "#c873bd",
+    0.08
+   ],
+   [
+    "#979197",
+    0.06
+   ]
+  ],
+  "current": [
+   "#9A4486",
+   "#1A1619",
+   "#B072A6",
+   "#461E3F",
+   "#CDA4C8"
+  ],
+  "company": "Onell Design",
+  "colorway": "Gendrone Alliance",
+  "desc": "Metallic magenta plastic with black and pale pink accents."
+ },
+ "neo_frontier": {
+  "file": "pick/onell__Glyan_Neo_Frontier.img",
+  "clusters": [
+   [
+    "#c8c6c5",
+    0.23
+   ],
+   [
+    "#b8b1ae",
+    0.2
+   ],
+   [
+    "#dadbda",
+    0.18
+   ],
+   [
+    "#8d817b",
+    0.14
+   ],
+   [
+    "#a29a96",
+    0.14
+   ],
+   [
+    "#f1f3f4",
+    0.1
+   ],
+   [
+    "#ea9a5d",
+    0.01
+   ],
+   [
+    "#5e3e3d",
+    0.0
+   ]
+  ],
+  "current": [
+   "#817672",
+   "#191618",
+   "#C3C0BD",
+   "#585555",
+   "#E1E2E2"
+  ],
+  "company": "Onell Design",
+  "colorway": "Neo Frontier",
+  "desc": "Warm grey plastic (Pantone Warm Gray 1C) with black and white paint."
+ },
+ "imperium": {
+  "file": "pick/onell__Elder_Exellis_Gendrone_Imperium.img",
+  "clusters": [
+   [
+    "#3c8499",
+    0.21
+   ],
+   [
+    "#275b6f",
+    0.19
+   ],
+   [
+    "#55b4ca",
+    0.17
+   ],
+   [
+    "#8ce7f3",
+    0.12
+   ],
+   [
+    "#4c554f",
+    0.1
+   ],
+   [
+    "#20313b",
+    0.1
+   ],
+   [
+    "#835327",
+    0.07
+   ],
+   [
+    "#d4782f",
+    0.04
+   ]
+  ],
+  "current": [
+   "#2E6778",
+   "#DEA94C",
+   "#7ADAE9",
+   "#C8202E",
+   "#1F3F48"
+  ],
+  "company": "Onell Design",
+  "colorway": "Gendrone Imperium",
+  "desc": "Metallic teal blue plastic with red visors and, on Elder Exellis, gold paint."
+ },
+ "bio_hunters": {
+  "file": "pick/onell__Noboto_Bio_Hunters.img",
+  "clusters": [
+   [
+    "#2f373e",
+    0.2
+   ],
+   [
+    "#5c6c82",
+    0.2
+   ],
+   [
+    "#3e495d",
+    0.2
+   ],
+   [
+    "#4c5761",
+    0.2
+   ],
+   [
+    "#7d8fad",
+    0.1
+   ],
+   [
+    "#1a1a1d",
+    0.09
+   ],
+   [
+    "#f3fbfe",
+    0.01
+   ],
+   [
+    "#b72839",
+    0.01
+   ]
+  ],
+  "current": [
+   "#5B6877",
+   "#C8202E",
+   "#A9AEB3",
+   "#23272C",
+   "#78889C"
+  ],
+  "company": "Onell Design",
+  "colorway": "Bio Hunters",
+  "desc": "Gunmetal silver plastic with red visors and white tampo printing."
+ },
+ "lsa": {
+  "file": "pick/onell__Standard_Lost_Sincroid_Army.img",
+  "clusters": [
+   [
+    "#1e642c",
+    0.28
+   ],
+   [
+    "#328b4b",
+    0.2
+   ],
+   [
+    "#101d1c",
+    0.15
+   ],
+   [
+    "#1c4221",
+    0.13
+   ],
+   [
+    "#4f977a",
+    0.07
+   ],
+   [
+    "#dfb861",
+    0.07
+   ],
+   [
+    "#9a672e",
+    0.06
+   ],
+   [
+    "#305665",
+    0.04
+   ]
+  ],
+  "current": [
+   "#1F6331",
+   "#AC7B38",
+   "#3C8D5D",
+   "#0E2C1A",
+   "#D5DBD3"
+  ],
+  "company": "Onell Design",
+  "colorway": "Lost Sincroid Army",
+  "desc": "Green plastic with gold and cream paint, in the old Rechlen and Aves inspired colors."
+ },
+ "neo_voss": {
+  "file": "pick/onell__Neo_Voss_Phaseon.img",
+  "clusters": [
+   [
+    "#2a9c86",
+    0.29
+   ],
+   [
+    "#2fb5a1",
+    0.17
+   ],
+   [
+    "#3ba599",
+    0.15
+   ],
+   [
+    "#5b9f8f",
+    0.13
+   ],
+   [
+    "#4d8c75",
+    0.11
+   ],
+   [
+    "#60bcb3",
+    0.08
+   ],
+   [
+    "#43d4bf",
+    0.05
+   ],
+   [
+    "#9ae6de",
+    0.02
+   ]
+  ],
+  "current": [
+   "#239D88",
+   "#67CEC1",
+   "#507D65",
+   "#30B7A4",
+   "#A1A491"
+  ],
+  "company": "Onell Design",
+  "colorway": "Neo Voss",
+  "desc": "Clear aqua green plastic, based on sea glass."
+ },
+ "relgost": {
+  "file": "pick/onell__Glyan_Relgost_Marine_Division.img",
+  "clusters": [
+   [
+    "#6c9482",
+    0.22
+   ],
+   [
+    "#8bbaa5",
+    0.2
+   ],
+   [
+    "#53839e",
+    0.14
+   ],
+   [
+    "#35607b",
+    0.12
+   ],
+   [
+    "#496c58",
+    0.11
+   ],
+   [
+    "#09161b",
+    0.1
+   ],
+   [
+    "#81abcb",
+    0.06
+   ],
+   [
+    "#c0e1d6",
+    0.05
+   ]
+  ],
+  "current": [
+   "#81AEA4",
+   "#446974",
+   "#ABD3CA",
+   "#323F41",
+   "#628A86"
+  ],
+  "company": "Onell Design",
+  "colorway": "Relgost Marine Division",
+  "desc": "Seafoam green and greyish blue plastic."
+ },
+ "crayhunter": {
+  "file": "pick/onell__Glyan_Crayhunter_Standard.img",
+  "clusters": [
+   [
+    "#1d5b63",
+    0.39
+   ],
+   [
+    "#193a3c",
+    0.14
+   ],
+   [
+    "#d6412d",
+    0.13
+   ],
+   [
+    "#4b828e",
+    0.1
+   ],
+   [
+    "#e66547",
+    0.09
+   ],
+   [
+    "#131215",
+    0.08
+   ],
+   [
+    "#8a2b20",
+    0.05
+   ],
+   [
+    "#d1886f",
+    0.02
+   ]
+  ],
+  "current": [
+   "#16545B",
+   "#E45D43",
+   "#39747B",
+   "#AD3025",
+   "#C0C9AE"
+  ],
+  "company": "Onell Design",
+  "colorway": "Crayhunter",
+  "desc": "Grayeen blue and redorange plastic with black visors and white tampo printing."
+ },
+ "sunstorm": {
+  "file": "pick/onell__Varteryx_Sunstorm.img",
+  "clusters": [
+   [
+    "#ed7d27",
+    0.21
+   ],
+   [
+    "#cd8c29",
+    0.2
+   ],
+   [
+    "#ddaf4b",
+    0.16
+   ],
+   [
+    "#f7a158",
+    0.12
+   ],
+   [
+    "#efcc85",
+    0.11
+   ],
+   [
+    "#361512",
+    0.07
+   ],
+   [
+    "#ab6445",
+    0.07
+   ],
+   [
+    "#f3e3c5",
+    0.05
+   ]
+  ],
+  "current": [
+   "#E3953B",
+   "#9F2B01",
+   "#EBB869",
+   "#CD7320",
+   "#F7E1AD",
+   "#3D1912"
+  ],
+  "company": "Onell Design",
+  "colorway": "Sunstorm",
+  "desc": "Pearlescent yellow plastic with orange paint and black accents."
+ },
+ "smoke": {
+  "file": "pick/onell__Clear_Smoke_Glyan.img",
+  "clusters": [
+   [
+    "#fdfeff",
+    0.33
+   ],
+   [
+    "#dce0e3",
+    0.16
+   ],
+   [
+    "#d2d5d2",
+    0.15
+   ],
+   [
+    "#edf2f8",
+    0.14
+   ],
+   [
+    "#d0d5d9",
+    0.14
+   ],
+   [
+    "#281727",
+    0.05
+   ],
+   [
+    "#251118",
+    0.02
+   ],
+   [
+    "#646877",
+    0.02
+   ]
+  ],
+  "current": [
+   "#726E60",
+   "#C0C4C2",
+   "#423A36",
+   "#9E9F98",
+   "#F3F6F8"
+  ],
+  "company": "Onell Design",
+  "colorway": "Clear Smoke",
+  "desc": "Clear grey plastic with no paint applications."
+ },
+ "delphi": {
+  "file": "pick/onell__Delphi_Monbarann.img",
+  "clusters": [
+   [
+    "#bcb8af",
+    0.26
+   ],
+   [
+    "#a39a8b",
+    0.21
+   ],
+   [
+    "#dbdedb",
+    0.19
+   ],
+   [
+    "#80281d",
+    0.14
+   ],
+   [
+    "#897868",
+    0.14
+   ],
+   [
+    "#310904",
+    0.04
+   ],
+   [
+    "#c8807b",
+    0.02
+   ],
+   [
+    "#e3522d",
+    0.01
+   ]
+  ],
+  "current": [
+   "#954833",
+   "#BFBDB4",
+   "#4C190F",
+   "#927464",
+   "#DCDFDC"
+  ],
+  "company": "Onell Design",
+  "colorway": "Delphi",
+  "desc": "Reddish brown plastic with bone and dark brown paint."
+ },
+ "kabuto_standard": {
+  "file": "wiki/godbeast__Standard_Kabuto_Mushi_Mk_II.img",
+  "clusters": [
+   [
+    "#b29e5b",
+    0.2
+   ],
+   [
+    "#281f1b",
+    0.19
+   ],
+   [
+    "#b45033",
+    0.17
+   ],
+   [
+    "#7e270f",
+    0.15
+   ],
+   [
+    "#2a6430",
+    0.1
+   ],
+   [
+    "#5b554a",
+    0.09
+   ],
+   [
+    "#9a95e0",
+    0.06
+   ],
+   [
+    "#8b723f",
+    0.05
+   ]
+  ],
+  "current": [
+   "#A89972",
+   "#5E4B36",
+   "#792C14",
+   "#D2C4A0",
+   "#2A241C"
+  ],
+  "company": "TheGodBeast",
+  "colorway": "Standard",
+  "desc": "Metallic pearlescent brown and khaki plastic, the Kabuto Mushi Mk II standard colors."
+ },
+ "kabuto_infection": {
+  "file": "wiki/godbeast__Infection_Kabuto_Mushi.img",
+  "clusters": [
+   [
+    "#91170b",
+    0.4
+   ],
+   [
+    "#f8860b",
+    0.13
+   ],
+   [
+    "#1d0d08",
+    0.12
+   ],
+   [
+    "#ee6362",
+    0.09
+   ],
+   [
+    "#feeb44",
+    0.08
+   ],
+   [
+    "#fcec93",
+    0.07
+   ],
+   [
+    "#f81412",
+    0.06
+   ],
+   [
+    "#f3c3bf",
+    0.06
+   ]
+  ],
+  "current": [
+   "#E61B11",
+   "#711108",
+   "#F8A510",
+   "#F27A6A",
+   "#2B0805"
+  ],
+  "company": "TheGodBeast",
+  "colorway": "Infection",
+  "desc": "Clear red plastic with orange accents."
+ },
+ "kabuto_radioactive": {
+  "file": "wiki/godbeast__Radioactive_Kabuto_Mushi.img",
+  "clusters": [
+   [
+    "#1dc484",
+    0.21
+   ],
+   [
+    "#df2d4a",
+    0.17
+   ],
+   [
+    "#1bbf3e",
+    0.16
+   ],
+   [
+    "#f54c9c",
+    0.13
+   ],
+   [
+    "#503a26",
+    0.1
+   ],
+   [
+    "#94ab90",
+    0.08
+   ],
+   [
+    "#2b6d24",
+    0.08
+   ],
+   [
+    "#cd789c",
+    0.06
+   ]
+  ],
+  "current": [
+   "#09C87E",
+   "#E8348E",
+   "#202013",
+   "#5E5E50",
+   "#F7A3CF"
+  ],
+  "company": "TheGodBeast",
+  "colorway": "Radioactive",
+  "desc": "Neon green and neon pink plastic, sold as a twin set."
+ },
+ "kabuto_glyaxia_clone": {
+  "file": "wiki/godbeast__Glyaxia_Clone_Kabuto_Mushi.img",
+  "clusters": [
+   [
+    "#087ff4",
+    0.25
+   ],
+   [
+    "#dfa910",
+    0.25
+   ],
+   [
+    "#c07b0b",
+    0.13
+   ],
+   [
+    "#0844b4",
+    0.11
+   ],
+   [
+    "#6a330f",
+    0.07
+   ],
+   [
+    "#2aaef3",
+    0.07
+   ],
+   [
+    "#1a274c",
+    0.06
+   ],
+   [
+    "#b0b4a6",
+    0.05
+   ]
+  ],
+  "current": [
+   "#0885F2",
+   "#D49709",
+   "#646352",
+   "#52432A",
+   "#1B2B4A"
+  ],
+  "company": "TheGodBeast",
+  "colorway": "Glyaxia Clone",
+  "desc": "Bright blue and golden yellow plastic, a Glyaxia Command tribute."
+ },
+ "kabuto_scarabite": {
+  "file": "wiki/godbeast__Scarabite_Mushi.img",
+  "clusters": [
+   [
+    "#107396",
+    0.22
+   ],
+   [
+    "#0a1114",
+    0.17
+   ],
+   [
+    "#0f6976",
+    0.16
+   ],
+   [
+    "#1698cf",
+    0.15
+   ],
+   [
+    "#2da0be",
+    0.15
+   ],
+   [
+    "#1f4353",
+    0.1
+   ],
+   [
+    "#9fb550",
+    0.03
+   ],
+   [
+    "#8f2f84",
+    0.02
+   ]
+  ],
+  "current": [
+   "#1A1E17",
+   "#3FA89C",
+   "#087B99",
+   "#615D5C",
+   "#A9E8DA"
+  ],
+  "company": "TheGodBeast",
+  "colorway": "Scarabite",
+  "desc": "Black plastic with teal and mint paint."
+ },
+ "kabuto_xenoglow": {
+  "file": "wiki/godbeast__Xenoglow_Mushi.img",
+  "clusters": [
+   [
+    "#2a9410",
+    0.18
+   ],
+   [
+    "#40b41e",
+    0.18
+   ],
+   [
+    "#5cd432",
+    0.16
+   ],
+   [
+    "#105609",
+    0.15
+   ],
+   [
+    "#19750d",
+    0.13
+   ],
+   [
+    "#85ea6c",
+    0.11
+   ],
+   [
+    "#233d20",
+    0.05
+   ],
+   [
+    "#62a74e",
+    0.05
+   ]
+  ],
+  "current": [
+   "#3DAA1A",
+   "#020403",
+   "#1D8B0B",
+   "#095A05",
+   "#8CE85A"
+  ],
+  "company": "TheGodBeast",
+  "colorway": "Xenoglow",
+  "desc": "Neon glow-in-the-dark green plastic."
+ },
+ "kabuto_cerulestar": {
+  "file": "wiki/godbeast__Cerulestar_Mushi.img",
+  "clusters": [
+   [
+    "#44636e",
+    0.32
+   ],
+   [
+    "#648f99",
+    0.21
+   ],
+   [
+    "#273b48",
+    0.14
+   ],
+   [
+    "#99c2c5",
+    0.12
+   ],
+   [
+    "#b19b8c",
+    0.07
+   ],
+   [
+    "#bb2b77",
+    0.06
+   ],
+   [
+    "#7a1e2d",
+    0.05
+   ],
+   [
+    "#504096",
+    0.03
+   ]
+  ],
+  "current": [
+   "#3F6075",
+   "#8FB6C9",
+   "#2D4351",
+   "#61858D",
+   "#D6318C"
+  ],
+  "company": "TheGodBeast",
+  "colorway": "Cerulestar",
+  "desc": "Steel blue and pale blue plastic with magenta accents."
+ },
+ "kabuto_bioberry": {
+  "file": "wiki/godbeast__Bioberry_Mushi.img",
+  "clusters": [
+   [
+    "#09286b",
+    0.3
+   ],
+   [
+    "#1753a5",
+    0.17
+   ],
+   [
+    "#314a6e",
+    0.13
+   ],
+   [
+    "#7b9ab2",
+    0.13
+   ],
+   [
+    "#2d2024",
+    0.13
+   ],
+   [
+    "#a99191",
+    0.08
+   ],
+   [
+    "#b4913c",
+    0.03
+   ],
+   [
+    "#a55231",
+    0.02
+   ]
+  ],
+  "current": [
+   "#0C3072",
+   "#8493A3",
+   "#7D6664",
+   "#C0BFBE",
+   "#1B4FA8"
+  ],
+  "company": "TheGodBeast",
+  "colorway": "Bioberry",
+  "desc": "Dark blue and grey plastic, a cereal-box tribute."
+ },
+ "kabuto_luna": {
+  "file": "wiki/godbeast__Luna_Mushi.img",
+  "clusters": [
+   [
+    "#445f6b",
+    0.27
+   ],
+   [
+    "#638b9b",
+    0.21
+   ],
+   [
+    "#8fbdce",
+    0.16
+   ],
+   [
+    "#b4bba4",
+    0.09
+   ],
+   [
+    "#4b0b0b",
+    0.08
+   ],
+   [
+    "#725423",
+    0.08
+   ],
+   [
+    "#a71f17",
+    0.06
+   ],
+   [
+    "#c69b41",
+    0.05
+   ]
+  ],
+  "current": [
+   "#262C2D",
+   "#3F565E",
+   "#6A8791",
+   "#A9BEC4",
+   "#C0273A"
+  ],
+  "company": "TheGodBeast",
+  "colorway": "Luna",
+  "desc": "Dusty blue-grey plastic with red accents."
+ },
+ "kabuto_sectivorus_supreme": {
+  "file": "wiki/godbeast__Sectivorus_Supreme.img",
+  "clusters": [
+   [
+    "#a47f53",
+    0.19
+   ],
+   [
+    "#171115",
+    0.16
+   ],
+   [
+    "#885d38",
+    0.15
+   ],
+   [
+    "#643e25",
+    0.15
+   ],
+   [
+    "#c4a679",
+    0.13
+   ],
+   [
+    "#411d12",
+    0.08
+   ],
+   [
+    "#7e634c",
+    0.07
+   ],
+   [
+    "#ead8a7",
+    0.07
+   ]
+  ],
+  "current": [
+   "#A9875C",
+   "#805938",
+   "#241817",
+   "#D8B67A",
+   "#4A453F"
+  ],
+  "company": "TheGodBeast",
+  "colorway": "Sectivorus Supreme",
+  "desc": "Metallic gold plastic with black paint."
+ },
+ "wom_empyreus": {
+  "file": "wiki/spymonkey_wom__Empyreus.img",
+  "clusters": [
+   [
+    "#2c2d53",
+    0.21
+   ],
+   [
+    "#4d1220",
+    0.18
+   ],
+   [
+    "#c22f2d",
+    0.18
+   ],
+   [
+    "#821e2b",
+    0.14
+   ],
+   [
+    "#807c7f",
+    0.1
+   ],
+   [
+    "#7f3f6d",
+    0.09
+   ],
+   [
+    "#386dcf",
+    0.07
+   ],
+   [
+    "#ed1814",
+    0.05
+   ]
+  ],
+  "current": [
+   "#B8192A",
+   "#2F376A",
+   "#66172C",
+   "#1D1417",
+   "#E04A5C"
+  ],
+  "company": "Spy Monkey Creations",
+  "colorway": "Empyreus",
+  "desc": "Red and dark blue plastic; the heroic leader of the Gearo."
+ },
+ "wom_palidar": {
+  "file": "wiki/spymonkey_wom__Palidar.img",
+  "clusters": [
+   [
+    "#59534f",
+    0.22
+   ],
+   [
+    "#252948",
+    0.17
+   ],
+   [
+    "#93867e",
+    0.15
+   ],
+   [
+    "#b0b6be",
+    0.12
+   ],
+   [
+    "#305db3",
+    0.1
+   ],
+   [
+    "#4e607d",
+    0.1
+   ],
+   [
+    "#57161f",
+    0.09
+   ],
+   [
+    "#bb3b2f",
+    0.06
+   ]
+  ],
+  "current": [
+   "#141313",
+   "#212E5C",
+   "#8A8F99",
+   "#C0392B",
+   "#4A4E5A"
+  ],
+  "company": "Spy Monkey Creations",
+  "colorway": "Palidar",
+  "desc": "Black and navy plastic with silver and red details."
+ },
+ "wom_umbreus": {
+  "file": "wiki/spymonkey_wom__Umbreus.img",
+  "clusters": [
+   [
+    "#743340",
+    0.35
+   ],
+   [
+    "#9c3b47",
+    0.23
+   ],
+   [
+    "#2c315c",
+    0.1
+   ],
+   [
+    "#605d6a",
+    0.1
+   ],
+   [
+    "#72b540",
+    0.07
+   ],
+   [
+    "#505624",
+    0.07
+   ],
+   [
+    "#a7a3ad",
+    0.05
+   ],
+   [
+    "#d5c722",
+    0.03
+   ]
+  ],
+  "current": [
+   "#131518",
+   "#8BC34A",
+   "#2E2E38",
+   "#5B2C6F",
+   "#A53F4A"
+  ],
+  "company": "Spy Monkey Creations",
+  "colorway": "Umbreus",
+  "desc": "Black plastic with a lime green face and purple accents."
+ },
+ "wom_brutok": {
+  "file": "wiki/spymonkey_wom__Brutok.img",
+  "clusters": [
+   [
+    "#8b303f",
+    0.28
+   ],
+   [
+    "#72b246",
+    0.26
+   ],
+   [
+    "#253c16",
+    0.16
+   ],
+   [
+    "#457227",
+    0.16
+   ],
+   [
+    "#464354",
+    0.07
+   ],
+   [
+    "#959aa4",
+    0.04
+   ],
+   [
+    "#2143a0",
+    0.02
+   ],
+   [
+    "#3dd912",
+    0.02
+   ]
+  ],
+  "current": [
+   "#6BA841",
+   "#2A2D2A",
+   "#4A1F5C",
+   "#8FD05A",
+   "#121511"
+  ],
+  "company": "Spy Monkey Creations",
+  "colorway": "Brutok",
+  "desc": "Bright green plastic with black and dark purple details."
+ },
+ "wom_crystal_gohlem": {
+  "file": "wiki/spymonkey_wom__Crystal_Gohlem.img",
+  "clusters": [
+   [
+    "#2a2c5a",
+    0.23
+   ],
+   [
+    "#398376",
+    0.22
+   ],
+   [
+    "#43a385",
+    0.19
+   ],
+   [
+    "#275b5c",
+    0.14
+   ],
+   [
+    "#94e4e2",
+    0.08
+   ],
+   [
+    "#7d706e",
+    0.07
+   ],
+   [
+    "#4678d4",
+    0.05
+   ],
+   [
+    "#b7402b",
+    0.02
+   ]
+  ],
+  "current": [
+   "#2C756B",
+   "#8ADBC7",
+   "#263372",
+   "#4FB39A",
+   "#D5F2EA"
+  ],
+  "company": "Spy Monkey Creations",
+  "colorway": "Crystal Gohlem",
+  "desc": "Clear teal plastic."
+ },
+ "wom_magma_gohlem": {
+  "file": "wiki/spymonkey_wom__Magma_Gohlem.img",
+  "clusters": [
+   [
+    "#8b4910",
+    0.28
+   ],
+   [
+    "#863c4b",
+    0.26
+   ],
+   [
+    "#b66411",
+    0.19
+   ],
+   [
+    "#5d271b",
+    0.07
+   ],
+   [
+    "#dc451a",
+    0.06
+   ],
+   [
+    "#b9905c",
+    0.06
+   ],
+   [
+    "#74787c",
+    0.06
+   ],
+   [
+    "#234298",
+    0.01
+   ]
+  ],
+  "current": [
+   "#B56414",
+   "#F2A033",
+   "#663844",
+   "#8B440F",
+   "#F8D07A"
+  ],
+  "company": "Spy Monkey Creations",
+  "colorway": "Magma Gohlem",
+  "desc": "Clear orange plastic."
+ },
+ "wom_gearion": {
+  "file": "wiki/spymonkey_wom__Gearion.img",
+  "clusters": [
+   [
+    "#110c0d",
+    0.29
+   ],
+   [
+    "#472f17",
+    0.19
+   ],
+   [
+    "#7e5716",
+    0.18
+   ],
+   [
+    "#c39e40",
+    0.1
+   ],
+   [
+    "#b9babf",
+    0.08
+   ],
+   [
+    "#5b5865",
+    0.07
+   ],
+   [
+    "#4577c5",
+    0.06
+   ],
+   [
+    "#9b2514",
+    0.02
+   ]
+  ],
+  "current": [
+   "#B88E31",
+   "#1E224B",
+   "#845A12",
+   "#160F0E",
+   "#E6C972"
+  ],
+  "company": "Spy Monkey Creations",
+  "colorway": "Gearion",
+  "desc": "Metallic gold plastic with black details; the Lord of Light."
+ },
+ "wom_veridiohm": {
+  "file": "wiki/spymonkey_wom__Veridiohm.img",
+  "clusters": [
+   [
+    "#13cd20",
+    0.36
+   ],
+   [
+    "#4782da",
+    0.18
+   ],
+   [
+    "#0c1010",
+    0.11
+   ],
+   [
+    "#8fd065",
+    0.1
+   ],
+   [
+    "#4d5a68",
+    0.09
+   ],
+   [
+    "#9daab6",
+    0.08
+   ],
+   [
+    "#2e7d49",
+    0.06
+   ],
+   [
+    "#ce6239",
+    0.02
+   ]
+  ],
+  "current": [
+   "#05B50D",
+   "#28335D",
+   "#30459E",
+   "#4079D4",
+   "#B3F5A6"
+  ],
+  "company": "Spy Monkey Creations",
+  "colorway": "Veridiohm",
+  "desc": "Clear green plastic with blue."
+ },
+ "bt_savage_adventurer": {
+  "file": "wiki/spymonkey_bt__Savage_Adventurer.img",
+  "clusters": [
+   [
+    "#a4a295",
+    0.24
+   ],
+   [
+    "#af854e",
+    0.23
+   ],
+   [
+    "#cdd2cf",
+    0.15
+   ],
+   [
+    "#ecdc38",
+    0.13
+   ],
+   [
+    "#cb1d0b",
+    0.1
+   ],
+   [
+    "#582a1f",
+    0.09
+   ],
+   [
+    "#673875",
+    0.04
+   ],
+   [
+    "#5cae42",
+    0.03
+   ]
+  ],
+  "current": [
+   "#E5B48A",
+   "#6E5537",
+   "#4D3D28",
+   "#201711",
+   "#8E6B4A"
+  ],
+  "company": "Spy Monkey Creations",
+  "colorway": "Savage Adventurer",
+  "desc": "Flesh-tone plastic with brown gear and black hair."
+ },
+ "bt_nomadic_orc": {
+  "file": "wiki/spymonkey_bt__Nomadic_Orc.img",
+  "clusters": [
+   [
+    "#a4863b",
+    0.28
+   ],
+   [
+    "#bfbc27",
+    0.23
+   ],
+   [
+    "#12100f",
+    0.2
+   ],
+   [
+    "#cacec7",
+    0.08
+   ],
+   [
+    "#66453d",
+    0.07
+   ],
+   [
+    "#c6230c",
+    0.06
+   ],
+   [
+    "#65c4f8",
+    0.06
+   ],
+   [
+    "#783d94",
+    0.02
+   ]
+  ],
+  "current": [
+   "#B6AA21",
+   "#7B6A44",
+   "#4F402C",
+   "#E0D07A",
+   "#2B2416"
+  ],
+  "company": "Spy Monkey Creations",
+  "colorway": "Nomadic Orc",
+  "desc": "Yellow-green orc skin with brown gear."
+ },
+ "bt_cyclops_ice_raider": {
+  "file": "wiki/spymonkey_bt__Cyclops_Ice_Raider.img",
+  "clusters": [
+   [
+    "#4e8dad",
+    0.21
+   ],
+   [
+    "#1b1616",
+    0.16
+   ],
+   [
+    "#765b31",
+    0.15
+   ],
+   [
+    "#3d5fa2",
+    0.13
+   ],
+   [
+    "#c4d4d4",
+    0.11
+   ],
+   [
+    "#ece835",
+    0.08
+   ],
+   [
+    "#ca1c0b",
+    0.08
+   ],
+   [
+    "#b3a23e",
+    0.07
+   ]
+  ],
+  "current": [
+   "#4381AA",
+   "#9B8F65",
+   "#373328",
+   "#7FB8E0",
+   "#C9E6F5"
+  ],
+  "company": "Spy Monkey Creations",
+  "colorway": "Cyclops Ice Raider",
+  "desc": "Clear ice blue plastic with khaki gear."
+ },
+ "bt_crimson_spikesaurian": {
+  "file": "wiki/spymonkey_bt__Crimson_Spikesaurian.img",
+  "clusters": [
+   [
+    "#794136",
+    0.28
+   ],
+   [
+    "#bd1c18",
+    0.24
+   ],
+   [
+    "#436584",
+    0.14
+   ],
+   [
+    "#aa8c26",
+    0.1
+   ],
+   [
+    "#1c1313",
+    0.08
+   ],
+   [
+    "#e3da35",
+    0.06
+   ],
+   [
+    "#db6617",
+    0.06
+   ],
+   [
+    "#bfc5c5",
+    0.05
+   ]
+  ],
+  "current": [
+   "#D62B2B",
+   "#E8C21A",
+   "#5E6D73",
+   "#1A1D1B",
+   "#F2F2EE"
+  ],
+  "company": "Spy Monkey Creations",
+  "colorway": "Crimson Spikesaurian",
+  "desc": "Crimson red plastic with yellow paint."
+ },
+ "bt_crystal_crusader": {
+  "file": "wiki/spymonkey_bt__Crystal_Crusader.img",
+  "clusters": [
+   [
+    "#21242b",
+    0.19
+   ],
+   [
+    "#41742b",
+    0.16
+   ],
+   [
+    "#3872a1",
+    0.15
+   ],
+   [
+    "#b69059",
+    0.13
+   ],
+   [
+    "#82a2ab",
+    0.11
+   ],
+   [
+    "#673a26",
+    0.11
+   ],
+   [
+    "#b82920",
+    0.09
+   ],
+   [
+    "#1344aa",
+    0.06
+   ]
+  ],
+  "current": [
+   "#16292E",
+   "#0C5FA5",
+   "#5A633A",
+   "#C3C8C0",
+   "#C0392B"
+  ],
+  "company": "Spy Monkey Creations",
+  "colorway": "Crystal Crusader",
+  "desc": "Clear light blue plastic with red and olive gear."
+ },
+ "bt_livid_dracosaurian": {
+  "file": "wiki/spymonkey_bt__Livid_Dracosaurian.img",
+  "clusters": [
+   [
+    "#8c583f",
+    0.18
+   ],
+   [
+    "#e4792a",
+    0.16
+   ],
+   [
+    "#8f2a11",
+    0.14
+   ],
+   [
+    "#5f584d",
+    0.13
+   ],
+   [
+    "#b6409d",
+    0.12
+   ],
+   [
+    "#514c11",
+    0.1
+   ],
+   [
+    "#3e1425",
+    0.08
+   ],
+   [
+    "#d6b5a1",
+    0.08
+   ]
+  ],
+  "current": [
+   "#8E44AD",
+   "#E67E22",
+   "#6B3E31",
+   "#EC5AB4",
+   "#3A2E31"
+  ],
+  "company": "Spy Monkey Creations",
+  "colorway": "Livid Dracosaurian",
+  "desc": "Livid purple plastic with orange and pink paint."
+ },
+ "bt_oozarian": {
+  "file": "wiki/spymonkey_bt__Oozarian_Warrior.img",
+  "clusters": [
+   [
+    "#1b150f",
+    0.32
+   ],
+   [
+    "#997049",
+    0.16
+   ],
+   [
+    "#89be2c",
+    0.15
+   ],
+   [
+    "#84ec0a",
+    0.12
+   ],
+   [
+    "#923013",
+    0.09
+   ],
+   [
+    "#4f6713",
+    0.08
+   ],
+   [
+    "#d1b137",
+    0.05
+   ],
+   [
+    "#dbdcc8",
+    0.02
+   ]
+  ],
+  "current": [
+   "#9AE20C",
+   "#4A3D22",
+   "#815B32",
+   "#CCB687",
+   "#1E160B"
+  ],
+  "company": "Spy Monkey Creations",
+  "colorway": "Oozarian Warrior",
+  "desc": "Neon Oozarian green plastic with brown gear."
+ },
+ "bt_bloodlust_demon": {
+  "file": "wiki/spymonkey_bt__Bloodlust_Demon.img",
+  "clusters": [
+   [
+    "#ca1f34",
+    0.28
+   ],
+   [
+    "#950d1e",
+    0.22
+   ],
+   [
+    "#110e0e",
+    0.12
+   ],
+   [
+    "#d03f09",
+    0.12
+   ],
+   [
+    "#bf4c54",
+    0.07
+   ],
+   [
+    "#675754",
+    0.07
+   ],
+   [
+    "#5b2524",
+    0.06
+   ],
+   [
+    "#cc9791",
+    0.05
+   ]
+  ],
+  "current": [
+   "#A30D1C",
+   "#C92F40",
+   "#6C4E4C",
+   "#3A1A1D",
+   "#F0A0A8"
+  ],
+  "company": "Spy Monkey Creations",
+  "colorway": "Bloodlust Demon",
+  "desc": "Blood red plastic with dark accents."
+ },
+ "bt_vampire_lord": {
+  "file": "wiki/spymonkey_bt__Vampire_Lord.img",
+  "clusters": [
+   [
+    "#6d6465",
+    0.16
+   ],
+   [
+    "#191416",
+    0.15
+   ],
+   [
+    "#564d4d",
+    0.14
+   ],
+   [
+    "#923037",
+    0.13
+   ],
+   [
+    "#68282d",
+    0.13
+   ],
+   [
+    "#363234",
+    0.12
+   ],
+   [
+    "#928b91",
+    0.12
+   ],
+   [
+    "#9e5b5e",
+    0.05
+   ]
+  ],
+  "current": [
+   "#706062",
+   "#7C2B32",
+   "#999197",
+   "#1B1516",
+   "#E5DEDE"
+  ],
+  "company": "Spy Monkey Creations",
+  "colorway": "Vampire Lord",
+  "desc": "Vampire grey plastic with dark red and black."
+ },
+ "bt_eldritch_god": {
+  "file": "wiki/spymonkey_bt__Eldritch_God.img",
+  "clusters": [
+   [
+    "#a58ac5",
+    0.29
+   ],
+   [
+    "#b8a2cf",
+    0.21
+   ],
+   [
+    "#886cac",
+    0.2
+   ],
+   [
+    "#2d2361",
+    0.12
+   ],
+   [
+    "#241d48",
+    0.07
+   ],
+   [
+    "#7b737e",
+    0.05
+   ],
+   [
+    "#a78963",
+    0.04
+   ],
+   [
+    "#4c414b",
+    0.03
+   ]
+  ],
+  "current": [
+   "#8F76B1",
+   "#AD94C9",
+   "#5A4680",
+   "#C8BCD4",
+   "#2C2035"
+  ],
+  "company": "Spy Monkey Creations",
+  "colorway": "Eldritch God",
+  "desc": "Lavender purple plastic."
+ },
+ "rf_maxx_zero": {
+  "file": "wiki/toyfinity__Maxx_Zero.img",
+  "clusters": [
+   [
+    "#242123",
+    0.26
+   ],
+   [
+    "#e5d1ac",
+    0.18
+   ],
+   [
+    "#8f8478",
+    0.15
+   ],
+   [
+    "#346091",
+    0.13
+   ],
+   [
+    "#ad288e",
+    0.1
+   ],
+   [
+    "#b61d57",
+    0.09
+   ],
+   [
+    "#e12c36",
+    0.07
+   ],
+   [
+    "#fab4f4",
+    0.03
+   ]
+  ],
+  "current": [
+   "#E8DFC8",
+   "#1F1C1E",
+   "#B6235A",
+   "#3A6FB5",
+   "#F2C24A"
+  ],
+  "company": "Toyfinity",
+  "colorway": "Maxx Zero",
+  "desc": "Cream white plastic with black, red, blue and yellow details."
+ },
+ "rf_hun_dred": {
+  "file": "wiki/toyfinity__Hun_Dred.img",
+  "clusters": [
+   [
+    "#b9c3be",
+    0.47
+   ],
+   [
+    "#666874",
+    0.19
+   ],
+   [
+    "#929f9a",
+    0.15
+   ],
+   [
+    "#f54d47",
+    0.12
+   ],
+   [
+    "#9a2223",
+    0.03
+   ],
+   [
+    "#d96d71",
+    0.02
+   ],
+   [
+    "#4b1a24",
+    0.01
+   ],
+   [
+    "#ce53a7",
+    0.01
+   ]
+  ],
+  "current": [
+   "#242129",
+   "#B2BDB7",
+   "#4C4F59",
+   "#E05A6A",
+   "#8E1E2D"
+  ],
+  "company": "Toyfinity",
+  "colorway": "Hun-Dred",
+  "desc": "Black plastic with silver and pink-red details."
+ },
+ "rf_sentinel": {
+  "file": "wiki/toyfinity__Sentinel.img",
+  "clusters": [
+   [
+    "#d2cfcb",
+    0.42
+   ],
+   [
+    "#e6ba0f",
+    0.23
+   ],
+   [
+    "#a19d7b",
+    0.18
+   ],
+   [
+    "#b28d1a",
+    0.1
+   ],
+   [
+    "#6f521e",
+    0.05
+   ],
+   [
+    "#1481a7",
+    0.01
+   ],
+   [
+    "#c44a7d",
+    0.01
+   ],
+   [
+    "#aa3916",
+    0.01
+   ]
+  ],
+  "current": [
+   "#D8D6D1",
+   "#9A9480",
+   "#B5B1AD",
+   "#F2C21A",
+   "#2E6FB8"
+  ],
+  "company": "Toyfinity",
+  "colorway": "Sentinel",
+  "desc": "White plastic with yellow and blue details."
+ },
+ "rf_wrecker": {
+  "file": "wiki/toyfinity__Wrecker.img",
+  "clusters": [
+   [
+    "#c5e76c",
+    0.26
+   ],
+   [
+    "#ebf9ab",
+    0.18
+   ],
+   [
+    "#91ab54",
+    0.17
+   ],
+   [
+    "#edf5d0",
+    0.12
+   ],
+   [
+    "#4a7347",
+    0.08
+   ],
+   [
+    "#a59f88",
+    0.08
+   ],
+   [
+    "#5abd86",
+    0.05
+   ],
+   [
+    "#52403d",
+    0.05
+   ]
+  ],
+  "current": [
+   "#CEE97F",
+   "#A6C759",
+   "#EFFAC1",
+   "#848D59",
+   "#2D3320"
+  ],
+  "company": "Toyfinity",
+  "colorway": "Wrecker",
+  "desc": "Lime yellow-green plastic."
+ },
+ "rf_vanguard": {
+  "file": "wiki/toyfinity__Vanguard.img",
+  "clusters": [
+   [
+    "#63bfe1",
+    0.25
+   ],
+   [
+    "#f5e14e",
+    0.19
+   ],
+   [
+    "#1f2a38",
+    0.13
+   ],
+   [
+    "#8b3210",
+    0.12
+   ],
+   [
+    "#ef830f",
+    0.1
+   ],
+   [
+    "#4e9473",
+    0.09
+   ],
+   [
+    "#797721",
+    0.06
+   ],
+   [
+    "#0d5ac5",
+    0.06
+   ]
+  ],
+  "current": [
+   "#B4430C",
+   "#0A5178",
+   "#E29710",
+   "#2990BF",
+   "#F5D97A"
+  ],
+  "company": "Toyfinity",
+  "colorway": "Vanguard",
+  "desc": "Orange and blue plastic with yellow."
+ },
+ "rf_cruel": {
+  "file": "wiki/toyfinity__Cruel.img",
+  "clusters": [
+   [
+    "#d9083b",
+    0.26
+   ],
+   [
+    "#34167d",
+    0.17
+   ],
+   [
+    "#3b14a0",
+    0.13
+   ],
+   [
+    "#8c121e",
+    0.09
+   ],
+   [
+    "#776d9e",
+    0.09
+   ],
+   [
+    "#23104d",
+    0.09
+   ],
+   [
+    "#cb4772",
+    0.08
+   ],
+   [
+    "#4c0f1d",
+    0.08
+   ]
+  ],
+  "current": [
+   "#D00D3E",
+   "#341189",
+   "#1D173E",
+   "#E8508A",
+   "#040206"
+  ],
+  "company": "Toyfinity",
+  "colorway": "Cruel",
+  "desc": "Cruel red and purple plastic."
+ },
+ "rf_brutal": {
+  "file": "wiki/toyfinity__Brutal.img",
+  "clusters": [
+   [
+    "#3a1892",
+    0.24
+   ],
+   [
+    "#c00633",
+    0.19
+   ],
+   [
+    "#230a60",
+    0.17
+   ],
+   [
+    "#5c081a",
+    0.12
+   ],
+   [
+    "#331e4b",
+    0.1
+   ],
+   [
+    "#786ab4",
+    0.08
+   ],
+   [
+    "#c7416e",
+    0.07
+   ],
+   [
+    "#dca5c9",
+    0.03
+   ]
+  ],
+  "current": [
+   "#361480",
+   "#C31142",
+   "#1F1545",
+   "#8A4DD0",
+   "#E777A8"
+  ],
+  "company": "Toyfinity",
+  "colorway": "Brutal",
+  "desc": "Brutal purple and magenta plastic."
+ },
+ "rf_nazgar": {
+  "file": "wiki/toyfinity__Nazgar.img",
+  "clusters": [
+   [
+    "#65451f",
+    0.21
+   ],
+   [
+    "#5e2e18",
+    0.19
+   ],
+   [
+    "#79381e",
+    0.19
+   ],
+   [
+    "#4a523b",
+    0.15
+   ],
+   [
+    "#030202",
+    0.08
+   ],
+   [
+    "#c7c4c2",
+    0.08
+   ],
+   [
+    "#b78e42",
+    0.06
+   ],
+   [
+    "#a5888f",
+    0.04
+   ]
+  ],
+  "current": [
+   "#150D07",
+   "#2D261E",
+   "#3D4232",
+   "#7B6E52",
+   "#5E3A7A"
+  ],
+  "company": "Toyfinity",
+  "colorway": "Nazgar",
+  "desc": "Dark olive and brown plastic with purple."
+ },
+ "mordles_jumbo": {
+  "file": "wiki/toyfinity__Jumbo_Mordles.img",
+  "clusters": [
+   [
+    "#fd3823",
+    0.5
+   ],
+   [
+    "#f55b43",
+    0.2
+   ],
+   [
+    "#1c603d",
+    0.09
+   ],
+   [
+    "#0c3622",
+    0.08
+   ],
+   [
+    "#feed3a",
+    0.05
+   ],
+   [
+    "#fdebef",
+    0.03
+   ],
+   [
+    "#a97e73",
+    0.03
+   ],
+   [
+    "#fdab23",
+    0.02
+   ]
+  ],
+  "current": [
+   "#F82F1E",
+   "#FB593F",
+   "#F5D000",
+   "#25563A",
+   "#030B06"
+  ],
+  "company": "Toyfinity",
+  "colorway": "Jumbo Mordles",
+  "desc": "Bright red-orange vinyl with yellow eyes."
+ },
+ "zeroids_zerak": {
+  "file": "wiki/toyfinity__Zerak.img",
+  "clusters": [
+   [
+    "#0a7fb4",
+    0.39
+   ],
+   [
+    "#dcdad6",
+    0.26
+   ],
+   [
+    "#051c41",
+    0.12
+   ],
+   [
+    "#8f969a",
+    0.09
+   ],
+   [
+    "#eb0611",
+    0.05
+   ],
+   [
+    "#404347",
+    0.04
+   ],
+   [
+    "#56b123",
+    0.03
+   ],
+   [
+    "#ab2c35",
+    0.02
+   ]
+  ],
+  "current": [
+   "#055A88",
+   "#057DB2",
+   "#0E394D",
+   "#010103",
+   "#F2C21A"
+  ],
+  "company": "Toyfinity",
+  "colorway": "Zerak",
+  "desc": "Blue plastic with black and yellow; the Destroyer."
+ },
+ "zeroids_zobor": {
+  "file": "wiki/toyfinity__Zobor.img",
+  "clusters": [
+   [
+    "#d37955",
+    0.18
+   ],
+   [
+    "#b1b3ca",
+    0.16
+   ],
+   [
+    "#dea793",
+    0.15
+   ],
+   [
+    "#a66862",
+    0.13
+   ],
+   [
+    "#c93823",
+    0.12
+   ],
+   [
+    "#13141b",
+    0.11
+   ],
+   [
+    "#75718e",
+    0.1
+   ],
+   [
+    "#4d1e16",
+    0.06
+   ]
+  ],
+  "current": [
+   "#BC513B",
+   "#D38B73",
+   "#743B33",
+   "#1F3F7A",
+   "#F5D9C8"
+  ],
+  "company": "Toyfinity",
+  "colorway": "Zobor",
+  "desc": "Copper orange plastic with blue; the Transporter."
+ },
+ "manglors_manglord": {
+  "file": "wiki/toyfinity__Manglord.img",
+  "clusters": [
+   [
+    "#4a532a",
+    0.23
+   ],
+   [
+    "#767c3c",
+    0.21
+   ],
+   [
+    "#292e1d",
+    0.12
+   ],
+   [
+    "#a8b46f",
+    0.12
+   ],
+   [
+    "#72825c",
+    0.09
+   ],
+   [
+    "#230554",
+    0.09
+   ],
+   [
+    "#692e62",
+    0.08
+   ],
+   [
+    "#7a5f98",
+    0.06
+   ]
+  ],
+  "current": [
+   "#7B854B",
+   "#576134",
+   "#2C2048",
+   "#140D2A",
+   "#B8C57A"
+  ],
+  "company": "Toyfinity",
+  "colorway": "Manglord",
+  "desc": "Olive green plastic with dark purple."
+ },
+ "osm_alpha_phase": {
+  "file": "wiki/fourhorsemen__Alpha_Phase.img",
+  "clusters": [
+   [
+    "#276bb7",
+    0.18
+   ],
+   [
+    "#3d6945",
+    0.17
+   ],
+   [
+    "#92c838",
+    0.15
+   ],
+   [
+    "#a55252",
+    0.14
+   ],
+   [
+    "#95ca96",
+    0.11
+   ],
+   [
+    "#5ca4d7",
+    0.09
+   ],
+   [
+    "#263e5e",
+    0.09
+   ],
+   [
+    "#dc8d98",
+    0.08
+   ]
+  ],
+  "current": [
+   "#E84C8F",
+   "#307EC1",
+   "#6AB82C",
+   "#2A6074",
+   "#10140F"
+  ],
+  "company": "Four Horsemen Studio",
+  "colorway": "Alpha Phase",
+  "desc": "Translucent pink, blue and green figures; the SDCC exclusive edition."
+ },
+ "osm_beta_phase": {
+  "file": "wiki/fourhorsemen__Beta_Phase.img",
+  "clusters": [
+   [
+    "#c6260c",
+    0.31
+   ],
+   [
+    "#af9a13",
+    0.22
+   ],
+   [
+    "#c15808",
+    0.13
+   ],
+   [
+    "#bbaa9f",
+    0.08
+   ],
+   [
+    "#633a16",
+    0.07
+   ],
+   [
+    "#0d3bad",
+    0.07
+   ],
+   [
+    "#3867a9",
+    0.07
+   ],
+   [
+    "#8ab927",
+    0.04
+   ]
+  ],
+  "current": [
+   "#C32006",
+   "#F2C21A",
+   "#2C5EA8",
+   "#8FB82C",
+   "#A69886"
+  ],
+  "company": "Four Horsemen Studio",
+  "colorway": "Beta Phase",
+  "desc": "Translucent red, yellow, blue and green figures; the NYCC exclusive edition."
+ },
+ "osm_xodiac": {
+  "file": "wiki/fourhorsemen__Xodiac.img",
+  "clusters": [
+   [
+    "#963a12",
+    0.3
+   ],
+   [
+    "#3d1e29",
+    0.14
+   ],
+   [
+    "#445487",
+    0.13
+   ],
+   [
+    "#f89a0e",
+    0.13
+   ],
+   [
+    "#d48e65",
+    0.1
+   ],
+   [
+    "#b26e79",
+    0.07
+   ],
+   [
+    "#f0d13f",
+    0.07
+   ],
+   [
+    "#c6ced9",
+    0.06
+   ]
+  ],
+  "current": [
+   "#ED9910",
+   "#93401C",
+   "#2E4A8A",
+   "#411F1F",
+   "#F5D9A0"
+  ],
+  "company": "Four Horsemen Studio",
+  "colorway": "Xodiac",
+  "desc": "Orange and blue; the Man from Saturn in Infinity Edition colors."
+ },
+ "osm_jack_asteroid": {
+  "file": "wiki/fourhorsemen__Jack_Asteroid.img",
+  "clusters": [
+   [
+    "#2d4760",
+    0.31
+   ],
+   [
+    "#45382f",
+    0.19
+   ],
+   [
+    "#411410",
+    0.11
+   ],
+   [
+    "#deb57b",
+    0.1
+   ],
+   [
+    "#734d30",
+    0.09
+   ],
+   [
+    "#d6d2cc",
+    0.08
+   ],
+   [
+    "#d06d37",
+    0.07
+   ],
+   [
+    "#031135",
+    0.04
+   ]
+  ],
+  "current": [
+   "#E8692B",
+   "#2A435B",
+   "#161011",
+   "#786455",
+   "#F2E6D8"
+  ],
+  "company": "Four Horsemen Studio",
+  "colorway": "Jack Asteroid",
+  "desc": "Orange spacesuit with black and white; the Man from Earth."
+ },
+ "osm_mystron": {
+  "file": "wiki/fourhorsemen__Mystron.img",
+  "clusters": [
+   [
+    "#ba2b49",
+    0.22
+   ],
+   [
+    "#4c111c",
+    0.2
+   ],
+   [
+    "#3c2947",
+    0.19
+   ],
+   [
+    "#914a36",
+    0.1
+   ],
+   [
+    "#d6542b",
+    0.08
+   ],
+   [
+    "#6384b1",
+    0.08
+   ],
+   [
+    "#953f80",
+    0.07
+   ],
+   [
+    "#e8ccd6",
+    0.05
+   ]
+  ],
+  "current": [
+   "#682D43",
+   "#C13D3D",
+   "#261A2B",
+   "#8E4A9E",
+   "#0F0204"
+  ],
+  "company": "Four Horsemen Studio",
+  "colorway": "Mystron",
+  "desc": "Red and purple; the Man from Hollow Earth."
+ },
+ "osm_inferno": {
+  "file": "wiki/fourhorsemen__Inferno.img",
+  "clusters": [
+   [
+    "#47260c",
+    0.24
+   ],
+   [
+    "#f0a91d",
+    0.14
+   ],
+   [
+    "#a57426",
+    0.14
+   ],
+   [
+    "#9c8365",
+    0.12
+   ],
+   [
+    "#ecdfc1",
+    0.11
+   ],
+   [
+    "#f6da2f",
+    0.1
+   ],
+   [
+    "#56433c",
+    0.08
+   ],
+   [
+    "#b94a0b",
+    0.07
+   ]
+  ],
+  "current": [
+   "#D06C0F",
+   "#73431A",
+   "#331B0A",
+   "#050406",
+   "#F2B04A"
+  ],
+  "company": "Four Horsemen Studio",
+  "colorway": "Inferno",
+  "desc": "Fiery orange and brown; the Man from Mercury."
+ },
+ "osm_commander_comet": {
+  "file": "wiki/fourhorsemen__Commander_Comet.img",
+  "clusters": [
+   [
+    "#834510",
+    0.22
+   ],
+   [
+    "#ce8837",
+    0.2
+   ],
+   [
+    "#3e1f13",
+    0.18
+   ],
+   [
+    "#b88e90",
+    0.15
+   ],
+   [
+    "#9d3d4d",
+    0.08
+   ],
+   [
+    "#fcf0dc",
+    0.06
+   ],
+   [
+    "#bc3e2e",
+    0.06
+   ],
+   [
+    "#f8df8d",
+    0.06
+   ]
+  ],
+  "current": [
+   "#9B4D23",
+   "#522915",
+   "#E0C080",
+   "#E39BCB",
+   "#06041A"
+  ],
+  "company": "Four Horsemen Studio",
+  "colorway": "Commander Comet",
+  "desc": "Gold and bronze with pink and white wings; the Man from Venus."
+ },
+ "osm_colossus_rex": {
+  "file": "wiki/fourhorsemen__Colossus_Rex.img",
+  "clusters": [
+   [
+    "#75ba3c",
+    0.25
+   ],
+   [
+    "#b7de72",
+    0.15
+   ],
+   [
+    "#a9a67b",
+    0.13
+   ],
+   [
+    "#762261",
+    0.13
+   ],
+   [
+    "#47706c",
+    0.12
+   ],
+   [
+    "#785268",
+    0.08
+   ],
+   [
+    "#8bc2bb",
+    0.07
+   ],
+   [
+    "#b82f1e",
+    0.06
+   ]
+  ],
+  "current": [
+   "#6DB233",
+   "#636748",
+   "#4F412A",
+   "#96C55C",
+   "#1E2A14"
+  ],
+  "company": "Four Horsemen Studio",
+  "colorway": "Colossus Rex",
+  "desc": "Green; the Man from Jupiter."
+ },
+ "osm_astro_nautilus": {
+  "file": "wiki/fourhorsemen__Astro_Nautilus.img",
+  "clusters": [
+   [
+    "#6d1659",
+    0.24
+   ],
+   [
+    "#593094",
+    0.21
+   ],
+   [
+    "#417bed",
+    0.15
+   ],
+   [
+    "#1b1523",
+    0.14
+   ],
+   [
+    "#d5b6f6",
+    0.12
+   ],
+   [
+    "#4f1425",
+    0.07
+   ],
+   [
+    "#72d1fd",
+    0.04
+   ],
+   [
+    "#b70d13",
+    0.04
+   ]
+  ],
+  "current": [
+   "#1B2D70",
+   "#594FA7",
+   "#1C4EAD",
+   "#8C86D8",
+   "#1B183C"
+  ],
+  "company": "Four Horsemen Studio",
+  "colorway": "Astro-Nautilus",
+  "desc": "Blue and purple; the Man from Neptune."
+ },
+ "osm_orbitron": {
+  "file": "wiki/fourhorsemen__Orbitron.img",
+  "clusters": [
+   [
+    "#b92732",
+    0.15
+   ],
+   [
+    "#4daab0",
+    0.15
+   ],
+   [
+    "#779b5d",
+    0.14
+   ],
+   [
+    "#b8c466",
+    0.13
+   ],
+   [
+    "#4f7c7c",
+    0.12
+   ],
+   [
+    "#536f43",
+    0.11
+   ],
+   [
+    "#843631",
+    0.1
+   ],
+   [
+    "#9cb5a3",
+    0.08
+   ]
+  ],
+  "current": [
+   "#557358",
+   "#719677",
+   "#7EBCB7",
+   "#C0392B",
+   "#4C4535"
+  ],
+  "company": "Four Horsemen Studio",
+  "colorway": "Orbitron",
+  "desc": "Teal green with red; the Man from Uranus."
+ },
+ "osm_cosmic_radiation": {
+  "file": "wiki/fourhorsemen__Cosmic_Radiation_Edition.img",
+  "clusters": [
+   [
+    "#a6d1a6",
+    0.3
+   ],
+   [
+    "#75a074",
+    0.24
+   ],
+   [
+    "#326134",
+    0.14
+   ],
+   [
+    "#33a43a",
+    0.12
+   ],
+   [
+    "#69c377",
+    0.12
+   ],
+   [
+    "#26f45e",
+    0.04
+   ],
+   [
+    "#ebf1eb",
+    0.03
+   ],
+   [
+    "#312658",
+    0.02
+   ]
+  ],
+  "current": [
+   "#74AE78",
+   "#98C89A",
+   "#24582B",
+   "#021402",
+   "#C8F0C8"
+  ],
+  "company": "Four Horsemen Studio",
+  "colorway": "Cosmic Radiation Edition",
+  "desc": "Glow-in-the-dark green figures."
+ },
+ "powerlords_adam_power": {
+  "file": "wiki/fourhorsemen__Adam_Power.img",
+  "clusters": [
+   [
+    "#282d3b",
+    0.27
+   ],
+   [
+    "#253f65",
+    0.24
+   ],
+   [
+    "#9ba4a2",
+    0.15
+   ],
+   [
+    "#4a647d",
+    0.14
+   ],
+   [
+    "#61322e",
+    0.06
+   ],
+   [
+    "#9e3b1b",
+    0.06
+   ],
+   [
+    "#d47333",
+    0.04
+   ],
+   [
+    "#8a593a",
+    0.03
+   ]
+  ],
+  "current": [
+   "#E8752B",
+   "#2C4A9A",
+   "#262C3C",
+   "#24456B",
+   "#F1C27D"
+  ],
+  "company": "Four Horsemen Studio",
+  "colorway": "Adam Power",
+  "desc": "Orange and blue; the Leader of the Lords."
+ },
+ "kots_lime_knight": {
+  "file": "wiki/toypizza__Lime_Knight.img",
+  "clusters": [
+   [
+    "#a2ed2d",
+    0.29
+   ],
+   [
+    "#84d129",
+    0.24
+   ],
+   [
+    "#efe98a",
+    0.15
+   ],
+   [
+    "#e5e8b5",
+    0.09
+   ],
+   [
+    "#22211c",
+    0.07
+   ],
+   [
+    "#b5de5d",
+    0.06
+   ],
+   [
+    "#5b9a19",
+    0.06
+   ],
+   [
+    "#817f58",
+    0.04
+   ]
+  ],
+  "current": [
+   "#A1EB2E",
+   "#82CF26",
+   "#E8C24A",
+   "#FDFEFD",
+   "#1E2A10"
+  ],
+  "company": "Toy Pizza",
+  "colorway": "Lime Knight",
+  "desc": "Lime green suit with gold and white; the Leader."
+ },
+ "kots_brick_knight": {
+  "file": "wiki/toypizza__Brick_Knight.img",
+  "clusters": [
+   [
+    "#cd2833",
+    0.44
+   ],
+   [
+    "#9b2223",
+    0.14
+   ],
+   [
+    "#f4e87c",
+    0.13
+   ],
+   [
+    "#26221e",
+    0.07
+   ],
+   [
+    "#f5eda9",
+    0.06
+   ],
+   [
+    "#d36063",
+    0.06
+   ],
+   [
+    "#d3aead",
+    0.06
+   ],
+   [
+    "#ac8e4e",
+    0.04
+   ]
+  ],
+  "current": [
+   "#CB2934",
+   "#C8836C",
+   "#EEE281",
+   "#FDFDFD",
+   "#4A1015"
+  ],
+  "company": "Toy Pizza",
+  "colorway": "Brick Knight",
+  "desc": "Brick red suit with gold and white; the Smarts."
+ },
+ "kots_teal_knight": {
+  "file": "wiki/toypizza__Teal_Knight.img",
+  "clusters": [
+   [
+    "#61bbf2",
+    0.48
+   ],
+   [
+    "#97d4f1",
+    0.11
+   ],
+   [
+    "#f6ef8c",
+    0.11
+   ],
+   [
+    "#4083bc",
+    0.09
+   ],
+   [
+    "#f2efb6",
+    0.09
+   ],
+   [
+    "#1e1f1f",
+    0.06
+   ],
+   [
+    "#a4a779",
+    0.04
+   ],
+   [
+    "#55614c",
+    0.03
+   ]
+  ],
+  "current": [
+   "#63BDF3",
+   "#B6DBEE",
+   "#F0ECA3",
+   "#FEFEFE",
+   "#2A5A7A"
+  ],
+  "company": "Toy Pizza",
+  "colorway": "Teal Knight",
+  "desc": "Light blue suit with gold and white; the Newbie."
+ },
+ "kots_purple_knight": {
+  "file": "wiki/toypizza__Purple_Knight.img",
+  "clusters": [
+   [
+    "#615bce",
+    0.25
+   ],
+   [
+    "#6258bb",
+    0.23
+   ],
+   [
+    "#8d85d6",
+    0.16
+   ],
+   [
+    "#beb2ee",
+    0.14
+   ],
+   [
+    "#383241",
+    0.07
+   ],
+   [
+    "#777877",
+    0.07
+   ],
+   [
+    "#44398b",
+    0.06
+   ],
+   [
+    "#8378a0",
+    0.03
+   ]
+  ],
+  "current": [
+   "#5F57BF",
+   "#C0BED6",
+   "#000000",
+   "#E2E5E9",
+   "#8A84D8"
+  ],
+  "company": "Toy Pizza",
+  "colorway": "Purple Knight",
+  "desc": "Purple suit; the Host of VSauce3."
+ },
+ "kots_death_knight": {
+  "file": "wiki/toypizza__Death_Knight.img",
+  "clusters": [
+   [
+    "#262729",
+    0.32
+   ],
+   [
+    "#19181b",
+    0.27
+   ],
+   [
+    "#3a393b",
+    0.12
+   ],
+   [
+    "#525051",
+    0.08
+   ],
+   [
+    "#6f6f6d",
+    0.06
+   ],
+   [
+    "#96948e",
+    0.06
+   ],
+   [
+    "#beb8b1",
+    0.05
+   ],
+   [
+    "#e4453e",
+    0.03
+   ]
+  ],
+  "current": [
+   "#1A1A1D",
+   "#2B2C2E",
+   "#515051",
+   "#B8B8BA",
+   "#FDFDFD"
+  ],
+  "company": "Toy Pizza",
+  "colorway": "Death Knight",
+  "desc": "Black suit with silver; the Villain."
+ },
+ "kots_vice_knight": {
+  "file": "wiki/toypizza__Vice_Knight.img",
+  "clusters": [
+   [
+    "#f98d61",
+    0.43
+   ],
+   [
+    "#99ca9b",
+    0.12
+   ],
+   [
+    "#f4a991",
+    0.11
+   ],
+   [
+    "#b5b493",
+    0.11
+   ],
+   [
+    "#a53021",
+    0.1
+   ],
+   [
+    "#997e4a",
+    0.07
+   ],
+   [
+    "#86462a",
+    0.04
+   ],
+   [
+    "#3f2318",
+    0.03
+   ]
+  ],
+  "current": [
+   "#F27A6A",
+   "#3FB8A8",
+   "#E08020",
+   "#FBB151",
+   "#5A2A1A"
+  ],
+  "company": "Toy Pizza",
+  "colorway": "Vice Knight",
+  "desc": "Coral pink suit with teal accents; the Outlier."
+ },
+ "kots_royal_knight": {
+  "file": "wiki/toypizza__Royal_Knight.img",
+  "clusters": [
+   [
+    "#998a8d",
+    0.24
+   ],
+   [
+    "#e8e1e3",
+    0.16
+   ],
+   [
+    "#5a4c66",
+    0.15
+   ],
+   [
+    "#4d7c10",
+    0.12
+   ],
+   [
+    "#cc6c3d",
+    0.11
+   ],
+   [
+    "#d0a718",
+    0.1
+   ],
+   [
+    "#53be09",
+    0.07
+   ],
+   [
+    "#e3ea24",
+    0.06
+   ]
+  ],
+  "current": [
+   "#F0F0EC",
+   "#A18E90",
+   "#F2C21A",
+   "#2A5AA8",
+   "#602639"
+  ],
+  "company": "Toy Pizza",
+  "colorway": "Royal Knight",
+  "desc": "White suit with yellow and blue; the Time Traveler."
+ },
+ "kots_cyber_mama": {
+  "file": "wiki/toypizza__Cyber_Mama.img",
+  "clusters": [
+   [
+    "#e01d56",
+    0.25
+   ],
+   [
+    "#d2729b",
+    0.15
+   ],
+   [
+    "#cc96ab",
+    0.13
+   ],
+   [
+    "#530b17",
+    0.12
+   ],
+   [
+    "#757d7d",
+    0.12
+   ],
+   [
+    "#dd40a0",
+    0.12
+   ],
+   [
+    "#434958",
+    0.06
+   ],
+   [
+    "#bb1a45",
+    0.05
+   ]
+  ],
+  "current": [
+   "#DC1E68",
+   "#DF3283",
+   "#B1B3B6",
+   "#F5A5C8",
+   "#3A0A1E"
+  ],
+  "company": "Toy Pizza",
+  "colorway": "Cyber Mama",
+  "desc": "Neon pink plastic."
+ },
+ "kots_rex_ganon": {
+  "file": "wiki/toypizza__Rex_Ganon.img",
+  "clusters": [
+   [
+    "#1c1516",
+    0.17
+   ],
+   [
+    "#3c4138",
+    0.17
+   ],
+   [
+    "#60231e",
+    0.16
+   ],
+   [
+    "#8d8f8f",
+    0.16
+   ],
+   [
+    "#f43e12",
+    0.13
+   ],
+   [
+    "#ab8d53",
+    0.08
+   ],
+   [
+    "#d47d1f",
+    0.07
+   ],
+   [
+    "#d5c81c",
+    0.07
+   ]
+  ],
+  "current": [
+   "#291C1B",
+   "#644230",
+   "#89857B",
+   "#8B1E1E",
+   "#C9A98A"
+  ],
+  "company": "Toy Pizza",
+  "colorway": "Rex Ganon",
+  "desc": "Dark red jacket over olive; the Indestructible Man."
+ },
+ "kots_gauss_armor": {
+  "file": "wiki/toypizza__Gauss_Armor.img",
+  "clusters": [
+   [
+    "#cf3018",
+    0.26
+   ],
+   [
+    "#640e0b",
+    0.14
+   ],
+   [
+    "#e53419",
+    0.14
+   ],
+   [
+    "#e35231",
+    0.13
+   ],
+   [
+    "#e56e4b",
+    0.12
+   ],
+   [
+    "#ef9673",
+    0.08
+   ],
+   [
+    "#e9b49c",
+    0.06
+   ],
+   [
+    "#cd6e53",
+    0.06
+   ]
+  ],
+  "current": [
+   "#971D11",
+   "#B42B17",
+   "#FCF8EF",
+   "#72110C",
+   "#E8927A"
+  ],
+  "company": "Toy Pizza",
+  "colorway": "Gauss Armor",
+  "desc": "Red-orange plastic; the Four Horsemen collaboration armor."
+ },
+ "maniax_fishstik": {
+  "file": "wiki/rocom__Fishstik.img",
+  "clusters": [
+   [
+    "#f60a04",
+    0.32
+   ],
+   [
+    "#5b110f",
+    0.19
+   ],
+   [
+    "#838182",
+    0.11
+   ],
+   [
+    "#170c0c",
+    0.1
+   ],
+   [
+    "#b12114",
+    0.1
+   ],
+   [
+    "#383735",
+    0.09
+   ],
+   [
+    "#ece126",
+    0.05
+   ],
+   [
+    "#ba8b28",
+    0.05
+   ]
+  ],
+  "current": [
+   "#F20603",
+   "#3F1A17",
+   "#96150E",
+   "#B8B8B8",
+   "#1A1A1A"
+  ],
+  "company": "Rocom Toys",
+  "colorway": "Fishstik",
+  "desc": "Bright red plastic with black and grey."
+ },
+ "maniax_fire_face": {
+  "file": "wiki/rocom__Fire_Face.img",
+  "clusters": [
+   [
+    "#dd6b18",
+    0.28
+   ],
+   [
+    "#c9982d",
+    0.18
+   ],
+   [
+    "#e5ca35",
+    0.15
+   ],
+   [
+    "#9f5a2c",
+    0.12
+   ],
+   [
+    "#bdb7af",
+    0.12
+   ],
+   [
+    "#534433",
+    0.07
+   ],
+   [
+    "#1712f1",
+    0.05
+   ],
+   [
+    "#5c5bb4",
+    0.03
+   ]
+  ],
+  "current": [
+   "#CF6E19",
+   "#F2B233",
+   "#0E0D0A",
+   "#E84A1A",
+   "#F8E0A0"
+  ],
+  "company": "Rocom Toys",
+  "colorway": "Fire Face",
+  "desc": "Orange and yellow flame plastic with black."
+ },
+ "maniax_death_jaguar": {
+  "file": "wiki/rocom__Death_Jaguar.img",
+  "clusters": [
+   [
+    "#7c7b79",
+    0.28
+   ],
+   [
+    "#47494b",
+    0.24
+   ],
+   [
+    "#afc2d5",
+    0.15
+   ],
+   [
+    "#be443f",
+    0.09
+   ],
+   [
+    "#5475b7",
+    0.09
+   ],
+   [
+    "#1a13ee",
+    0.07
+   ],
+   [
+    "#f31211",
+    0.05
+   ],
+   [
+    "#471b27",
+    0.04
+   ]
+  ],
+  "current": [
+   "#201D1F",
+   "#D0D0D2",
+   "#9E979B",
+   "#2B39C0",
+   "#C0392B"
+  ],
+  "company": "Rocom Toys",
+  "colorway": "Death Jaguar",
+  "desc": "Black and white with blue and red details."
+ },
+ "maniax_golden_monster": {
+  "file": "wiki/rocom__Golden_Monster.img",
+  "clusters": [
+   [
+    "#91772c",
+    0.23
+   ],
+   [
+    "#735e24",
+    0.23
+   ],
+   [
+    "#ab8c30",
+    0.17
+   ],
+   [
+    "#57471d",
+    0.15
+   ],
+   [
+    "#726a56",
+    0.08
+   ],
+   [
+    "#b5b2aa",
+    0.07
+   ],
+   [
+    "#a1905e",
+    0.04
+   ],
+   [
+    "#e6ca77",
+    0.03
+   ]
+  ],
+  "current": [
+   "#7D682E",
+   "#A0832F",
+   "#5E4C1A",
+   "#D4B96A",
+   "#2E2610"
+  ],
+  "company": "Rocom Toys",
+  "colorway": "Golden Monster",
+  "desc": "Metallic gold plastic."
+ },
+ "maniax_nekro": {
+  "file": "wiki/rocom__Nekro.img",
+  "clusters": [
+   [
+    "#2e2d2e",
+    0.22
+   ],
+   [
+    "#6e2acf",
+    0.22
+   ],
+   [
+    "#5824a1",
+    0.21
+   ],
+   [
+    "#757575",
+    0.11
+   ],
+   [
+    "#a9a7ab",
+    0.11
+   ],
+   [
+    "#44266f",
+    0.05
+   ],
+   [
+    "#83d02d",
+    0.04
+   ],
+   [
+    "#a07bd1",
+    0.04
+   ]
+  ],
+  "current": [
+   "#6E2DCA",
+   "#511F97",
+   "#2F2C33",
+   "#9BD23A",
+   "#C7B4E8"
+  ],
+  "company": "Rocom Toys",
+  "colorway": "Nekro",
+  "desc": "Purple plastic with lime green accents."
+ },
+ "maniax_woodsman": {
+  "file": "wiki/rocom__Woodsman.img",
+  "clusters": [
+   [
+    "#1c1610",
+    0.19
+   ],
+   [
+    "#f1c3a0",
+    0.16
+   ],
+   [
+    "#57392a",
+    0.15
+   ],
+   [
+    "#889330",
+    0.14
+   ],
+   [
+    "#474e13",
+    0.12
+   ],
+   [
+    "#b2b96e",
+    0.1
+   ],
+   [
+    "#a1968e",
+    0.09
+   ],
+   [
+    "#ca7138",
+    0.06
+   ]
+  ],
+  "current": [
+   "#51441F",
+   "#EBE0D4",
+   "#1F170D",
+   "#6B8E23",
+   "#8B3A2A"
+  ],
+  "company": "Rocom Toys",
+  "colorway": "Woodsman",
+  "desc": "Green skin with tan and red-brown gear."
+ },
+ "maniax_slapshot": {
+  "file": "wiki/rocom__Slapshot.img",
+  "clusters": [
+   [
+    "#080e15",
+    0.21
+   ],
+   [
+    "#0c3671",
+    0.2
+   ],
+   [
+    "#051c3d",
+    0.14
+   ],
+   [
+    "#c1ccaa",
+    0.14
+   ],
+   [
+    "#325e91",
+    0.13
+   ],
+   [
+    "#51555a",
+    0.07
+   ],
+   [
+    "#a3a8ab",
+    0.07
+   ],
+   [
+    "#737b52",
+    0.06
+   ]
+  ],
+  "current": [
+   "#040E1B",
+   "#D8DCD4",
+   "#0D2B52",
+   "#7DB26B",
+   "#C0392B"
+  ],
+  "company": "Rocom Toys",
+  "colorway": "Slapshot",
+  "desc": "Navy blue with a white mask and green skin."
+ },
+ "maniax_grape_king": {
+  "file": "wiki/rocom__Grape_King.img",
+  "clusters": [
+   [
+    "#7527b5",
+    0.23
+   ],
+   [
+    "#8a2ed7",
+    0.19
+   ],
+   [
+    "#5f2093",
+    0.18
+   ],
+   [
+    "#c497d5",
+    0.11
+   ],
+   [
+    "#94759d",
+    0.1
+   ],
+   [
+    "#cebcd4",
+    0.07
+   ],
+   [
+    "#8352a4",
+    0.06
+   ],
+   [
+    "#ae68e3",
+    0.05
+   ]
+  ],
+  "current": [
+   "#7728B8",
+   "#E7E0E9",
+   "#5C1C90",
+   "#A66BD8",
+   "#2A0F40"
+  ],
+  "company": "Rocom Toys",
+  "colorway": "Grape King",
+  "desc": "Grape purple plastic."
+ },
+ "maniax_marine_voyager": {
+  "file": "wiki/rocom__Marine_Voyager.img",
+  "clusters": [
+   [
+    "#1e5e82",
+    0.39
+   ],
+   [
+    "#18455f",
+    0.18
+   ],
+   [
+    "#45b7cb",
+    0.14
+   ],
+   [
+    "#4b8b9e",
+    0.1
+   ],
+   [
+    "#a7b5bb",
+    0.07
+   ],
+   [
+    "#c92724",
+    0.06
+   ],
+   [
+    "#515967",
+    0.04
+   ],
+   [
+    "#84383f",
+    0.02
+   ]
+  ],
+  "current": [
+   "#1D5F81",
+   "#1B445E",
+   "#C5CFD2",
+   "#7FB0C8",
+   "#0D2A3A"
+  ],
+  "company": "Rocom Toys",
+  "colorway": "Marine Voyager",
+  "desc": "Steel blue and teal plastic."
+ },
+ "maniax_ghost_fang": {
+  "file": "wiki/rocom__Ghost_Fang.img",
+  "clusters": [
+   [
+    "#190b6c",
+    0.19
+   ],
+   [
+    "#039b76",
+    0.19
+   ],
+   [
+    "#048177",
+    0.19
+   ],
+   [
+    "#035b66",
+    0.11
+   ],
+   [
+    "#4786e4",
+    0.09
+   ],
+   [
+    "#091df7",
+    0.09
+   ],
+   [
+    "#03385c",
+    0.08
+   ],
+   [
+    "#1f56eb",
+    0.08
+   ]
+  ],
+  "current": [
+   "#018D77",
+   "#060E58",
+   "#025265",
+   "#3ACF9A",
+   "#1B2AA8"
+  ],
+  "company": "Rocom Toys",
+  "colorway": "Ghost Fang",
+  "desc": "Deep blue and teal green plastic."
+ },
+ "biomass_endrax": {
+  "file": "wiki/biomasters__Bio_Mass_Monster_Standard_Endrax.img",
+  "clusters": [
+   [
+    "#352269",
+    0.19
+   ],
+   [
+    "#3f2289",
+    0.18
+   ],
+   [
+    "#7b2c6d",
+    0.17
+   ],
+   [
+    "#282b37",
+    0.13
+   ],
+   [
+    "#a6a5ad",
+    0.11
+   ],
+   [
+    "#4694b7",
+    0.11
+   ],
+   [
+    "#7661a2",
+    0.06
+   ],
+   [
+    "#505d6e",
+    0.05
+   ]
+  ],
+  "current": [
+   "#3A2674",
+   "#703E7B",
+   "#27263E",
+   "#3A86B0",
+   "#B7B8C0"
+  ],
+  "company": "Bio-Masters Design",
+  "colorway": "Standard Endrax",
+  "desc": "Purple and blue plastic with teal paint; the standard Bio-Mass Monster."
+ },
+ "biomass_nuklerios": {
+  "file": "wiki/biomasters__Bio_Mass_Monster_Nuklerios.img",
+  "clusters": [
+   [
+    "#aac191",
+    0.32
+   ],
+   [
+    "#61b98c",
+    0.2
+   ],
+   [
+    "#58cc8e",
+    0.14
+   ],
+   [
+    "#489d71",
+    0.14
+   ],
+   [
+    "#9bddb4",
+    0.08
+   ],
+   [
+    "#1e2225",
+    0.06
+   ],
+   [
+    "#aab396",
+    0.04
+   ],
+   [
+    "#485a4e",
+    0.02
+   ]
+  ],
+  "current": [
+   "#CADAB8",
+   "#ABBF92",
+   "#56B383",
+   "#F4F5F2",
+   "#2B3F30"
+  ],
+  "company": "Bio-Masters Design",
+  "colorway": "Nuklerios",
+  "desc": "Glow-in-the-dark plastic with mint green."
+ },
+ "biomass_oozarian": {
+  "file": "wiki/biomasters__Bio_Mass_Monster_Oozarian.img",
+  "clusters": [
+   [
+    "#53af2b",
+    0.19
+   ],
+   [
+    "#addc60",
+    0.18
+   ],
+   [
+    "#84cc43",
+    0.15
+   ],
+   [
+    "#81bd54",
+    0.15
+   ],
+   [
+    "#639d23",
+    0.15
+   ],
+   [
+    "#badc7f",
+    0.09
+   ],
+   [
+    "#b5cd9f",
+    0.08
+   ],
+   [
+    "#b5a121",
+    0.02
+   ]
+  ],
+  "current": [
+   "#71BC42",
+   "#54A521",
+   "#95C94B",
+   "#C8E890",
+   "#2E5A12"
+  ],
+  "company": "Bio-Masters Design",
+  "colorway": "Oozarian",
+  "desc": "Clear lime green plastic."
+ },
+ "biomass_rayexx": {
+  "file": "wiki/biomasters__Bio_Mass_Monster_Rayexx_Spliced.img",
+  "clusters": [
+   [
+    "#60bda0",
+    0.22
+   ],
+   [
+    "#2da96a",
+    0.2
+   ],
+   [
+    "#278660",
+    0.13
+   ],
+   [
+    "#bfe1e5",
+    0.12
+   ],
+   [
+    "#6199ca",
+    0.11
+   ],
+   [
+    "#5f9798",
+    0.1
+   ],
+   [
+    "#274f38",
+    0.05
+   ],
+   [
+    "#e1d66d",
+    0.05
+   ]
+  ],
+  "current": [
+   "#219968",
+   "#5DB5A4",
+   "#293328",
+   "#050505",
+   "#E8E86A"
+  ],
+  "company": "Bio-Masters Design",
+  "colorway": "Rayexx Spliced",
+  "desc": "Clear green plastic with black and yellow paint."
+ },
+ "biomass_neo_nonillia": {
+  "file": "wiki/biomasters__Bio_Mass_Monster_Neo_Nonillia.img",
+  "clusters": [
+   [
+    "#88324f",
+    0.2
+   ],
+   [
+    "#9e2438",
+    0.19
+   ],
+   [
+    "#b9819b",
+    0.17
+   ],
+   [
+    "#c14a7b",
+    0.16
+   ],
+   [
+    "#4d2234",
+    0.13
+   ],
+   [
+    "#b1c8dd",
+    0.07
+   ],
+   [
+    "#4c6da3",
+    0.07
+   ],
+   [
+    "#9aab3b",
+    0.01
+   ]
+  ],
+  "current": [
+   "#8E233B",
+   "#A74466",
+   "#443339",
+   "#E88AB0",
+   "#0E0D10"
+  ],
+  "company": "Bio-Masters Design",
+  "colorway": "Neo Nonillia",
+  "desc": "Clear sparkle pink plastic."
+ },
+ "biomass_mind_phantom": {
+  "file": "wiki/biomasters__Bio_Mass_Monster_Mind_Phantom.img",
+  "clusters": [
+   [
+    "#f83f6b",
+    0.21
+   ],
+   [
+    "#fd84b6",
+    0.19
+   ],
+   [
+    "#fe68b3",
+    0.15
+   ],
+   [
+    "#fb6d8b",
+    0.14
+   ],
+   [
+    "#fda9d4",
+    0.13
+   ],
+   [
+    "#fd5696",
+    0.11
+   ],
+   [
+    "#e79aa7",
+    0.06
+   ],
+   [
+    "#4c3e44",
+    0.01
+   ]
+  ],
+  "current": [
+   "#F7396D",
+   "#FD6FAC",
+   "#FA5F88",
+   "#FBB4D0",
+   "#3A0A20"
+  ],
+  "company": "Bio-Masters Design",
+  "colorway": "Mind Phantom",
+  "desc": "Clear hot pink plastic."
+ },
+ "biomass_deconstructor": {
+  "file": "wiki/biomasters__Bio_Mass_Monster_Deconstructor.img",
+  "clusters": [
+   [
+    "#0c0a09",
+    0.28
+   ],
+   [
+    "#da9e38",
+    0.17
+   ],
+   [
+    "#af8138",
+    0.15
+   ],
+   [
+    "#3b2f27",
+    0.14
+   ],
+   [
+    "#8a642f",
+    0.13
+   ],
+   [
+    "#5f4324",
+    0.1
+   ],
+   [
+    "#f4de49",
+    0.02
+   ],
+   [
+    "#c92225",
+    0.01
+   ]
+  ],
+  "current": [
+   "#95672D",
+   "#513F2D",
+   "#927E78",
+   "#13100E",
+   "#E8C043"
+  ],
+  "company": "Bio-Masters Design",
+  "colorway": "Deconstructor",
+  "desc": "Golden yellow plastic with black and grey."
+ },
+ "biomass_unifier": {
+  "file": "wiki/biomasters__Bio_Mass_Monster_Unifier.img",
+  "clusters": [
+   [
+    "#ae6431",
+    0.27
+   ],
+   [
+    "#983920",
+    0.19
+   ],
+   [
+    "#cc9367",
+    0.16
+   ],
+   [
+    "#b8a194",
+    0.15
+   ],
+   [
+    "#6e2f1d",
+    0.09
+   ],
+   [
+    "#707a90",
+    0.07
+   ],
+   [
+    "#201e1d",
+    0.06
+   ],
+   [
+    "#9aaf37",
+    0.01
+   ]
+  ],
+  "current": [
+   "#9A4B26",
+   "#BD7B4C",
+   "#DBD3CA",
+   "#5A2A14",
+   "#F0B080"
+  ],
+  "company": "Bio-Masters Design",
+  "colorway": "Unifier",
+  "desc": "Metallic copper orange plastic."
+ },
+ "callgrim_standard": {
+  "file": "wiki/rawshark__Callgrim_Standard.img",
+  "clusters": [
+   [
+    "#030304",
+    0.5
+   ],
+   [
+    "#0c0e10",
+    0.2
+   ],
+   [
+    "#15191d",
+    0.09
+   ],
+   [
+    "#161918",
+    0.09
+   ],
+   [
+    "#fcfdfe",
+    0.07
+   ],
+   [
+    "#d6dde3",
+    0.02
+   ],
+   [
+    "#b1bfc7",
+    0.02
+   ],
+   [
+    "#5e2b31",
+    0.0
+   ]
+  ],
+  "current": [
+   "#3A3E3F",
+   "#070809",
+   "#8FA0A6",
+   "#212425",
+   "#D9D9D6"
+  ],
+  "company": "Rawshark Studio",
+  "colorway": "Callgrim Standard",
+  "desc": "Black plastic with grey-blue and a white skull face."
+ },
+ "order_standard": {
+  "file": "wiki/rawshark__The_Order_Standard.img",
+  "clusters": [
+   [
+    "#0c0d0e",
+    0.34
+   ],
+   [
+    "#1a1d1d",
+    0.22
+   ],
+   [
+    "#1f272c",
+    0.16
+   ],
+   [
+    "#99becd",
+    0.1
+   ],
+   [
+    "#b4d5e1",
+    0.1
+   ],
+   [
+    "#d5f0f7",
+    0.05
+   ],
+   [
+    "#eb8ac2",
+    0.02
+   ],
+   [
+    "#7c506e",
+    0.01
+   ]
+  ],
+  "current": [
+   "#575E61",
+   "#2B3132",
+   "#8FA0A6",
+   "#E77EB0",
+   "#121314"
+  ],
+  "company": "Rawshark Studio",
+  "colorway": "The Order Standard",
+  "desc": "Grey-blue plastic with black and a pink visor."
+ },
+ "order_wing_bike": {
+  "file": "wiki/rawshark__The_Order_Wing_Bike_Division.img",
+  "clusters": [
+   [
+    "#dd5e29",
+    0.25
+   ],
+   [
+    "#e88a4a",
+    0.15
+   ],
+   [
+    "#f4f1ed",
+    0.14
+   ],
+   [
+    "#9f3a1e",
+    0.12
+   ],
+   [
+    "#e7bc9a",
+    0.1
+   ],
+   [
+    "#5d281a",
+    0.1
+   ],
+   [
+    "#f0bb65",
+    0.08
+   ],
+   [
+    "#aa745d",
+    0.07
+   ]
+  ],
+  "current": [
+   "#E5732E",
+   "#110B0A",
+   "#F2F2F2",
+   "#766E69",
+   "#B03F12"
+  ],
+  "company": "Rawshark Studio",
+  "colorway": "The Order Wing Bike Division",
+  "desc": "Orange, black and white plastic."
+ },
+ "norisar_ambush": {
+  "file": "wiki/rawshark__Norisar_Ambush.img",
+  "clusters": [
+   [
+    "#4b4b9f",
+    0.21
+   ],
+   [
+    "#7478db",
+    0.18
+   ],
+   [
+    "#2f2c5e",
+    0.18
+   ],
+   [
+    "#1d1224",
+    0.13
+   ],
+   [
+    "#bd83aa",
+    0.12
+   ],
+   [
+    "#70465e",
+    0.09
+   ],
+   [
+    "#dfd67d",
+    0.05
+   ],
+   [
+    "#ececdb",
+    0.03
+   ]
+  ],
+  "current": [
+   "#5E5AC8",
+   "#B36BC8",
+   "#E8D25A",
+   "#2D272D",
+   "#9A9AE0"
+  ],
+  "company": "Rawshark Studio",
+  "colorway": "Norisar Ambush",
+  "desc": "Periwinkle blue plastic with purple and yellow paint."
+ },
+ "order_eternal": {
+  "file": "wiki/rawshark__The_Order_Eternal_Division.img",
+  "clusters": [
+   [
+    "#302982",
+    0.2
+   ],
+   [
+    "#f4cd4d",
+    0.18
+   ],
+   [
+    "#1c1754",
+    0.18
+   ],
+   [
+    "#18152c",
+    0.11
+   ],
+   [
+    "#676aaa",
+    0.11
+   ],
+   [
+    "#b1862e",
+    0.11
+   ],
+   [
+    "#62451e",
+    0.1
+   ],
+   [
+    "#3f8035",
+    0.01
+   ]
+  ],
+  "current": [
+   "#3A2A80",
+   "#E8C22A",
+   "#5C6361",
+   "#1E1A40",
+   "#B8A020"
+  ],
+  "company": "Rawshark Studio",
+  "colorway": "The Order Eternal Division",
+  "desc": "Dark purple plastic with yellow."
+ },
+ "order_triton": {
+  "file": "wiki/rawshark__The_Order_Triton_Division.img",
+  "clusters": [
+   [
+    "#1f217e",
+    0.18
+   ],
+   [
+    "#2b4c9f",
+    0.18
+   ],
+   [
+    "#267bd8",
+    0.17
+   ],
+   [
+    "#101753",
+    0.16
+   ],
+   [
+    "#38a7f6",
+    0.14
+   ],
+   [
+    "#39527d",
+    0.06
+   ],
+   [
+    "#0e1126",
+    0.06
+   ],
+   [
+    "#6ed1f9",
+    0.05
+   ]
+  ],
+  "current": [
+   "#5C5D61",
+   "#787781",
+   "#203384",
+   "#2A6FD8",
+   "#0F1A3A"
+  ],
+  "company": "Rawshark Studio",
+  "colorway": "The Order Triton Division",
+  "desc": "Blue and dark blue plastic."
+ },
+ "callgrim_dominus": {
+  "file": "wiki/rawshark__Callgrim_Dominus.img",
+  "clusters": [
+   [
+    "#f27f3c",
+    0.22
+   ],
+   [
+    "#1666c7",
+    0.15
+   ],
+   [
+    "#b55024",
+    0.14
+   ],
+   [
+    "#8d4d34",
+    0.11
+   ],
+   [
+    "#f4ae74",
+    0.11
+   ],
+   [
+    "#193571",
+    0.1
+   ],
+   [
+    "#4e1f16",
+    0.09
+   ],
+   [
+    "#379cee",
+    0.08
+   ]
+  ],
+  "current": [
+   "#C76333",
+   "#61696B",
+   "#3F4445",
+   "#F69858",
+   "#1E6FB8"
+  ],
+  "company": "Rawshark Studio",
+  "colorway": "Callgrim Dominus",
+  "desc": "Orange plastic with blue."
+ },
+ "caliber_dome": {
+  "file": "wiki/rawshark__Caliber_Dome.img",
+  "clusters": [
+   [
+    "#9fe3ee",
+    0.2
+   ],
+   [
+    "#bef9fa",
+    0.19
+   ],
+   [
+    "#8bc6cd",
+    0.18
+   ],
+   [
+    "#6ea6ac",
+    0.16
+   ],
+   [
+    "#64898a",
+    0.12
+   ],
+   [
+    "#3e6b72",
+    0.08
+   ],
+   [
+    "#1f4549",
+    0.05
+   ],
+   [
+    "#0f2233",
+    0.03
+   ]
+  ],
+  "current": [
+   "#B6F5FA",
+   "#3B362E",
+   "#4F5852",
+   "#7FC9C0",
+   "#211C16"
+  ],
+  "company": "Rawshark Studio",
+  "colorway": "Caliber Dome",
+  "desc": "Pale mint and teal plastic."
+ },
+ "order_lorcassic": {
+  "file": "wiki/rawshark__The_Order_Lorcassic_Division.img",
+  "clusters": [
+   [
+    "#e21831",
+    0.21
+   ],
+   [
+    "#b81427",
+    0.2
+   ],
+   [
+    "#941827",
+    0.16
+   ],
+   [
+    "#620b16",
+    0.11
+   ],
+   [
+    "#de435a",
+    0.1
+   ],
+   [
+    "#3a4153",
+    0.08
+   ],
+   [
+    "#522832",
+    0.08
+   ],
+   [
+    "#8c444e",
+    0.07
+   ]
+  ],
+  "current": [
+   "#656A68",
+   "#951B2B",
+   "#43454D",
+   "#D1152D",
+   "#1A1414"
+  ],
+  "company": "Rawshark Studio",
+  "colorway": "The Order Lorcassic Division",
+  "desc": "Red, black and grey plastic."
+ },
+ "scarabite_callgrim": {
+  "file": "wiki/rawshark__Scarabite_Callgrim.img",
+  "clusters": [
+   [
+    "#1ec1e8",
+    0.25
+   ],
+   [
+    "#1395b3",
+    0.2
+   ],
+   [
+    "#c6dcf4",
+    0.15
+   ],
+   [
+    "#070f13",
+    0.15
+   ],
+   [
+    "#0b6c76",
+    0.14
+   ],
+   [
+    "#bdd13c",
+    0.05
+   ],
+   [
+    "#697357",
+    0.05
+   ],
+   [
+    "#9842a3",
+    0.02
+   ]
+  ],
+  "current": [
+   "#0FB7DC",
+   "#6A7F92",
+   "#495D65",
+   "#087788",
+   "#D6318C"
+  ],
+  "company": "Rawshark Studio",
+  "colorway": "Scarabite Callgrim",
+  "desc": "Cyan plastic with black and pink paint."
+ },
+ "titan_skeleton": {
+  "file": "wiki/octobertoys__Titan_Skeleton.img",
+  "clusters": [
+   [
+    "#52453b",
+    0.25
+   ],
+   [
+    "#4d3e30",
+    0.2
+   ],
+   [
+    "#463931",
+    0.15
+   ],
+   [
+    "#5b4c3b",
+    0.13
+   ],
+   [
+    "#3e2d1e",
+    0.08
+   ],
+   [
+    "#2e1c12",
+    0.08
+   ],
+   [
+    "#382b26",
+    0.06
+   ],
+   [
+    "#1e0e0a",
+    0.05
+   ]
+  ],
+  "current": [
+   "#D1CEBC",
+   "#A4A093",
+   "#BCB8A7",
+   "#E2E6E0",
+   "#4A4A40"
+  ],
+  "company": "October Toys",
+  "colorway": "Titan Skeleton",
+  "desc": "Bone white plastic."
+ },
+ "baron_dark": {
+  "file": "wiki/octobertoys__Baron_Dark.img",
+  "clusters": [
+   [
+    "#f2e3cc",
+    0.22
+   ],
+   [
+    "#c2a68e",
+    0.13
+   ],
+   [
+    "#491112",
+    0.13
+   ],
+   [
+    "#871621",
+    0.13
+   ],
+   [
+    "#b1b8ca",
+    0.12
+   ],
+   [
+    "#84604b",
+    0.11
+   ],
+   [
+    "#d14358",
+    0.09
+   ],
+   [
+    "#7664ba",
+    0.08
+   ]
+  ],
+  "current": [
+   "#0A0B0C",
+   "#E8DDCD",
+   "#B6A5AC",
+   "#6B0F15",
+   "#5B3A6A"
+  ],
+  "company": "October Toys",
+  "colorway": "Baron Dark",
+  "desc": "Black and bone plastic with red and purple."
+ },
+ "grimskull": {
+  "file": "wiki/octobertoys__Grimskull.img",
+  "clusters": [
+   [
+    "#303a5e",
+    0.24
+   ],
+   [
+    "#22202d",
+    0.18
+   ],
+   [
+    "#672d59",
+    0.14
+   ],
+   [
+    "#8b407a",
+    0.14
+   ],
+   [
+    "#401f3b",
+    0.12
+   ],
+   [
+    "#b38c68",
+    0.08
+   ],
+   [
+    "#754632",
+    0.05
+   ],
+   [
+    "#836b8e",
+    0.03
+   ]
+  ],
+  "current": [
+   "#B6B3BB",
+   "#979298",
+   "#2D2136",
+   "#373F5F",
+   "#6A2A5A"
+  ],
+  "company": "October Toys",
+  "colorway": "Grimskull",
+  "desc": "Grey plastic with purple and navy."
+ },
+ "breaker_buildman": {
+  "file": "wiki/octobertoys__Breaker_Buildman.img",
+  "clusters": [
+   [
+    "#9584c9",
+    0.22
+   ],
+   [
+    "#a499ce",
+    0.17
+   ],
+   [
+    "#746a9d",
+    0.17
+   ],
+   [
+    "#b0accc",
+    0.11
+   ],
+   [
+    "#47395e",
+    0.1
+   ],
+   [
+    "#7a768a",
+    0.1
+   ],
+   [
+    "#474444",
+    0.09
+   ],
+   [
+    "#5e4e30",
+    0.04
+   ]
+  ],
+  "current": [
+   "#9A8DC5",
+   "#E9EBE6",
+   "#D1D2C9",
+   "#1B1919",
+   "#6A5FA0"
+  ],
+  "company": "October Toys",
+  "colorway": "Breaker Buildman",
+  "desc": "Lavender purple and white plastic; the Onell Design crossover."
+ },
+ "wor_bog_nar": {
+  "file": "wiki/manormonster__Bog_Nar.img",
+  "clusters": [
+   [
+    "#6e6a70",
+    0.21
+   ],
+   [
+    "#817d82",
+    0.18
+   ],
+   [
+    "#959295",
+    0.14
+   ],
+   [
+    "#1f5d6b",
+    0.12
+   ],
+   [
+    "#58545b",
+    0.12
+   ],
+   [
+    "#223051",
+    0.08
+   ],
+   [
+    "#1a2038",
+    0.08
+   ],
+   [
+    "#383e50",
+    0.05
+   ]
+  ],
+  "current": [
+   "#9A97A6",
+   "#67646A",
+   "#2E3A6A",
+   "#4A5F8A",
+   "#D8D8D8"
+  ],
+  "company": "ManOrMonster? Studios",
+  "colorway": "Bog-Nar",
+  "desc": "Grey-lavender plastic with blue."
+ },
+ "wor_gol_warrior": {
+  "file": "wiki/manormonster__Gol_Warrior.img",
+  "clusters": [
+   [
+    "#0e99ab",
+    0.36
+   ],
+   [
+    "#62bec9",
+    0.2
+   ],
+   [
+    "#067588",
+    0.17
+   ],
+   [
+    "#e09b11",
+    0.11
+   ],
+   [
+    "#b27a05",
+    0.09
+   ],
+   [
+    "#54800e",
+    0.03
+   ],
+   [
+    "#d7b67c",
+    0.02
+   ],
+   [
+    "#4c3c14",
+    0.02
+   ]
+  ],
+  "current": [
+   "#0BB0C8",
+   "#F2B21A",
+   "#2A4A8A",
+   "#1A1A1A",
+   "#8AD8E8"
+  ],
+  "company": "ManOrMonster? Studios",
+  "colorway": "Gol Warrior",
+  "desc": "Cyan plastic with yellow and blue."
+ },
+ "wor_nekroid_nightstalker": {
+  "file": "wiki/manormonster__Nekroid_Nightstalker.img",
+  "clusters": [
+   [
+    "#898a98",
+    0.27
+   ],
+   [
+    "#113553",
+    0.24
+   ],
+   [
+    "#324f6a",
+    0.14
+   ],
+   [
+    "#676f80",
+    0.12
+   ],
+   [
+    "#06203a",
+    0.11
+   ],
+   [
+    "#1d7e94",
+    0.07
+   ],
+   [
+    "#3d1e57",
+    0.04
+   ],
+   [
+    "#a9a16e",
+    0.01
+   ]
+  ],
+  "current": [
+   "#9697A1",
+   "#B7BAC1",
+   "#3B3C5A",
+   "#6A6C8A",
+   "#ECEDEF"
+  ],
+  "company": "ManOrMonster? Studios",
+  "colorway": "Nekroid Nightstalker",
+  "desc": "Nightstalker grey plastic with blue-violet."
+ },
+ "wor_gol_wildmage": {
+  "file": "wiki/manormonster__Gol_Wildmage.img",
+  "clusters": [
+   [
+    "#daba04",
+    0.22
+   ],
+   [
+    "#4a4845",
+    0.17
+   ],
+   [
+    "#49210d",
+    0.17
+   ],
+   [
+    "#a88603",
+    0.12
+   ],
+   [
+    "#05244e",
+    0.12
+   ],
+   [
+    "#713d0c",
+    0.1
+   ],
+   [
+    "#22592d",
+    0.09
+   ],
+   [
+    "#c7264d",
+    0.02
+   ]
+  ],
+  "current": [
+   "#F2C41A",
+   "#24160B",
+   "#41423B",
+   "#DCBC03",
+   "#D6318C"
+  ],
+  "company": "ManOrMonster? Studios",
+  "colorway": "Gol Wildmage",
+  "desc": "Wild yellow plastic with black and pink."
+ },
+ "wor_gol_hunter": {
+  "file": "wiki/manormonster__Gol_Hunter.img",
+  "clusters": [
+   [
+    "#3a0c36",
+    0.24
+   ],
+   [
+    "#672c61",
+    0.16
+   ],
+   [
+    "#140525",
+    0.12
+   ],
+   [
+    "#071246",
+    0.12
+   ],
+   [
+    "#a1a2b2",
+    0.1
+   ],
+   [
+    "#684e76",
+    0.1
+   ],
+   [
+    "#9f6ba0",
+    0.1
+   ],
+   [
+    "#a3264c",
+    0.05
+   ]
+  ],
+  "current": [
+   "#8A3A8A",
+   "#4F3543",
+   "#2A2A8A",
+   "#C05BA0",
+   "#100911"
+  ],
+  "company": "ManOrMonster? Studios",
+  "colorway": "Gol Hunter",
+  "desc": "Magenta purple plastic with blue."
+ },
+ "wor_nekroid_invader": {
+  "file": "wiki/manormonster__Nekroid_Invader.img",
+  "clusters": [
+   [
+    "#a2d7df",
+    0.36
+   ],
+   [
+    "#67acba",
+    0.18
+   ],
+   [
+    "#704a25",
+    0.14
+   ],
+   [
+    "#f7e499",
+    0.09
+   ],
+   [
+    "#ba2e2a",
+    0.08
+   ],
+   [
+    "#4b6971",
+    0.08
+   ],
+   [
+    "#641417",
+    0.04
+   ],
+   [
+    "#827f17",
+    0.02
+   ]
+  ],
+  "current": [
+   "#A8DDE4",
+   "#343022",
+   "#0E0C07",
+   "#78B8C4",
+   "#F2C21A"
+  ],
+  "company": "ManOrMonster? Studios",
+  "colorway": "Nekroid Invader",
+  "desc": "Invader blue plastic with black and yellow."
+ },
+ "wor_serpax": {
+  "file": "wiki/manormonster__Serpax.img",
+  "clusters": [
+   [
+    "#107ba7",
+    0.22
+   ],
+   [
+    "#0b5a84",
+    0.19
+   ],
+   [
+    "#a7886c",
+    0.17
+   ],
+   [
+    "#231462",
+    0.14
+   ],
+   [
+    "#3e396d",
+    0.11
+   ],
+   [
+    "#716042",
+    0.07
+   ],
+   [
+    "#7d8997",
+    0.06
+   ],
+   [
+    "#8b325e",
+    0.04
+   ]
+  ],
+  "current": [
+   "#0B77A3",
+   "#221A5E",
+   "#9F846D",
+   "#D6318C",
+   "#DCE0E9"
+  ],
+  "company": "ManOrMonster? Studios",
+  "colorway": "Serpax",
+  "desc": "Cyan blue plastic with purple and pink."
+ },
+ "wor_worian_laser_trooper": {
+  "file": "wiki/manormonster__Worian_Laser_Trooper.img",
+  "clusters": [
+   [
+    "#a2d60f",
+    0.18
+   ],
+   [
+    "#72b50f",
+    0.16
+   ],
+   [
+    "#7b8079",
+    0.14
+   ],
+   [
+    "#253106",
+    0.12
+   ],
+   [
+    "#35860e",
+    0.11
+   ],
+   [
+    "#cab076",
+    0.11
+   ],
+   [
+    "#1d580b",
+    0.1
+   ],
+   [
+    "#d0d4ce",
+    0.09
+   ]
+  ],
+  "current": [
+   "#8DC70A",
+   "#373A24",
+   "#11180A",
+   "#5E6151",
+   "#C8C8C8"
+  ],
+  "company": "ManOrMonster? Studios",
+  "colorway": "Worian Laser Trooper",
+  "desc": "Lime green plastic with black and silver."
+ },
+ "wor_captain_cobrus": {
+  "file": "wiki/manormonster__Captain_Cobrus.img",
+  "clusters": [
+   [
+    "#0684d6",
+    0.21
+   ],
+   [
+    "#0ba2eb",
+    0.21
+   ],
+   [
+    "#273709",
+    0.2
+   ],
+   [
+    "#0463b8",
+    0.17
+   ],
+   [
+    "#043d83",
+    0.07
+   ],
+   [
+    "#818265",
+    0.06
+   ],
+   [
+    "#174167",
+    0.06
+   ],
+   [
+    "#b1c9c8",
+    0.03
+   ]
+  ],
+  "current": [
+   "#1A7FD8",
+   "#070B08",
+   "#3F4E4C",
+   "#C0392B",
+   "#8AC0F0"
+  ],
+  "company": "ManOrMonster? Studios",
+  "colorway": "Captain Cobrus",
+  "desc": "Blue plastic with black and red."
+ },
+ "wor_gol_oceanlord": {
+  "file": "wiki/manormonster__Gol_Oceanlord.img",
+  "clusters": [
+   [
+    "#83580a",
+    0.2
+   ],
+   [
+    "#ca8d0d",
+    0.18
+   ],
+   [
+    "#1c4f41",
+    0.17
+   ],
+   [
+    "#eec61d",
+    0.16
+   ],
+   [
+    "#492f0b",
+    0.13
+   ],
+   [
+    "#158d7b",
+    0.12
+   ],
+   [
+    "#d5e7e3",
+    0.03
+   ],
+   [
+    "#87d612",
+    0.01
+   ]
+  ],
+  "current": [
+   "#1FA0A0",
+   "#D3A210",
+   "#242D27",
+   "#D33A10",
+   "#8AD8D8"
+  ],
+  "company": "ManOrMonster? Studios",
+  "colorway": "Gol Oceanlord",
+  "desc": "Teal plastic with gold and red-orange."
+ },
+ "avrobot_deluxe_orange": {
+  "file": "wiki/nemosfactory__A_V_Robot_Deluxe_Orange.img",
+  "clusters": [
+   [
+    "#7fa775",
+    0.18
+   ],
+   [
+    "#383c34",
+    0.16
+   ],
+   [
+    "#716b59",
+    0.15
+   ],
+   [
+    "#dadcd9",
+    0.14
+   ],
+   [
+    "#da5d0a",
+    0.11
+   ],
+   [
+    "#e99017",
+    0.11
+   ],
+   [
+    "#f9d74c",
+    0.08
+   ],
+   [
+    "#a45314",
+    0.07
+   ]
+  ],
+  "current": [
+   "#F29114",
+   "#425E32",
+   "#273D16",
+   "#C3C4C2",
+   "#9FA399"
+  ],
+  "company": "Nemo's Factory",
+  "colorway": "Deluxe Orange",
+  "desc": "Orange plastic with green."
+ },
+ "avrobot_bronze": {
+  "file": "wiki/nemosfactory__A_V_Robot_Bronze.img",
+  "clusters": [
+   [
+    "#9d7054",
+    0.24
+   ],
+   [
+    "#5f3420",
+    0.17
+   ],
+   [
+    "#7a4f37",
+    0.17
+   ],
+   [
+    "#8c4f2e",
+    0.14
+   ],
+   [
+    "#c19775",
+    0.11
+   ],
+   [
+    "#cbbeab",
+    0.07
+   ],
+   [
+    "#5a945e",
+    0.06
+   ],
+   [
+    "#314329",
+    0.02
+   ]
+  ],
+  "current": [
+   "#B87A50",
+   "#6A4029",
+   "#797F75",
+   "#E8C8A8",
+   "#2A1A10"
+  ],
+  "company": "Nemo's Factory",
+  "colorway": "Bronze",
+  "desc": "Metallic bronze plastic."
+ },
+ "avrobot_gunmetal": {
+  "file": "wiki/nemosfactory__A_V_Robot_Gunmetal.img",
+  "clusters": [
+   [
+    "#36342a",
+    0.41
+   ],
+   [
+    "#d1cdad",
+    0.19
+   ],
+   [
+    "#b72e25",
+    0.1
+   ],
+   [
+    "#c1c9be",
+    0.09
+   ],
+   [
+    "#a93e35",
+    0.07
+   ],
+   [
+    "#d7b6a7",
+    0.05
+   ],
+   [
+    "#c3786d",
+    0.04
+   ],
+   [
+    "#69352d",
+    0.04
+   ]
+  ],
+  "current": [
+   "#686A5F",
+   "#7C7F73",
+   "#474439",
+   "#FBFDFA",
+   "#C0392B"
+  ],
+  "company": "Nemo's Factory",
+  "colorway": "Gunmetal",
+  "desc": "Gunmetal grey plastic with red."
+ },
+ "avrobot_muscle": {
+  "file": "wiki/nemosfactory__A_V_Robot_Muscle.img",
+  "clusters": [
+   [
+    "#b94534",
+    0.22
+   ],
+   [
+    "#f37563",
+    0.2
+   ],
+   [
+    "#d95240",
+    0.17
+   ],
+   [
+    "#953528",
+    0.14
+   ],
+   [
+    "#fbb7a6",
+    0.12
+   ],
+   [
+    "#fa9686",
+    0.1
+   ],
+   [
+    "#aa6154",
+    0.04
+   ],
+   [
+    "#4b1d19",
+    0.01
+   ]
+  ],
+  "current": [
+   "#CE5241",
+   "#E8927A",
+   "#F5B8A8",
+   "#342824",
+   "#9A9289"
+  ],
+  "company": "Nemo's Factory",
+  "colorway": "Muscle",
+  "desc": "Flesh pink plastic, a M.U.S.C.L.E. tribute."
+ },
+ "avrobot_bios_allegiant": {
+  "file": "wiki/nemosfactory__A_V_Robot_BiOS_Allegiant.img",
+  "clusters": [
+   [
+    "#4f1f7c",
+    0.24
+   ],
+   [
+    "#703d98",
+    0.21
+   ],
+   [
+    "#361054",
+    0.15
+   ],
+   [
+    "#865ba4",
+    0.11
+   ],
+   [
+    "#9a80ab",
+    0.08
+   ],
+   [
+    "#200a2c",
+    0.08
+   ],
+   [
+    "#aba5b6",
+    0.08
+   ],
+   [
+    "#514a79",
+    0.04
+   ]
+  ],
+  "current": [
+   "#65368E",
+   "#DBE7D9",
+   "#451C6F",
+   "#A88AC0",
+   "#F3FAF5"
+  ],
+  "company": "Nemo's Factory",
+  "colorway": "BiOS Allegiant",
+  "desc": "Purple plastic with white."
+ },
+ "avrobot_centurion": {
+  "file": "wiki/nemosfactory__A_V_Robot_Centurion.img",
+  "clusters": [
+   [
+    "#5c5148",
+    0.34
+   ],
+   [
+    "#b07a3f",
+    0.12
+   ],
+   [
+    "#674828",
+    0.12
+   ],
+   [
+    "#c1a077",
+    0.1
+   ],
+   [
+    "#daa257",
+    0.1
+   ],
+   [
+    "#8a5a2c",
+    0.1
+   ],
+   [
+    "#b2b0b7",
+    0.07
+   ],
+   [
+    "#eecb89",
+    0.05
+   ]
+  ],
+  "current": [
+   "#E8C873",
+   "#231F0F",
+   "#4B3F2E",
+   "#C8C8C8",
+   "#6E5C4B"
+  ],
+  "company": "Nemo's Factory",
+  "colorway": "Centurion",
+  "desc": "Metallic gold and silver plastic with black."
+ },
+ "avrobot_cyber_orion": {
+  "file": "wiki/nemosfactory__A_V_Robot_Cyber_Orion.img",
+  "clusters": [
+   [
+    "#365e1a",
+    0.23
+   ],
+   [
+    "#497417",
+    0.21
+   ],
+   [
+    "#539121",
+    0.15
+   ],
+   [
+    "#8bbd37",
+    0.13
+   ],
+   [
+    "#30471b",
+    0.1
+   ],
+   [
+    "#75994d",
+    0.1
+   ],
+   [
+    "#e1e6e5",
+    0.07
+   ],
+   [
+    "#d29e8d",
+    0.02
+   ]
+  ],
+  "current": [
+   "#5B8F22",
+   "#8F8E87",
+   "#366316",
+   "#9FD03A",
+   "#202519"
+  ],
+  "company": "Nemo's Factory",
+  "colorway": "Cyber Orion",
+  "desc": "Clear lime green plastic."
+ },
+ "avrobot_space_pirate_red": {
+  "file": "wiki/nemosfactory__A_V_Robot_Space_Pirate_Red.img",
+  "clusters": [
+   [
+    "#f62218",
+    0.4
+   ],
+   [
+    "#ba1510",
+    0.13
+   ],
+   [
+    "#f75d43",
+    0.12
+   ],
+   [
+    "#ded4b9",
+    0.1
+   ],
+   [
+    "#82221d",
+    0.08
+   ],
+   [
+    "#feb90d",
+    0.07
+   ],
+   [
+    "#bc7e67",
+    0.05
+   ],
+   [
+    "#45211b",
+    0.05
+   ]
+  ],
+  "current": [
+   "#F33E1A",
+   "#493C34",
+   "#655F58",
+   "#27201D",
+   "#F0A030"
+  ],
+  "company": "Nemo's Factory",
+  "colorway": "Space Pirate Red",
+  "desc": "Red-orange plastic with dark grey."
+ },
+ "outlander_original": {
+  "file": "wiki/nistuff__Original_Outlander.img",
+  "clusters": [
+   [
+    "#0c4b5d",
+    0.25
+   ],
+   [
+    "#3c5753",
+    0.16
+   ],
+   [
+    "#163a3f",
+    0.12
+   ],
+   [
+    "#62a4a8",
+    0.11
+   ],
+   [
+    "#ac80b2",
+    0.11
+   ],
+   [
+    "#7ea785",
+    0.1
+   ],
+   [
+    "#48adcc",
+    0.08
+   ],
+   [
+    "#8f99c1",
+    0.08
+   ]
+  ],
+  "current": [
+   "#0984A9",
+   "#076683",
+   "#899B9F",
+   "#C8D8DC",
+   "#2A3A40"
+  ],
+  "company": "NiStuff",
+  "colorway": "Original Outlander",
+  "desc": "Teal blue plastic with grey."
+ },
+ "outlander_meta_lavalander": {
+  "file": "wiki/nistuff__Meta_Lavalander.img",
+  "clusters": [
+   [
+    "#563b8d",
+    0.22
+   ],
+   [
+    "#41355a",
+    0.22
+   ],
+   [
+    "#38d7d0",
+    0.16
+   ],
+   [
+    "#8371c6",
+    0.12
+   ],
+   [
+    "#556869",
+    0.12
+   ],
+   [
+    "#a5aad7",
+    0.07
+   ],
+   [
+    "#fbc876",
+    0.05
+   ],
+   [
+    "#d9f7c0",
+    0.05
+   ]
+  ],
+  "current": [
+   "#544A7E",
+   "#8E7AD0",
+   "#5AB8A8",
+   "#312F51",
+   "#C8C8C8"
+  ],
+  "company": "NiStuff",
+  "colorway": "Meta Lavalander",
+  "desc": "Metallic purple plastic with teal."
+ },
+ "outlander_gun_metal": {
+  "file": "wiki/nistuff__Gun_Metal_Outlander.img",
+  "clusters": [
+   [
+    "#475368",
+    0.29
+   ],
+   [
+    "#4f4f51",
+    0.21
+   ],
+   [
+    "#272c37",
+    0.21
+   ],
+   [
+    "#687b98",
+    0.17
+   ],
+   [
+    "#aabed6",
+    0.07
+   ],
+   [
+    "#df8783",
+    0.02
+   ],
+   [
+    "#64d8bb",
+    0.02
+   ],
+   [
+    "#f2e29f",
+    0.01
+   ]
+  ],
+  "current": [
+   "#434B57",
+   "#576479",
+   "#262C36",
+   "#B9B6B3",
+   "#8A96A8"
+  ],
+  "company": "NiStuff",
+  "colorway": "Gun Metal Outlander",
+  "desc": "Metallic gunmetal blue-grey plastic."
+ },
+ "outlander_redlaw_purplander": {
+  "file": "wiki/nistuff__Redlaw_Purplander.img",
+  "clusters": [
+   [
+    "#601ab9",
+    0.19
+   ],
+   [
+    "#8e34c8",
+    0.19
+   ],
+   [
+    "#7116d9",
+    0.17
+   ],
+   [
+    "#8b4dc0",
+    0.14
+   ],
+   [
+    "#5722a0",
+    0.12
+   ],
+   [
+    "#9569bf",
+    0.09
+   ],
+   [
+    "#b49bce",
+    0.05
+   ],
+   [
+    "#765b7b",
+    0.03
+   ]
+  ],
+  "current": [
+   "#6516C8",
+   "#8E2FCF",
+   "#5219A1",
+   "#B27AE0",
+   "#2A0A50"
+  ],
+  "company": "NiStuff",
+  "colorway": "Redlaw Purplander",
+  "desc": "Clear purple plastic."
+ },
+ "outlander_ultra_bronze": {
+  "file": "wiki/nistuff__Ultra_Bronze_Outlander.img",
+  "clusters": [
+   [
+    "#7f4b3b",
+    0.38
+   ],
+   [
+    "#442119",
+    0.24
+   ],
+   [
+    "#5b574f",
+    0.15
+   ],
+   [
+    "#cea699",
+    0.08
+   ],
+   [
+    "#2ddadf",
+    0.06
+   ],
+   [
+    "#5bedae",
+    0.03
+   ],
+   [
+    "#24b4fc",
+    0.03
+   ],
+   [
+    "#f1685d",
+    0.03
+   ]
+  ],
+  "current": [
+   "#845D53",
+   "#5AD8C8",
+   "#3E1F16",
+   "#B87A5A",
+   "#E0C0A8"
+  ],
+  "company": "NiStuff",
+  "colorway": "Ultra Bronze Outlander",
+  "desc": "Metallic bronze plastic with teal paint."
+ },
+ "outlander_goldlander": {
+  "file": "wiki/nistuff__Goldlander.img",
+  "clusters": [
+   [
+    "#9a7127",
+    0.22
+   ],
+   [
+    "#ad9248",
+    0.21
+   ],
+   [
+    "#785216",
+    0.16
+   ],
+   [
+    "#c5b473",
+    0.16
+   ],
+   [
+    "#532d0b",
+    0.1
+   ],
+   [
+    "#8f784b",
+    0.07
+   ],
+   [
+    "#e9e0b9",
+    0.05
+   ],
+   [
+    "#332a27",
+    0.03
+   ]
+  ],
+  "current": [
+   "#926C26",
+   "#B19954",
+   "#A7A29B",
+   "#5C380E",
+   "#E8C878"
+  ],
+  "company": "NiStuff",
+  "colorway": "Goldlander",
+  "desc": "Metallic gold plastic."
+ },
+ "outlander_crim": {
+  "file": "wiki/nistuff__Crim_Outlander.img",
+  "clusters": [
+   [
+    "#c92228",
+    0.21
+   ],
+   [
+    "#9e1b1a",
+    0.18
+   ],
+   [
+    "#7a1a17",
+    0.17
+   ],
+   [
+    "#591514",
+    0.12
+   ],
+   [
+    "#6f6b6b",
+    0.11
+   ],
+   [
+    "#d3dbec",
+    0.1
+   ],
+   [
+    "#8f5e53",
+    0.06
+   ],
+   [
+    "#da6575",
+    0.05
+   ]
+  ],
+  "current": [
+   "#6C1312",
+   "#E01A1C",
+   "#B1A9A3",
+   "#7E7F81",
+   "#F0F0F0"
+  ],
+  "company": "NiStuff",
+  "colorway": "Crim-Outlander",
+  "desc": "Red plastic with white paint."
+ },
+ "outlander_otherlander": {
+  "file": "wiki/nistuff__Otherlander.img",
+  "clusters": [
+   [
+    "#0fb996",
+    0.18
+   ],
+   [
+    "#099b69",
+    0.17
+   ],
+   [
+    "#121716",
+    0.17
+   ],
+   [
+    "#0e7343",
+    0.16
+   ],
+   [
+    "#23d5bd",
+    0.13
+   ],
+   [
+    "#b0c5d5",
+    0.09
+   ],
+   [
+    "#134b29",
+    0.06
+   ],
+   [
+    "#65917b",
+    0.04
+   ]
+  ],
+  "current": [
+   "#059D6F",
+   "#0CC6A9",
+   "#7D867E",
+   "#AEB0A9",
+   "#F0F0F0"
+  ],
+  "company": "NiStuff",
+  "colorway": "Otherlander",
+  "desc": "Green plastic with white paint."
+ },
+ "outlander_split": {
+  "file": "wiki/nistuff__Split_Outlander.img",
+  "clusters": [
+   [
+    "#13bae4",
+    0.23
+   ],
+   [
+    "#258fbd",
+    0.23
+   ],
+   [
+    "#256789",
+    0.17
+   ],
+   [
+    "#d74db7",
+    0.15
+   ],
+   [
+    "#a82a6a",
+    0.13
+   ],
+   [
+    "#d690c6",
+    0.04
+   ],
+   [
+    "#32363e",
+    0.04
+   ],
+   [
+    "#a8b067",
+    0.01
+   ]
+  ],
+  "current": [
+   "#EE3A9A",
+   "#0BB2D8",
+   "#B7B9BA",
+   "#8A9AA0",
+   "#2A2A30"
+  ],
+  "company": "NiStuff",
+  "colorway": "Split Outlander",
+  "desc": "Pink and cyan plastic split down the middle."
+ },
+ "outlander_destian": {
+  "file": "wiki/nistuff__Destian_Outlander.img",
+  "clusters": [
+   [
+    "#121313",
+    0.48
+   ],
+   [
+    "#4c524c",
+    0.11
+   ],
+   [
+    "#643e85",
+    0.1
+   ],
+   [
+    "#7dc34d",
+    0.09
+   ],
+   [
+    "#c38579",
+    0.09
+   ],
+   [
+    "#d1b474",
+    0.06
+   ],
+   [
+    "#747f9a",
+    0.05
+   ],
+   [
+    "#437225",
+    0.03
+   ]
+  ],
+  "current": [
+   "#0F1010",
+   "#7DC24A",
+   "#8E44AD",
+   "#717872",
+   "#B8C0BC"
+  ],
+  "company": "NiStuff",
+  "colorway": "Destian Outlander",
+  "desc": "Black plastic with a lime head and purple accents."
+ },
+ "cappy_phibian": {
+  "file": "wiki/cappyspace__Phibian.img",
+  "clusters": [
+   [
+    "#66dc39",
+    0.32
+   ],
+   [
+    "#51c033",
+    0.23
+   ],
+   [
+    "#46a42e",
+    0.17
+   ],
+   [
+    "#2a7d1f",
+    0.1
+   ],
+   [
+    "#adf831",
+    0.05
+   ],
+   [
+    "#b1ee95",
+    0.05
+   ],
+   [
+    "#285926",
+    0.05
+   ],
+   [
+    "#759b6b",
+    0.04
+   ]
+  ],
+  "current": [
+   "#5DD135",
+   "#43AA26",
+   "#24731D",
+   "#989E9C",
+   "#1A3A10"
+  ],
+  "company": "Cappy Space",
+  "colorway": "Phibian",
+  "desc": "Bright green vinyl."
+ },
+ "cappy_belfry": {
+  "file": "wiki/cappyspace__Belfry.img",
+  "clusters": [
+   [
+    "#f5471e",
+    0.35
+   ],
+   [
+    "#de3d28",
+    0.17
+   ],
+   [
+    "#c23b2e",
+    0.15
+   ],
+   [
+    "#f5734a",
+    0.15
+   ],
+   [
+    "#aa483c",
+    0.06
+   ],
+   [
+    "#f29b7e",
+    0.05
+   ],
+   [
+    "#9b6b65",
+    0.04
+   ],
+   [
+    "#fceae5",
+    0.02
+   ]
+  ],
+  "current": [
+   "#EF431F",
+   "#BD362B",
+   "#F06D45",
+   "#A19FA2",
+   "#5A1A10"
+  ],
+  "company": "Cappy Space",
+  "colorway": "Belfry",
+  "desc": "Red-orange vinyl."
+ },
+ "cappy_draga": {
+  "file": "wiki/cappyspace__Draga.img",
+  "clusters": [
+   [
+    "#d60d25",
+    0.2
+   ],
+   [
+    "#de3346",
+    0.19
+   ],
+   [
+    "#f8a6a7",
+    0.16
+   ],
+   [
+    "#f27077",
+    0.14
+   ],
+   [
+    "#a62e10",
+    0.12
+   ],
+   [
+    "#eac89c",
+    0.09
+   ],
+   [
+    "#dd6c26",
+    0.06
+   ],
+   [
+    "#83685f",
+    0.04
+   ]
+  ],
+  "current": [
+   "#D00B28",
+   "#E7504C",
+   "#F18584",
+   "#BFBDBB",
+   "#5A0A14"
+  ],
+  "company": "Cappy Space",
+  "colorway": "Draga",
+  "desc": "Red and pink vinyl."
+ },
+ "cappy_rawnha": {
+  "file": "wiki/cappyspace__Rawnha.img",
+  "clusters": [
+   [
+    "#0b616e",
+    0.19
+   ],
+   [
+    "#2390a2",
+    0.18
+   ],
+   [
+    "#47c9db",
+    0.18
+   ],
+   [
+    "#9aeef7",
+    0.13
+   ],
+   [
+    "#e6be86",
+    0.11
+   ],
+   [
+    "#a57b4b",
+    0.09
+   ],
+   [
+    "#1e292a",
+    0.07
+   ],
+   [
+    "#646d69",
+    0.05
+   ]
+  ],
+  "current": [
+   "#0B7584",
+   "#2CB8CA",
+   "#85E5F0",
+   "#CAC6BF",
+   "#8A7A50"
+  ],
+  "company": "Cappy Space",
+  "colorway": "Rawnha",
+  "desc": "Cyan vinyl with tan."
+ },
+ "cappy_tidaloch": {
+  "file": "wiki/cappyspace__Tidaloch.img",
+  "clusters": [
+   [
+    "#16181e",
+    0.21
+   ],
+   [
+    "#60dee6",
+    0.17
+   ],
+   [
+    "#31a9b3",
+    0.15
+   ],
+   [
+    "#3d4046",
+    0.14
+   ],
+   [
+    "#797276",
+    0.13
+   ],
+   [
+    "#1a6b73",
+    0.11
+   ],
+   [
+    "#d5a2a2",
+    0.06
+   ],
+   [
+    "#cc5b76",
+    0.03
+   ]
+  ],
+  "current": [
+   "#1F2229",
+   "#AA9C9F",
+   "#686167",
+   "#20C0D0",
+   "#C0392B"
+  ],
+  "company": "Cappy Space",
+  "colorway": "Tidaloch",
+  "desc": "Black vinyl with cyan and red."
+ },
+ "cappy_plessie": {
+  "file": "wiki/cappyspace__Plessie.img",
+  "clusters": [
+   [
+    "#f9e119",
+    0.31
+   ],
+   [
+    "#dcb60b",
+    0.27
+   ],
+   [
+    "#65785f",
+    0.1
+   ],
+   [
+    "#81b2ae",
+    0.1
+   ],
+   [
+    "#faf674",
+    0.08
+   ],
+   [
+    "#e8e7a7",
+    0.08
+   ],
+   [
+    "#a79e40",
+    0.05
+   ],
+   [
+    "#ec3d21",
+    0.0
+   ]
+  ],
+  "current": [
+   "#D2D7D4",
+   "#F7DB0E",
+   "#D3AE0B",
+   "#20C0D0",
+   "#2A2A2A"
+  ],
+  "company": "Cappy Space",
+  "colorway": "Plessie",
+  "desc": "Yellow vinyl with cyan."
+ },
+ "cappy_the_veiled": {
+  "file": "wiki/cappyspace__The_Veiled.img",
+  "clusters": [
+   [
+    "#ea51af",
+    0.3
+   ],
+   [
+    "#d8398c",
+    0.2
+   ],
+   [
+    "#f97cca",
+    0.19
+   ],
+   [
+    "#d63068",
+    0.1
+   ],
+   [
+    "#a745af",
+    0.08
+   ],
+   [
+    "#852c73",
+    0.06
+   ],
+   [
+    "#b67c9e",
+    0.06
+   ],
+   [
+    "#de943b",
+    0.01
+   ]
+  ],
+  "current": [
+   "#B7BAC4",
+   "#DE3C91",
+   "#E856B2",
+   "#A89FAA",
+   "#8A2A6A"
+  ],
+  "company": "Cappy Space",
+  "colorway": "The Veiled",
+  "desc": "Hot pink vinyl."
+ },
+ "cappy_mischievers": {
+  "file": "wiki/cappyspace__Mischievers.img",
+  "clusters": [
+   [
+    "#a7a089",
+    0.21
+   ],
+   [
+    "#d49c4c",
+    0.17
+   ],
+   [
+    "#6d749f",
+    0.16
+   ],
+   [
+    "#2f2c25",
+    0.15
+   ],
+   [
+    "#d9d4c0",
+    0.13
+   ],
+   [
+    "#97d876",
+    0.06
+   ],
+   [
+    "#b6c7f8",
+    0.06
+   ],
+   [
+    "#626a2d",
+    0.05
+   ]
+  ],
+  "current": [
+   "#3ACF9A",
+   "#20C0D0",
+   "#C0392B",
+   "#1A1A1A",
+   "#8AC050"
+  ],
+  "company": "Cappy Space",
+  "colorway": "Mischievers",
+  "desc": "Mint, cyan, red and black mini figures."
+ },
+ "prismiria": {
+  "file": "wiki/spacedout__Prismiria.img",
+  "clusters": [
+   [
+    "#5ca4a3",
+    0.25
+   ],
+   [
+    "#327571",
+    0.21
+   ],
+   [
+    "#686d4a",
+    0.16
+   ],
+   [
+    "#363f2a",
+    0.12
+   ],
+   [
+    "#a4d7d8",
+    0.11
+   ],
+   [
+    "#c6b275",
+    0.05
+   ],
+   [
+    "#e4d5d2",
+    0.05
+   ],
+   [
+    "#553b55",
+    0.04
+   ]
+  ],
+  "current": [
+   "#736F61",
+   "#393B36",
+   "#18201D",
+   "#3AB8A8",
+   "#8AD8C8"
+  ],
+  "company": "Spaced Out Design",
+  "colorway": "Prismiria",
+  "desc": "Clear teal resin figure photographed in a geode."
+ },
+ "geodraxus": {
+  "file": "wiki/spacedout__Geodraxus.img",
+  "clusters": [
+   [
+    "#5c7387",
+    0.2
+   ],
+   [
+    "#87a4bf",
+    0.15
+   ],
+   [
+    "#6c889f",
+    0.15
+   ],
+   [
+    "#4a5e6d",
+    0.14
+   ],
+   [
+    "#9bbcdd",
+    0.14
+   ],
+   [
+    "#c9c7c3",
+    0.11
+   ],
+   [
+    "#324451",
+    0.08
+   ],
+   [
+    "#b4d8f2",
+    0.04
+   ]
+  ],
+  "current": [
+   "#72726A",
+   "#565750",
+   "#393831",
+   "#0A0A0A",
+   "#B0B0A8"
+  ],
+  "company": "Spaced Out Design",
+  "colorway": "Geodraxus",
+  "desc": "Stone grey resin."
+ },
+ "acris": {
+  "file": "wiki/spacedout__Acris.img",
+  "clusters": [
+   [
+    "#d7d7e4",
+    0.22
+   ],
+   [
+    "#b8b8cf",
+    0.15
+   ],
+   [
+    "#9797b9",
+    0.14
+   ],
+   [
+    "#f1f1f6",
+    0.12
+   ],
+   [
+    "#7777a3",
+    0.12
+   ],
+   [
+    "#595990",
+    0.09
+   ],
+   [
+    "#383882",
+    0.09
+   ],
+   [
+    "#39396e",
+    0.07
+   ]
+  ],
+  "current": [
+   "#010165",
+   "#9999BB",
+   "#7272A1",
+   "#000044",
+   "#C8C8E0"
+  ],
+  "company": "Spaced Out Design",
+  "colorway": "Acris",
+  "desc": "Navy and lavender."
+ },
+ "banimon_red_army_men": {
+  "file": "wiki/banimon__Red_Army_Men.img",
+  "clusters": [
+   [
+    "#5a682a",
+    0.18
+   ],
+   [
+    "#172f15",
+    0.17
+   ],
+   [
+    "#95b2ab",
+    0.16
+   ],
+   [
+    "#557c5c",
+    0.15
+   ],
+   [
+    "#75864e",
+    0.14
+   ],
+   [
+    "#487775",
+    0.1
+   ],
+   [
+    "#091113",
+    0.07
+   ],
+   [
+    "#b6555b",
+    0.02
+   ]
+  ],
+  "current": [
+   "#4E663C",
+   "#334B27",
+   "#878E78",
+   "#B2EEFC",
+   "#1E2A14"
+  ],
+  "company": "Banimon",
+  "colorway": "Red Army Men",
+  "desc": "Olive green plastic."
+ },
+ "banimon_pink_army_men": {
+  "file": "wiki/banimon__Pink_Army_Men.img",
+  "clusters": [
+   [
+    "#404139",
+    0.35
+   ],
+   [
+    "#f04744",
+    0.25
+   ],
+   [
+    "#ca372d",
+    0.12
+   ],
+   [
+    "#c25651",
+    0.08
+   ],
+   [
+    "#3a1b17",
+    0.05
+   ],
+   [
+    "#da9fa8",
+    0.05
+   ],
+   [
+    "#d2771a",
+    0.05
+   ],
+   [
+    "#f5ae18",
+    0.05
+   ]
+  ],
+  "current": [
+   "#E0453E",
+   "#F29114",
+   "#E6E0DD",
+   "#877B6B",
+   "#5A1A10"
+  ],
+  "company": "Banimon",
+  "colorway": "Pink Army Men",
+  "desc": "Coral red plastic with orange."
+ },
+ "banimon_border_patrol": {
+  "file": "wiki/banimon__Banigoth_Border_Patrol.img",
+  "clusters": [
+   [
+    "#827867",
+    0.24
+   ],
+   [
+    "#645738",
+    0.21
+   ],
+   [
+    "#382414",
+    0.2
+   ],
+   [
+    "#b87e4b",
+    0.12
+   ],
+   [
+    "#983a0f",
+    0.08
+   ],
+   [
+    "#f7a332",
+    0.08
+   ],
+   [
+    "#dad1bc",
+    0.04
+   ],
+   [
+    "#5d974c",
+    0.03
+   ]
+  ],
+  "current": [
+   "#827965",
+   "#655839",
+   "#CA7125",
+   "#F29A2F",
+   "#2A2A20"
+  ],
+  "company": "Banimon",
+  "colorway": "Banigoth Border Patrol",
+  "desc": "Grey and olive plastic with orange."
+ },
+ "banimon_havvacor": {
+  "file": "wiki/banimon__Havvacor_Defense_Front.img",
+  "clusters": [
+   [
+    "#f6920b",
+    0.31
+   ],
+   [
+    "#fcb119",
+    0.22
+   ],
+   [
+    "#d38110",
+    0.18
+   ],
+   [
+    "#752f13",
+    0.09
+   ],
+   [
+    "#f3e4d1",
+    0.07
+   ],
+   [
+    "#e1b277",
+    0.06
+   ],
+   [
+    "#f23e27",
+    0.05
+   ],
+   [
+    "#f65066",
+    0.03
+   ]
+  ],
+  "current": [
+   "#DD7D09",
+   "#B4550B",
+   "#C62115",
+   "#FBA212",
+   "#5A1A0A"
+  ],
+  "company": "Banimon",
+  "colorway": "Havvacor Defense Front",
+  "desc": "Orange and red plastic."
+ },
+ "banimon_revolutionary_guard": {
+  "file": "wiki/banimon__Revolutionary_Guard.img",
+  "clusters": [
+   [
+    "#283c59",
+    0.2
+   ],
+   [
+    "#195798",
+    0.16
+   ],
+   [
+    "#5f7290",
+    0.14
+   ],
+   [
+    "#6abdf8",
+    0.13
+   ],
+   [
+    "#191718",
+    0.11
+   ],
+   [
+    "#6a3842",
+    0.11
+   ],
+   [
+    "#8d2b25",
+    0.09
+   ],
+   [
+    "#c89373",
+    0.06
+   ]
+  ],
+  "current": [
+   "#0E4FD8",
+   "#2A2720",
+   "#735F47",
+   "#1889E4",
+   "#533F30"
+  ],
+  "company": "Banimon",
+  "colorway": "Revolutionary Guard",
+  "desc": "Blue plastic with black and brown."
+ },
+ "banimon_apocalypse": {
+  "file": "wiki/banimon__Apocalypse_Banigoth.img",
+  "clusters": [
+   [
+    "#241c26",
+    0.29
+   ],
+   [
+    "#708091",
+    0.18
+   ],
+   [
+    "#9e5869",
+    0.13
+   ],
+   [
+    "#57202d",
+    0.11
+   ],
+   [
+    "#a3a9b4",
+    0.11
+   ],
+   [
+    "#799db9",
+    0.09
+   ],
+   [
+    "#a4cae0",
+    0.07
+   ],
+   [
+    "#e93558",
+    0.02
+   ]
+  ],
+  "current": [
+   "#2B2430",
+   "#3E4352",
+   "#69798B",
+   "#751D2D",
+   "#E8E8F0"
+  ],
+  "company": "Banimon",
+  "colorway": "Apocalypse Banigoth",
+  "desc": "Dark blue-grey plastic with maroon."
+ },
+ "bitfigs_pheyden": {
+  "file": "wiki/culturepirates__Bit_Figs_Pheyden_Series.img",
+  "clusters": [
+   [
+    "#070e16",
+    0.34
+   ],
+   [
+    "#071320",
+    0.15
+   ],
+   [
+    "#08172a",
+    0.13
+   ],
+   [
+    "#cfd9f2",
+    0.11
+   ],
+   [
+    "#bcc4de",
+    0.1
+   ],
+   [
+    "#e0eafe",
+    0.09
+   ],
+   [
+    "#5a6887",
+    0.05
+   ],
+   [
+    "#97a2be",
+    0.02
+   ]
+  ],
+  "current": [
+   "#75C1EC",
+   "#8BD0F7",
+   "#5EABD8",
+   "#4693C0",
+   "#1E5A8A"
+  ],
+  "company": "Culture Pirates",
+  "colorway": "Bit Figs Pheyden Series",
+  "desc": "Light blue pixel figures."
+ },
+ "bitfigs_ninja": {
+  "file": "wiki/culturepirates__Bit_Figs_Ninja_Series.img",
+  "clusters": [
+   [
+    "#935830",
+    0.25
+   ],
+   [
+    "#562c1b",
+    0.18
+   ],
+   [
+    "#cf5f20",
+    0.13
+   ],
+   [
+    "#cfbd87",
+    0.12
+   ],
+   [
+    "#7a251d",
+    0.11
+   ],
+   [
+    "#ed2845",
+    0.11
+   ],
+   [
+    "#a49890",
+    0.06
+   ],
+   [
+    "#fa9a2d",
+    0.03
+   ]
+  ],
+  "current": [
+   "#D21838",
+   "#622B1D",
+   "#22201C",
+   "#E8853A",
+   "#C8B88A"
+  ],
+  "company": "Culture Pirates",
+  "colorway": "Bit Figs Ninja Series",
+  "desc": "Red, orange, black and tan pixel figures."
+ },
+ "bitfigs_animal": {
+  "file": "wiki/culturepirates__Bit_Figs_Animal_Series.img",
+  "clusters": [
+   [
+    "#9bf0cc",
+    0.48
+   ],
+   [
+    "#e8e3e1",
+    0.16
+   ],
+   [
+    "#858c95",
+    0.08
+   ],
+   [
+    "#ead25c",
+    0.08
+   ],
+   [
+    "#e693ba",
+    0.07
+   ],
+   [
+    "#e48232",
+    0.06
+   ],
+   [
+    "#894836",
+    0.04
+   ],
+   [
+    "#4d274d",
+    0.03
+   ]
+  ],
+  "current": [
+   "#A1F0CC",
+   "#E0C6D1",
+   "#60D8D6",
+   "#E5A339",
+   "#B8D850"
+  ],
+  "company": "Culture Pirates",
+  "colorway": "Bit Figs Animal Series",
+  "desc": "Pastel mint, pink, cyan and orange pixel figures."
+ },
+ "bitfigs_space": {
+  "file": "wiki/culturepirates__Bit_Figs_Space_Series.img",
+  "clusters": [
+   [
+    "#1c1f1f",
+    0.18
+   ],
+   [
+    "#06b9ad",
+    0.18
+   ],
+   [
+    "#f67728",
+    0.16
+   ],
+   [
+    "#068176",
+    0.15
+   ],
+   [
+    "#94857f",
+    0.12
+   ],
+   [
+    "#d8cecc",
+    0.1
+   ],
+   [
+    "#4191b0",
+    0.06
+   ],
+   [
+    "#6a331c",
+    0.04
+   ]
+  ],
+  "current": [
+   "#E86D22",
+   "#07AAA2",
+   "#182422",
+   "#828283",
+   "#F0C090"
+  ],
+  "company": "Culture Pirates",
+  "colorway": "Bit Figs Space Series",
+  "desc": "Orange, teal, black and grey pixel figures."
+ },
+ "bitfigs_dreadvalken": {
+  "file": "wiki/culturepirates__Bit_Figs_Dreadvalken_Series.img",
+  "clusters": [
+   [
+    "#2a1c58",
+    0.18
+   ],
+   [
+    "#dd1f5d",
+    0.17
+   ],
+   [
+    "#d0c6cd",
+    0.15
+   ],
+   [
+    "#f7443e",
+    0.14
+   ],
+   [
+    "#522427",
+    0.13
+   ],
+   [
+    "#8d4893",
+    0.11
+   ],
+   [
+    "#86956c",
+    0.07
+   ],
+   [
+    "#efbc59",
+    0.05
+   ]
+  ],
+  "current": [
+   "#372C48",
+   "#735475",
+   "#F02A4E",
+   "#B08050",
+   "#0A0710"
+  ],
+  "company": "Culture Pirates",
+  "colorway": "Bit Figs Dreadvalken Series",
+  "desc": "Purple, pink and tan pixel figures."
+ },
+ "zullbeast": {
+  "file": "wiki/zullbeasts__Zullbeast.img",
+  "clusters": [
+   [
+    "#4f7c0e",
+    0.22
+   ],
+   [
+    "#66961a",
+    0.19
+   ],
+   [
+    "#3a6307",
+    0.18
+   ],
+   [
+    "#83b22f",
+    0.15
+   ],
+   [
+    "#2c4a06",
+    0.12
+   ],
+   [
+    "#182f06",
+    0.07
+   ],
+   [
+    "#eae7a3",
+    0.05
+   ],
+   [
+    "#9b9830",
+    0.04
+   ]
+  ],
+  "current": [
+   "#4F7B0E",
+   "#3E3E38",
+   "#335905",
+   "#6C9A1E",
+   "#DDE8A8"
+  ],
+  "company": "Zullbeasts",
+  "colorway": "Zullbeast",
+  "desc": "Green vinyl with pale teeth."
+ },
+ "psychozor": {
+  "file": "wiki/zullbeasts__Psychozor.img",
+  "clusters": [
+   [
+    "#c56bcc",
+    0.21
+   ],
+   [
+    "#a148ab",
+    0.2
+   ],
+   [
+    "#7a3087",
+    0.18
+   ],
+   [
+    "#dd8ae1",
+    0.17
+   ],
+   [
+    "#531f5f",
+    0.1
+   ],
+   [
+    "#2f1336",
+    0.07
+   ],
+   [
+    "#e7e2e3",
+    0.05
+   ],
+   [
+    "#ca7ca1",
+    0.02
+   ]
+  ],
+  "current": [
+   "#413B3F",
+   "#D681D9",
+   "#B45BBB",
+   "#8E44AD",
+   "#EEEEEE"
+  ],
+  "company": "Zullbeasts",
+  "colorway": "Psychozor",
+  "desc": "Purple vinyl."
+ },
+ "zulloid": {
+  "file": "wiki/zullbeasts__Zulloid.img",
+  "clusters": [
+   [
+    "#fa3b99",
+    0.26
+   ],
+   [
+    "#e81972",
+    0.19
+   ],
+   [
+    "#f764b4",
+    0.17
+   ],
+   [
+    "#ad1352",
+    0.11
+   ],
+   [
+    "#3d1c62",
+    0.1
+   ],
+   [
+    "#2b0f33",
+    0.07
+   ],
+   [
+    "#6e1e44",
+    0.06
+   ],
+   [
+    "#705289",
+    0.03
+   ]
+  ],
+  "current": [
+   "#F52D8E",
+   "#F955AC",
+   "#211F27",
+   "#36313A",
+   "#5A2A7A"
+  ],
+  "company": "Zullbeasts",
+  "colorway": "Zulloid",
+  "desc": "Hot pink plastic with black and purple."
+ },
+ "kaisyriax": {
+  "file": "wiki/zullbeasts__Kaisyriax.img",
+  "clusters": [
+   [
+    "#141118",
+    0.5
+   ],
+   [
+    "#4e1d98",
+    0.1
+   ],
+   [
+    "#35112c",
+    0.09
+   ],
+   [
+    "#6b2943",
+    0.09
+   ],
+   [
+    "#6c6778",
+    0.08
+   ],
+   [
+    "#c1585e",
+    0.06
+   ],
+   [
+    "#ed6efc",
+    0.05
+   ],
+   [
+    "#5c2ddc",
+    0.04
+   ]
+  ],
+  "current": [
+   "#30243A",
+   "#15101A",
+   "#4E4869",
+   "#722D44",
+   "#D6688C"
+  ],
+  "company": "Zullbeasts",
+  "colorway": "Kaisyriax",
+  "desc": "Dark purple plastic with pink."
+ }
+}
