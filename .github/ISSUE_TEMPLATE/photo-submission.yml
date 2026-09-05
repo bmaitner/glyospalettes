@@ -1,0 +1,61 @@
+name: Submit a cleaner reference photo
+description: Share a photo of a figure on a plain background so the color sampling can be re-run without background contamination.
+title: "[palette] cleaner reference photo"
+labels: [photo]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The palettes were sampled from product photographs, and busy backgrounds (rocks, tables, studio walls) sometimes leak into the colors. A photo of the figure on a plain white, grey or black background under daylight or neutral light lets the sampling run cleanly.
+  - type: input
+    id: palette
+    attributes:
+      label: Palette
+      description: The rglyos palette this photo is for, e.g. `bt_savage_adventurer`. Leave blank if it is a colorway we do not have yet and say so below.
+      placeholder: bt_savage_adventurer
+  - type: textarea
+    id: photo
+    attributes:
+      label: Photo
+      description: Drag the image into this box to upload it, or paste a link. Higher resolution is better; please avoid heavy filters or colored lighting.
+    validations:
+      required: true
+  - type: dropdown
+    id: background
+    attributes:
+      label: Background
+      options:
+        - Plain white
+        - Plain grey
+        - Plain black
+        - Other plain color
+        - Not plain, but the figure is easy to isolate
+    validations:
+      required: true
+  - type: dropdown
+    id: lighting
+    attributes:
+      label: Lighting
+      options:
+        - Daylight
+        - Neutral white indoor light
+        - Warm indoor light
+        - Flash
+        - Not sure
+  - type: input
+    id: figure
+    attributes:
+      label: Which figure and release?
+      description: e.g. "Battle Tribes Wave 1 Savage Adventurer". Helps confirm it is the same plastic run.
+  - type: input
+    id: reference
+    attributes:
+      label: Reference page
+      description: Link to the figure on the Official Glyos Database or the Glyos Wiki, if you have one.
+  - type: checkboxes
+    id: license
+    attributes:
+      label: Permission
+      options:
+        - label: I took this photo (or have permission to share it) and am happy for it to be used to derive palette colors and to be linked from the project.
+          required: true

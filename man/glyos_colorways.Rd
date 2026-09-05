@@ -18,7 +18,9 @@ or \code{"TheGodBeast"}. See \code{\link[=glyos_companies]{glyos_companies()}}.}
 \item{n_colours}{Number of colors in the palette.}
 \item{description}{Description of the plastic and paint colors.}
 \item{reference_figure}{Figure the palette was sampled from.}
-\item{source}{URL of the reference figure.}
+\item{source}{URL of the reference figure's page.}
+\item{image}{Direct URL of the reference photograph the palette was
+sampled from, hosted by the Official Glyos Database or the Glyos Wiki.}
 }
 }
 \source{

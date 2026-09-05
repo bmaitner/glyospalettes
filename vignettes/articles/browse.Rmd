@@ -1,0 +1,245 @@
+---
+title: "Browse the palettes"
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(rglyos)
+```
+
+Every colorway in rglyos, with its colors, where it came from, and a photo of
+the figure it was sampled from. Filter by company, product line or what kind of
+plot it suits, click a swatch to copy its hex code, and use **Suggest a change**
+on any card to open a prefilled GitHub issue where you can propose different
+colors or attach a cleaner photograph.
+
+```{r data, results = "asis"}
+stats <- glyos_palette_stats()
+cw <- glyos_colorways
+cw$colours <- unname(glyos_palettes[cw$palette])
+cw <- merge(cw, stats[, c("palette", "min_de", "min_de_deutan", "min_de_protan",
+                          "min_de_tritan", "lum_range", "hue_spread",
+                          "categorical", "colorblind", "sequential", "diverging")],
+            by = "palette", sort = FALSE)
+cw <- cw[order(match(cw$palette, names(glyos_palettes))), ]
+num <- c("min_de", "min_de_deutan", "min_de_protan", "min_de_tritan",
+         "lum_range", "hue_spread")
+cw[num] <- lapply(cw[num], round, 1)
+payload <- list(
+  generated = format(Sys.Date()),
+  version = as.character(utils::packageVersion("rglyos")),
+  repo = "https://github.com/bmaitner/rglyos",
+  palettes = cw
+)
+json <- jsonlite::toJSON(payload, auto_unbox = TRUE, na = "null", dataframe = "rows")
+json <- gsub("</", "<\\/", json, fixed = TRUE)
+cat('<script id="glyos-data" type="application/json">', json, '</script>', sep = "\n")
+```
+
+<style>
+.gb-controls { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: .6rem .9rem; align-items: end; margin: 1rem 0 .5rem; }
+.gb-controls label { display: block; font-size: .8rem; font-weight: 600; margin-bottom: .2rem; }
+.gb-controls input[type=text], .gb-controls select { width: 100%; padding: .35rem .5rem; border: 1px solid #ccc; border-radius: 4px; font-size: .9rem; }
+.gb-uses { display: flex; flex-wrap: wrap; gap: .35rem .9rem; margin: .3rem 0 .8rem; font-size: .85rem; }
+.gb-uses label { font-weight: 500; }
+.gb-count { font-size: .85rem; color: #666; margin-bottom: .6rem; }
+.gb-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1rem; }
+.gb-card { border: 1px solid #ddd; border-radius: 8px; padding: .8rem .9rem; background: #fff; display: flex; flex-direction: column; gap: .45rem; }
+.gb-card h4 { margin: 0; font-size: 1rem; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; word-break: break-all; }
+.gb-meta { font-size: .8rem; color: #555; }
+.gb-meta b { color: #222; }
+.gb-strip { display: flex; height: 56px; border-radius: 5px; overflow: hidden; }
+.gb-strip button { flex: 1; border: 0; padding: 0; cursor: pointer; position: relative; font: inherit; }
+.gb-strip button span { position: absolute; left: 0; right: 0; bottom: 3px; font-size: .62rem; font-family: ui-monospace, Menlo, monospace; text-align: center; opacity: 0; transition: opacity .15s; padding: 1px 0; }
+.gb-strip button:hover span, .gb-strip button:focus span { opacity: 1; }
+.gb-hex { display: flex; flex-wrap: wrap; gap: .25rem .5rem; font-size: .72rem; font-family: ui-monospace, Menlo, monospace; color: #444; }
+.gb-hex code { background: #f4f4f4; padding: 0 .3rem; border-radius: 3px; cursor: pointer; }
+.gb-desc { font-size: .85rem; margin: 0; }
+.gb-badges { display: flex; flex-wrap: wrap; gap: .3rem; }
+.gb-badge { font-size: .68rem; padding: .1rem .45rem; border-radius: 999px; background: #eef2f6; color: #2a4a6a; border: 1px solid #d5dde7; }
+.gb-badge.on { background: #1575CC; color: #fff; border-color: #1575CC; }
+.gb-links { display: flex; flex-wrap: wrap; gap: .4rem .8rem; font-size: .8rem; margin-top: auto; }
+.gb-links a { text-decoration: none; }
+.gb-suggest { font-weight: 600; }
+.gb-photo { display: none; margin-top: .3rem; }
+.gb-card.show-photo .gb-photo { display: block; }
+.gb-photo img { max-width: 100%; max-height: 260px; border-radius: 5px; border: 1px solid #ddd; }
+.gb-stats { font-size: .72rem; color: #666; }
+.gb-code { font-size: .75rem; }
+.gb-toast { position: fixed; bottom: 1.2rem; left: 50%; transform: translateX(-50%); background: #222; color: #fff; padding: .4rem .9rem; border-radius: 6px; font-size: .85rem; opacity: 0; transition: opacity .2s; pointer-events: none; z-index: 50; }
+.gb-toast.show { opacity: 1; }
+.gb-empty { padding: 2rem; text-align: center; color: #777; }
+</style>
+
+<div class="gb-controls">
+  <div><label for="gb-q">Search</label><input id="gb-q" type="text" placeholder="name, colorway, description"></div>
+  <div><label for="gb-company">Company</label><select id="gb-company"><option value="">All companies</option></select></div>
+  <div><label for="gb-line">Product line</label><select id="gb-line"><option value="">All lines</option></select></div>
+  <div><label for="gb-n">Colors</label><select id="gb-n"><option value="">Any number</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option></select></div>
+  <div><label for="gb-sort">Sort by</label><select id="gb-sort"><option value="default">Package order</option><option value="palette">Name</option><option value="company">Company</option><option value="year">Year</option><option value="min_de">Most distinct colors</option><option value="cvd">Most colorblind-safe</option><option value="lum_range">Widest lightness range</option></select></div>
+</div>
+<div class="gb-uses">
+  <span>Suits:</span>
+  <label><input type="checkbox" class="gb-use" value="categorical"> categorical</label>
+  <label><input type="checkbox" class="gb-use" value="colorblind"> colorblind-safe</label>
+  <label><input type="checkbox" class="gb-use" value="sequential"> sequential</label>
+  <label><input type="checkbox" class="gb-use" value="diverging"> diverging</label>
+  <label style="margin-left:auto"><input type="checkbox" id="gb-photos"> show photos</label>
+</div>
+<div class="gb-count" id="gb-count"></div>
+<div class="gb-grid" id="gb-grid"></div>
+<div class="gb-toast" id="gb-toast">Copied</div>
+
+<script>
+(function () {
+  var data = JSON.parse(document.getElementById("glyos-data").textContent);
+  var pals = data.palettes;
+  var repo = data.repo;
+  var grid = document.getElementById("gb-grid");
+  var count = document.getElementById("gb-count");
+  var toast = document.getElementById("gb-toast");
+  var q = document.getElementById("gb-q");
+  var selCompany = document.getElementById("gb-company");
+  var selLine = document.getElementById("gb-line");
+  var selN = document.getElementById("gb-n");
+  var selSort = document.getElementById("gb-sort");
+  var showPhotos = document.getElementById("gb-photos");
+  var uses = Array.prototype.slice.call(document.querySelectorAll(".gb-use"));
+
+  function uniq(arr) { return arr.filter(function (v, i, a) { return a.indexOf(v) === i; }); }
+  function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
+  function textColor(hex) {
+    var r = parseInt(hex.slice(1, 3), 16), g = parseInt(hex.slice(3, 5), 16), b = parseInt(hex.slice(5, 7), 16);
+    return (0.299 * r + 0.587 * g + 0.114 * b) > 150 ? "#111" : "#fff";
+  }
+  function fill(sel, values, keepFirst) {
+    values.forEach(function (v) { var o = document.createElement("option"); o.value = v; o.textContent = v; sel.appendChild(o); });
+  }
+  var companies = uniq(pals.map(function (p) { return p.company; }));
+  companies = ["Onell Design"].concat(companies.filter(function (c) { return c !== "Onell Design"; }).sort());
+  fill(selCompany, companies);
+  function refreshLines() {
+    var current = selLine.value;
+    selLine.innerHTML = '<option value="">All lines</option>';
+    var lines = uniq(pals.filter(function (p) { return !selCompany.value || p.company === selCompany.value; }).map(function (p) { return p.line; })).sort();
+    fill(selLine, lines);
+    selLine.value = lines.indexOf(current) >= 0 ? current : "";
+  }
+  refreshLines();
+
+  function issueUrl(p) {
+    var params = new URLSearchParams({
+      template: "palette-correction.yml",
+      title: "[" + p.palette + "] palette change",
+      labels: "palette",
+      palette: p.palette,
+      current_colours: p.colours.join(" "),
+      reference: p.source
+    });
+    return repo + "/issues/new?" + params.toString();
+  }
+  function photoIssueUrl(p) {
+    var params = new URLSearchParams({
+      template: "photo-submission.yml",
+      title: "[" + p.palette + "] cleaner reference photo",
+      labels: "photo",
+      palette: p.palette,
+      reference: p.source
+    });
+    return repo + "/issues/new?" + params.toString();
+  }
+
+  function card(p) {
+    var strip = p.colours.map(function (h) {
+      return '<button type="button" data-hex="' + h + '" title="Copy ' + h + '" style="background:' + h + '"><span style="color:' + textColor(h) + '">' + h + '</span></button>';
+    }).join("");
+    var hexes = p.colours.map(function (h) { return '<code data-hex="' + h + '">' + h + "</code>"; }).join("");
+    var badges = ["categorical", "colorblind", "sequential", "diverging"].map(function (u) {
+      return '<span class="gb-badge' + (p[u] ? " on" : "") + '">' + u + "</span>";
+    }).join("");
+    var when = [p.year, p.wave].filter(function (x) { return x != null && x !== ""; }).join(", ");
+    return '<div class="gb-card' + (showPhotos.checked ? " show-photo" : "") + '" data-palette="' + esc(p.palette) + '">' +
+      "<h4>" + esc(p.palette) + "</h4>" +
+      '<div class="gb-meta"><b>' + esc(p.colorway) + "</b> &middot; " + esc(p.company) + " &middot; " + esc(p.line) + (when ? " &middot; " + esc(when) : "") + "</div>" +
+      '<div class="gb-strip">' + strip + "</div>" +
+      '<div class="gb-hex">' + hexes + "</div>" +
+      '<p class="gb-desc">' + esc(p.description) + "</p>" +
+      '<div class="gb-badges">' + badges + "</div>" +
+      '<div class="gb-stats">min &Delta;E ' + p.min_de + " (deutan " + p.min_de_deutan + ", protan " + p.min_de_protan + ", tritan " + p.min_de_tritan + ") &middot; lightness range " + p.lum_range + " &middot; hue spread " + p.hue_spread + "&deg;</div>" +
+      '<div class="gb-code"><code>glyos_palette("' + esc(p.palette) + '")</code></div>' +
+      '<div class="gb-photo"><a href="' + esc(p.image) + '" target="_blank" rel="noopener"><img loading="lazy" src="' + esc(p.image) + '" alt="Reference photo: ' + esc(p.reference_figure) + '"></a></div>' +
+      '<div class="gb-links">' +
+        '<a href="' + esc(p.source) + '" target="_blank" rel="noopener">Reference: ' + esc(p.reference_figure) + "</a>" +
+        '<a href="' + esc(p.image) + '" target="_blank" rel="noopener">Photo</a>' +
+        '<a class="gb-suggest" href="' + issueUrl(p) + '" target="_blank" rel="noopener">Suggest a change</a>' +
+        '<a href="' + photoIssueUrl(p) + '" target="_blank" rel="noopener">Submit a cleaner photo</a>' +
+      "</div>" +
+    "</div>";
+  }
+
+  function render() {
+    var terms = q.value.trim().toLowerCase().split(/\s+/).filter(Boolean);
+    var wantUses = uses.filter(function (u) { return u.checked; }).map(function (u) { return u.value; });
+    var out = pals.filter(function (p) {
+      if (selCompany.value && p.company !== selCompany.value) return false;
+      if (selLine.value && p.line !== selLine.value) return false;
+      if (selN.value && p.colours.length !== +selN.value) return false;
+      for (var i = 0; i < wantUses.length; i++) if (!p[wantUses[i]]) return false;
+      if (terms.length) {
+        var hay = [p.palette, p.colorway, p.company, p.line, p.description, p.reference_figure].join(" ").toLowerCase();
+        for (var j = 0; j < terms.length; j++) if (hay.indexOf(terms[j]) < 0) return false;
+      }
+      return true;
+    });
+    var s = selSort.value;
+    if (s === "palette" || s === "company") out.sort(function (a, b) { return a[s] < b[s] ? -1 : a[s] > b[s] ? 1 : a.palette < b.palette ? -1 : 1; });
+    else if (s === "year") out.sort(function (a, b) { return (b.year || 0) - (a.year || 0); });
+    else if (s === "min_de" || s === "lum_range") out.sort(function (a, b) { return b[s] - a[s]; });
+    else if (s === "cvd") out.sort(function (a, b) { return Math.min(b.min_de_deutan, b.min_de_protan, b.min_de_tritan) - Math.min(a.min_de_deutan, a.min_de_protan, a.min_de_tritan); });
+    count.textContent = out.length + " of " + pals.length + " palettes (rglyos " + data.version + ", " + data.generated + ")";
+    grid.innerHTML = out.length ? out.map(card).join("") : '<div class="gb-empty">No palettes match. Loosen a filter, or propose a new colorway with the link below.</div>';
+  }
+
+  function copy(hex) {
+    var done = function () { toast.textContent = "Copied " + hex; toast.classList.add("show"); setTimeout(function () { toast.classList.remove("show"); }, 1200); };
+    if (navigator.clipboard) navigator.clipboard.writeText(hex).then(done, done); else done();
+  }
+  grid.addEventListener("click", function (e) {
+    var t = e.target.closest("[data-hex]");
+    if (t) { e.preventDefault(); copy(t.getAttribute("data-hex")); }
+  });
+  [q, selLine, selN, selSort].forEach(function (el) { el.addEventListener("input", render); el.addEventListener("change", render); });
+  selCompany.addEventListener("change", function () { refreshLines(); render(); });
+  uses.forEach(function (u) { u.addEventListener("change", render); });
+  showPhotos.addEventListener("change", function () {
+    Array.prototype.forEach.call(grid.querySelectorAll(".gb-card"), function (c) { c.classList.toggle("show-photo", showPhotos.checked); });
+  });
+
+  // Deep links: ?company=TheGodBeast&use=colorblind&q=spectre
+  var qs = new URLSearchParams(location.search);
+  if (qs.get("company")) selCompany.value = qs.get("company");
+  refreshLines();
+  if (qs.get("line")) selLine.value = qs.get("line");
+  if (qs.get("q")) q.value = qs.get("q");
+  if (qs.get("use")) uses.forEach(function (u) { u.checked = qs.get("use").split(",").indexOf(u.value) >= 0; });
+  render();
+})();
+</script>
+
+## Suggesting changes
+
+Every palette here is an approximation read off a photograph, so corrections
+are welcome. Each card links to a prefilled GitHub issue form:
+
+- **Suggest a change** if a color is wrong, missing, or should be removed. Say
+  which hex codes you would add, change or drop and why; a photo of the figure
+  under neutral light is the best evidence.
+- **Submit a cleaner photo** if you have a shot of the figure on a plain
+  background. Cleaner photos let the color sampling run without picking up
+  rocks, tables and studio walls. You can drag an image straight into the
+  issue form.
+- [Propose a new colorway](https://github.com/bmaitner/rglyos/issues/new?template=new-palette.yml)
+  if a figure or wave you care about is not covered yet.
+
+You need a GitHub account to open an issue. If you would rather not, email the
+maintainer listed in the package DESCRIPTION.

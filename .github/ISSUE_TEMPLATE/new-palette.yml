@@ -1,0 +1,50 @@
+name: Propose a new colorway
+description: Suggest a colorway or figure that rglyos does not cover yet.
+title: "[new] "
+labels: [palette, new]
+body:
+  - type: input
+    id: company
+    attributes:
+      label: Company
+      placeholder: Onell Design, TheGodBeast, Spy Monkey Creations, ...
+    validations:
+      required: true
+  - type: input
+    id: line
+    attributes:
+      label: Product line
+      placeholder: Glyos, Kabuto Mushi, Battle Tribes, ...
+    validations:
+      required: true
+  - type: input
+    id: colorway
+    attributes:
+      label: Colorway or figure name
+      placeholder: Neo Phase, Spectre Force Sarvos, ...
+    validations:
+      required: true
+  - type: input
+    id: reference
+    attributes:
+      label: Reference page
+      description: Link to the figure on the Official Glyos Database, the Glyos Wiki, or the manufacturer's site.
+    validations:
+      required: true
+  - type: textarea
+    id: colours
+    attributes:
+      label: Colors
+      description: The plastic and paint colors, as hex codes if you can, or as a description ("clear neon green body, black painted eyes").
+    validations:
+      required: true
+  - type: textarea
+    id: photo
+    attributes:
+      label: Photo
+      description: Drag an image in or paste a link. Plain background and neutral light are ideal.
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else
+      description: Year, wave, why it matters, anything that helps.

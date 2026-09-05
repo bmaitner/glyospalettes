@@ -1,0 +1,49 @@
+url: https://bmaitner.github.io/rglyos/
+
+template:
+  bootstrap: 5
+  bslib:
+    primary: "#1575CC"
+
+home:
+  title: rglyos - Glyos colorway palettes for R
+  links:
+    - text: Browse the palettes
+      href: articles/browse.html
+    - text: Suggest a palette change
+      href: https://github.com/bmaitner/rglyos/issues/new/choose
+
+navbar:
+  structure:
+    left: [browse, reference, news]
+    right: [search, github]
+  components:
+    browse:
+      text: Browse palettes
+      href: articles/browse.html
+
+articles:
+  - title: Palette browser
+    navbar: ~
+    contents:
+      - articles/browse
+
+reference:
+  - title: Palettes
+    contents:
+      - glyos_palettes
+      - glyos_colorways
+      - glyos_palette
+      - glyos_palette_names
+      - glyos_companies
+      - glyos_show_palettes
+  - title: Choosing a palette for a plot
+    contents:
+      - glyos_find_palettes
+      - glyos_palette_stats
+  - title: ggplot2 scales
+    contents:
+      - scale_glyos
+  - title: Package
+    contents:
+      - rglyos-package

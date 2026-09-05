@@ -5,6 +5,12 @@
   rock browns and blacks had crept into many palettes (Kabuto Mushi
   Radioactive, for example, is simply neon green and neon pink). Palettes now
   range from 2 to 6 colors.
+* `glyos_colorways` gains an `image` column with a direct link to the
+  reference photograph.
+* New pkgdown site at <https://bmaitner.github.io/rglyos/> with a filterable
+  palette browser (colors, provenance, reference photos) and prefilled GitHub
+  issue forms for suggesting palette changes, submitting cleaner photos and
+  proposing new colorways.
 
 # rglyos 0.2.0
 

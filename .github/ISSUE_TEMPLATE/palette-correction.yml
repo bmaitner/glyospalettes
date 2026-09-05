@@ -1,0 +1,62 @@
+name: Suggest a palette change
+description: Propose adding, changing, removing or reordering colors in an existing rglyos palette.
+title: "[palette] palette change"
+labels: [palette]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping make the palettes more accurate. Every palette is an approximation read off a photograph, so a figure in hand beats our sampling every time.
+  - type: input
+    id: palette
+    attributes:
+      label: Palette
+      description: The rglyos palette name, e.g. `kabuto_radioactive`. See the [palette browser](https://bmaitner.github.io/rglyos/articles/browse.html).
+      placeholder: kabuto_radioactive
+    validations:
+      required: true
+  - type: input
+    id: current_colours
+    attributes:
+      label: Current colors
+      description: The hex codes the palette has now (prefilled when you come from the browser).
+      placeholder: "#1BC46A #F54C9C"
+  - type: dropdown
+    id: change
+    attributes:
+      label: What kind of change?
+      multiple: true
+      options:
+        - Change a color that is wrong
+        - Add a color that is missing
+        - Remove a color that is not on the figure
+        - Reorder the colors
+        - Fix the description or metadata
+    validations:
+      required: true
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Proposed colors
+      description: The hex codes you think the palette should have, in order. Approximate is fine; say which is body plastic, which is secondary plastic, and which are paint.
+      placeholder: |
+        #1BC46A  clear neon green body
+        #F54C9C  clear neon pink body
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: A photo of the figure, ideally on a plain background under neutral light. Drag an image into this box to upload it, or paste links. The manufacturer's own color description (a drop post, a store listing) is also great.
+    validations:
+      required: true
+  - type: input
+    id: reference
+    attributes:
+      label: Reference page
+      description: Link to the figure on the Official Glyos Database or the Glyos Wiki, if you have one.
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else

@@ -17,6 +17,13 @@ rglyos is a fan project and is not affiliated with or endorsed by any of the
 companies whose colorways it describes. Hex values are approximations
 curated from product photography; see "How the palettes were made" below.
 
+## Browse online
+
+Every palette, with its colors, reference photo and provenance, is browsable
+and filterable at <https://bmaitner.github.io/rglyos/articles/browse.html>.
+Each card has a **Suggest a change** link that opens a prefilled GitHub issue
+where you can propose different colors or attach a cleaner photograph.
+
 ## Installation
 
 ```r
@@ -40,9 +47,9 @@ glyos_palette_names(line = "Battle Tribes")
 
 # the colors of one colorway (prints the swatches and the hex codes)
 glyos_palette("spectre")
-#> Glyos colorway 'spectre' (5 colours)
+#> Glyos colorway 'spectre' (4 colours)
 #> Onell Design / Glyos: Spectre
-#> #EEFADA #BCC99B #9EB49A #5FC3A8 #1C1C19
+#> #EEFADA #BCC99B #9EB49A #5FC3A8
 
 # first three colors, a 12-step gradient, or the same gradient dark-to-light
 glyos_palette("glyaxia", 3)
@@ -124,14 +131,22 @@ a link to the reference figure in the Official Glyos Database (Onell) or the
 Glyos Wiki (partners).
 
 ```r
-glyos_colorways[glyos_colorways$palette == "kabuto_infection", ]
-#>            palette     company         line  colorway year wave n_colours
-#> 47 kabuto_infection TheGodBeast Kabuto Mushi Infection 2014 <NA>         5
-#>                                 description      reference_figure
-#> 47 Clear red plastic with orange accents. Infection Kabuto Mushi
-#>                                                     source
-#> 47 https://glyos.fandom.com/wiki/Infection_Kabuto_Mushi
+t(glyos_colorways[glyos_colorways$palette == "kabuto_infection", ])
+#> palette          "kabuto_infection"
+#> company          "TheGodBeast"
+#> line             "Kabuto Mushi"
+#> colorway         "Infection"
+#> year             "2014"
+#> wave             NA
+#> n_colours        "3"
+#> description      "Clear red plastic."
+#> reference_figure "Infection Kabuto Mushi"
+#> source           "https://glyos.fandom.com/wiki/Infection_Kabuto_Mushi"
+#> image            "https://static.wikia.nocookie.net/glyos/images/..."
 ```
+
+The `image` column is a direct link to the photograph each palette was
+sampled from, which is what the online browser shows.
 
 ## Coverage
 
@@ -193,8 +208,13 @@ metallic and pearlescent plastics do not reduce to a single flat color; those
 palettes reflect how the plastic photographs rather than the pigment itself. Partner-company photographs vary more in lighting
 and background than Onell's, so expect those palettes to be rougher.
 Corrections are welcome, ideally with a photograph or a manufacturer color
-description to back them up; `glyos_show_palettes()` prints the hex codes
-under each swatch to make that easy.
+description to back them up. Use the
+[palette browser](https://bmaitner.github.io/rglyos/articles/browse.html) to
+open a prefilled issue for a specific palette, or pick a form from the
+[issue templates](https://github.com/bmaitner/rglyos/issues/new/choose):
+suggest a palette change, submit a cleaner reference photo (plain background,
+neutral light), or propose a new colorway. `glyos_show_palettes()` prints the
+hex codes under each swatch to make reporting easy.
 
 ## Trademarks
 

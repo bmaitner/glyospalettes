@@ -56,7 +56,9 @@ glyos_palettes <- stats::setNames(
 #'   \item{n_colours}{Number of colors in the palette.}
 #'   \item{description}{Description of the plastic and paint colors.}
 #'   \item{reference_figure}{Figure the palette was sampled from.}
-#'   \item{source}{URL of the reference figure.}
+#'   \item{source}{URL of the reference figure's page.}
+#'   \item{image}{Direct URL of the reference photograph the palette was
+#'     sampled from, hosted by the Official Glyos Database or the Glyos Wiki.}
 #' }
 #' @source Official Glyos Database, <https://database.glyos.com/>; the Glyos
 #'   Transmission Web Log, <https://onelldesign.blogspot.com/>; and the Glyos
@@ -81,6 +83,7 @@ glyos_colorways <- local({
     source = col("source", character(1)),
     stringsAsFactors = FALSE
   )
+  out$image <- unname(.registry_images[out$palette])
   rownames(out) <- NULL
   out
 })

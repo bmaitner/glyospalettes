@@ -23,6 +23,8 @@ test_that("metadata table matches the palette list", {
   expect_true(all(nzchar(glyos_colorways$company)))
   expect_true(all(nzchar(glyos_colorways$line)))
   expect_true(all(grepl("^https://", glyos_colorways$source)))
+  expect_true(all(grepl("^https://", glyos_colorways$image)))
+  expect_false(anyNA(glyos_colorways$image))
   expect_equal(glyos_colorways$n_colours, unname(lengths(glyos_palettes)))
   expect_type(glyos_colorways$year, "integer")
   expect_type(glyos_colorways$wave, "character")

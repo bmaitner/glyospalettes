@@ -5,3 +5,8 @@
 ^data-raw$
 ^\.github$
 ^\.gitignore$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
+^vignettes/articles$
+^\.claude$
