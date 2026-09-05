@@ -71,17 +71,17 @@ ggplot(mpg, aes(displ, hwy, colour = drv)) +
   geom_point(size = 2.5) +
   scale_colour_glyos("glyaxia")
 
-ggplot(diamonds, aes(cut, fill = clarity)) +
+ggplot(diamonds, aes(cut, fill = cut)) +
   geom_bar() +
-  scale_fill_glyos("gatekeeper")
+  scale_fill_glyos("rf_vanguard")
 
 ggplot(faithfuld, aes(waiting, eruptions, fill = density)) +
-  geom_tile() +
-  scale_fill_glyos_c("kabuto_xenoglow", sort = TRUE)
+  geom_raster() +
+  scale_fill_glyos_c("cosmic_wave", sort = TRUE)
 
-ggplot(mpg, aes(displ, hwy, colour = class)) +
-  geom_point(size = 2.5) +
-  scale_colour_glyos("osm_beta_phase")
+ggplot(economics_long, aes(date, value01, colour = variable)) +
+  geom_line() +
+  scale_colour_glyos("imperium")
 ```
 
 ![Example ggplot2 scales](man/figures/examples.png)

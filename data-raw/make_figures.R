@@ -33,21 +33,21 @@ p1 <- ggplot(mpg, aes(displ, hwy, colour = drv)) +
   scale_colour_glyos("glyaxia") +
   theme_minimal() +
   labs(title = 'scale_colour_glyos("glyaxia")')
-p2 <- ggplot(diamonds, aes(cut, fill = clarity)) +
-  geom_bar() +
-  scale_fill_glyos("gatekeeper") +
+p2 <- ggplot(diamonds, aes(cut, fill = cut)) +
+  geom_bar(show.legend = FALSE) +
+  scale_fill_glyos("rf_vanguard") +
   theme_minimal() +
-  labs(title = 'scale_fill_glyos("gatekeeper")')
+  labs(title = 'scale_fill_glyos("rf_vanguard")', x = NULL)
 p3 <- ggplot(faithfuld, aes(waiting, eruptions, fill = density)) +
-  geom_tile() +
-  scale_fill_glyos_c("kabuto_xenoglow", sort = TRUE) +
+  geom_raster() +
+  scale_fill_glyos_c("cosmic_wave", sort = TRUE) +
   theme_minimal() +
-  labs(title = 'scale_fill_glyos_c("kabuto_xenoglow", sort = TRUE)')
-p4 <- ggplot(mpg, aes(displ, hwy, colour = class)) +
-  geom_point(size = 2.5) +
-  scale_colour_glyos("osm_beta_phase") +
+  labs(title = 'scale_fill_glyos_c("cosmic_wave", sort = TRUE)')
+p4 <- ggplot(economics_long, aes(date, value01, colour = variable)) +
+  geom_line(linewidth = 0.8) +
+  scale_colour_glyos("imperium") +
   theme_minimal() +
-  labs(title = 'scale_colour_glyos("osm_beta_phase")')
+  labs(title = 'scale_colour_glyos("imperium")', y = NULL)
 
 png("man/figures/examples.png", width = 2000, height = 1500, res = 180)
 grid::grid.newpage()
@@ -61,4 +61,3 @@ for (i in seq_along(plots)) {
 }
 dev.off()
 
-file.remove("man/figures/palettes.png")
