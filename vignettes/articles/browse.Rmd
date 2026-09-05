@@ -36,6 +36,8 @@ json <- gsub("</", "<\\/", json, fixed = TRUE)
 cat('<script id="glyos-data" type="application/json">', json, '</script>', sep = "\n")
 ```
 
+<meta name="referrer" content="no-referrer">
+
 <style>
 .gb-controls { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: .6rem .9rem; align-items: end; margin: 1rem 0 .5rem; }
 .gb-controls label { display: block; font-size: .8rem; font-weight: 600; margin-bottom: .2rem; }
@@ -167,10 +169,10 @@ cat('<script id="glyos-data" type="application/json">', json, '</script>', sep =
       '<div class="gb-badges">' + badges + "</div>" +
       '<div class="gb-stats">min &Delta;E ' + p.min_de + " (deutan " + p.min_de_deutan + ", protan " + p.min_de_protan + ", tritan " + p.min_de_tritan + ") &middot; lightness range " + p.lum_range + " &middot; hue spread " + p.hue_spread + "&deg;</div>" +
       '<div class="gb-code"><code>glyos_palette("' + esc(p.palette) + '")</code></div>' +
-      '<div class="gb-photo"><a href="' + esc(p.image) + '" target="_blank" rel="noopener"><img loading="lazy" src="' + esc(p.image) + '" alt="Reference photo: ' + esc(p.reference_figure) + '"></a></div>' +
+      '<div class="gb-photo"><a href="' + esc(p.image) + '" target="_blank" rel="noopener noreferrer"><img loading="lazy" referrerpolicy="no-referrer" src="' + esc(p.image) + '" alt="Reference photo: ' + esc(p.reference_figure) + '"></a></div>' +
       '<div class="gb-links">' +
-        '<a href="' + esc(p.source) + '" target="_blank" rel="noopener">Reference: ' + esc(p.reference_figure) + "</a>" +
-        '<a href="' + esc(p.image) + '" target="_blank" rel="noopener">Photo</a>' +
+        '<a href="' + esc(p.source) + '" target="_blank" rel="noopener noreferrer">Reference: ' + esc(p.reference_figure) + "</a>" +
+        '<a href="' + esc(p.image) + '" target="_blank" rel="noopener noreferrer">Photo</a>' +
         '<a class="gb-suggest" href="' + issueUrl(p) + '" target="_blank" rel="noopener">Suggest a change</a>' +
         '<a href="' + photoIssueUrl(p) + '" target="_blank" rel="noopener">Submit a cleaner photo</a>' +
       "</div>" +
