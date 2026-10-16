@@ -1,6 +1,6 @@
-#' Glyos colour and fill scales for ggplot2
+#' Glyos color and fill scales for ggplot2
 #'
-#' Colour and fill scales that use a Glyos colorway palette. The `_d` variants
+#' Color and fill scales that use a Glyos colorway palette. The `_d` variants
 #' are for discrete data, the `_c` variants for continuous data, and
 #' `scale_colour_glyos()` / `scale_fill_glyos()` choose between the two with
 #' the `discrete` argument. `scale_color_*` spellings are aliases.
@@ -28,7 +28,7 @@
 #' @examples
 #' library(ggplot2)
 #'
-#' ggplot(mpg, aes(displ, hwy, colour = class)) +
+#' ggplot(mpg, aes(displ, hwy, color = class)) +
 #'   geom_point(size = 3) +
 #'   scale_colour_glyos("glyaxia")
 #'
@@ -55,7 +55,7 @@ glyos_pal <- function(palette, reverse = FALSE) {
 #' @export
 scale_colour_glyos_d <- function(palette = "standard", reverse = FALSE, ...) {
   ggplot2::discrete_scale(
-    aesthetics = "colour",
+    aesthetics = "color",
     palette = glyos_pal(palette, reverse),
     ...
   )
