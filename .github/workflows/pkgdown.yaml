@@ -1,6 +1,6 @@
 # Builds the pkgdown site (including the palette browser article) and
 # publishes it to the gh-pages branch, which GitHub Pages serves at
-# https://bmaitner.github.io/rglyos/. One-time setup: in the repository
+# https://bmaitner.github.io/glyospalettes/. One-time setup: in the repository
 # Settings > Pages, set the source to "Deploy from a branch" and pick
 # gh-pages / (root) after the first successful run.
 # Based on https://github.com/r-lib/actions/tree/v2/examples#build-pkgdown-site

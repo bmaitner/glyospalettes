@@ -2,7 +2,7 @@
 % Please edit documentation in R/palettes.R
 \name{glyos_companies}
 \alias{glyos_companies}
-\title{List the companies with palettes in rglyos}
+\title{List the companies with palettes in glyospalettes}
 \usage{
 glyos_companies()
 }
@@ -12,7 +12,7 @@ first, that can be passed to the \code{company} argument of
 \code{\link[=glyos_palette_names]{glyos_palette_names()}} and \code{\link[=glyos_show_palettes]{glyos_show_palettes()}}.
 }
 \description{
-List the companies with palettes in rglyos
+List the companies with palettes in glyospalettes
 }
 \examples{
 glyos_companies()

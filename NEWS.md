@@ -1,4 +1,11 @@
-# rglyos 0.2.1
+# glyospalettes 0.2.2
+
+* The package is now called glyospalettes (it started life as rglyos), to
+  match its sibling transformerpalettes. Function names are unchanged;
+  reinstall with `pak::pak("bmaitner/glyospalettes")`. The old GitHub URL
+  redirects.
+
+# glyospalettes 0.2.1
 
 * Rebuilt every palette from plastic and paint colors only. The first pass
   sampled photographs without masking their backgrounds, so studio greys,
@@ -7,12 +14,12 @@
   range from 2 to 6 colors.
 * `glyos_colorways` gains an `image` column with a direct link to the
   reference photograph.
-* New pkgdown site at <https://bmaitner.github.io/rglyos/> with a filterable
+* New pkgdown site at <https://bmaitner.github.io/glyospalettes/> with a filterable
   palette browser (colors, provenance, reference photos) and prefilled GitHub
   issue forms for suggesting palette changes, submitting cleaner photos and
   proposing new colorways.
 
-# rglyos 0.2.0
+# glyospalettes 0.2.0
 
 * Added 148 palettes from 17 Glyos-compatible partner companies (TheGodBeast,
   Spy Monkey Creations, Toyfinity, Four Horsemen Studio, Toy Pizza, Rocom
@@ -30,7 +37,7 @@
   palette from darkest to lightest.
 * `glyos_show_palettes()` prints the hex code under each swatch.
 
-# rglyos 0.1.0
+# glyospalettes 0.1.0
 
 * Initial release with 45 palettes based on Onell Design Glyos colorways.
 * `glyos_palette()`, `glyos_palette_names()`, `glyos_show_palettes()`.

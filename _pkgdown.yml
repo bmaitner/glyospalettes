@@ -1,4 +1,4 @@
-url: https://bmaitner.github.io/rglyos/
+url: https://bmaitner.github.io/glyospalettes/
 
 template:
   bootstrap: 5
@@ -6,12 +6,12 @@ template:
     primary: "#1575CC"
 
 home:
-  title: rglyos - Glyos colorway palettes for R
+  title: glyospalettes - Glyos colorway palettes for R
   links:
     - text: Browse the palettes
       href: articles/browse.html
     - text: Suggest a palette change
-      href: https://github.com/bmaitner/rglyos/issues/new/choose
+      href: https://github.com/bmaitner/glyospalettes/issues/new/choose
 
 navbar:
   structure:
@@ -46,4 +46,4 @@ reference:
       - scale_glyos
   - title: Package
     contents:
-      - rglyos-package
+      - glyospalettes-package

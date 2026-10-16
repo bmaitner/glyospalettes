@@ -1,4 +1,4 @@
-#' rglyos: Color Palettes Inspired by Glyos Colorways
+#' glyospalettes: Color Palettes Inspired by Glyos Colorways
 #'
 #' Color palettes based on the named production colorways of the Glyos System
 #' Series toy line by Onell Design, plus ggplot2 colour and fill scales.
@@ -9,7 +9,7 @@
 #' Run [glyos_show_palettes()] to see every palette at once.
 #'
 #' Hex values are approximations curated from product photography and from
-#' Onell Design's published color descriptions. rglyos is a fan project and is
+#' Onell Design's published color descriptions. glyospalettes is a fan project and is
 #' not affiliated with or endorsed by Onell Design.
 #'
 #' @keywords internal

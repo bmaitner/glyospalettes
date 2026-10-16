@@ -11,7 +11,7 @@ body:
     id: palette
     attributes:
       label: Palette
-      description: The rglyos palette this photo is for, e.g. `bt_savage_adventurer`. Leave blank if it is a colorway we do not have yet and say so below.
+      description: The glyospalettes palette this photo is for, e.g. `bt_savage_adventurer`. Leave blank if it is a colorway we do not have yet and say so below.
       placeholder: bt_savage_adventurer
   - type: textarea
     id: photo

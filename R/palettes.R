@@ -88,7 +88,7 @@ glyos_colorways <- local({
   out
 })
 
-#' List the companies with palettes in rglyos
+#' List the companies with palettes in glyospalettes
 #'
 #' @return A character vector of company names, sorted with Onell Design
 #'   first, that can be passed to the `company` argument of

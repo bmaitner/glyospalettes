@@ -4,10 +4,10 @@ title: "Browse the palettes"
 
 ```{r setup, include = FALSE}
 knitr::opts_chunk$set(echo = FALSE)
-library(rglyos)
+library(glyospalettes)
 ```
 
-Every colorway in rglyos, with its colors, where it came from, and a photo of
+Every colorway in glyospalettes, with its colors, where it came from, and a photo of
 the figure it was sampled from. Filter by company, product line or what kind of
 plot it suits, click a swatch to copy its hex code, and use **Suggest a change**
 on any card to open a prefilled GitHub issue where you can propose different
@@ -27,8 +27,8 @@ num <- c("min_de", "min_de_deutan", "min_de_protan", "min_de_tritan",
 cw[num] <- lapply(cw[num], round, 1)
 payload <- list(
   generated = format(Sys.Date()),
-  version = as.character(utils::packageVersion("rglyos")),
-  repo = "https://github.com/bmaitner/rglyos",
+  version = as.character(utils::packageVersion("glyospalettes")),
+  repo = "https://github.com/bmaitner/glyospalettes",
   palettes = cw
 )
 json <- jsonlite::toJSON(payload, auto_unbox = TRUE, na = "null", dataframe = "rows")
@@ -198,7 +198,7 @@ cat('<script id="glyos-data" type="application/json">', json, '</script>', sep =
     else if (s === "year") out.sort(function (a, b) { return (b.year || 0) - (a.year || 0); });
     else if (s === "min_de" || s === "lum_range") out.sort(function (a, b) { return b[s] - a[s]; });
     else if (s === "cvd") out.sort(function (a, b) { return Math.min(b.min_de_deutan, b.min_de_protan, b.min_de_tritan) - Math.min(a.min_de_deutan, a.min_de_protan, a.min_de_tritan); });
-    count.textContent = out.length + " of " + pals.length + " palettes (rglyos " + data.version + ", " + data.generated + ")";
+    count.textContent = out.length + " of " + pals.length + " palettes (glyospalettes " + data.version + ", " + data.generated + ")";
     grid.innerHTML = out.length ? out.map(card).join("") : '<div class="gb-empty">No palettes match. Loosen a filter, or propose a new colorway with the link below.</div>';
   }
 
@@ -240,7 +240,7 @@ are welcome. Each card links to a prefilled GitHub issue form:
   background. Cleaner photos let the color sampling run without picking up
   rocks, tables and studio walls. You can drag an image straight into the
   issue form.
-- [Propose a new colorway](https://github.com/bmaitner/rglyos/issues/new?template=new-palette.yml)
+- [Propose a new colorway](https://github.com/bmaitner/glyospalettes/issues/new?template=new-palette.yml)
   if a figure or wave you care about is not covered yet.
 
 You need a GitHub account to open an issue. If you would rather not, email the

@@ -1,5 +1,5 @@
 name: Suggest a palette change
-description: Propose adding, changing, removing or reordering colors in an existing rglyos palette.
+description: Propose adding, changing, removing or reordering colors in an existing glyospalettes palette.
 title: "[palette] palette change"
 labels: [palette]
 body:
@@ -11,7 +11,7 @@ body:
     id: palette
     attributes:
       label: Palette
-      description: The rglyos palette name, e.g. `kabuto_radioactive`. See the [palette browser](https://bmaitner.github.io/rglyos/articles/browse.html).
+      description: The glyospalettes palette name, e.g. `kabuto_radioactive`. See the [palette browser](https://bmaitner.github.io/glyospalettes/articles/browse.html).
       placeholder: kabuto_radioactive
     validations:
       required: true

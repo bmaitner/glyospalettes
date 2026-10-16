@@ -1,4 +1,4 @@
 library(testthat)
-library(rglyos)
+library(glyospalettes)
 
-test_check("rglyos")
+test_check("glyospalettes")

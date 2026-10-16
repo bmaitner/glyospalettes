@@ -1,6 +1,6 @@
-Package: rglyos
+Package: glyospalettes
 Title: Color Palettes Inspired by Glyos Colorways
-Version: 0.2.1
+Version: 0.2.2
 Authors@R: 
     person("Brian", "Maitner", , "bmaitner@gmail.com", role = c("aut", "cre"))
 Description: Color palettes based on the named colorways of the Glyos toy
@@ -10,7 +10,7 @@ Description: Color palettes based on the named colorways of the Glyos toy
     and continuous data, metadata linking each palette to its company and
     product line, and helpers to shortlist palettes that suit categorical,
     colour-blind-safe, sequential or diverging use. Hex values are
-    approximations curated from product photography; rglyos is a fan project
+    approximations curated from product photography; glyospalettes is a fan project
     and is not affiliated with or endorsed by any of the companies.
 License: MIT + file LICENSE
 Encoding: UTF-8
@@ -28,5 +28,5 @@ Suggests:
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Config/Needs/website: jsonlite, knitr, rmarkdown
-URL: https://bmaitner.github.io/rglyos/, https://github.com/bmaitner/rglyos
-BugReports: https://github.com/bmaitner/rglyos/issues
+URL: https://bmaitner.github.io/glyospalettes/, https://github.com/bmaitner/glyospalettes
+BugReports: https://github.com/bmaitner/glyospalettes/issues

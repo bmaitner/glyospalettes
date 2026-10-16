@@ -1,7 +1,7 @@
-# rglyos
+# glyospalettes
 
 <!-- badges: start -->
-[![R-CMD-check](https://github.com/bmaitner/rglyos/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/bmaitner/rglyos/actions/workflows/R-CMD-check.yaml)
+[![R-CMD-check](https://github.com/bmaitner/glyospalettes/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/bmaitner/glyospalettes/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 Color palettes for R and ggplot2 based on the named colorways of the
@@ -13,14 +13,14 @@ Battle Tribes), Toyfinity (Robo Force, Zeroids, Manglors), the Four Horsemen
 `wesanderson`: pick a colorway by name, get a vector of hex colors, or drop a
 scale straight into a ggplot.
 
-rglyos is a fan project and is not affiliated with or endorsed by any of the
+glyospalettes is a fan project and is not affiliated with or endorsed by any of the
 companies whose colorways it describes. Hex values are approximations
 curated from product photography; see "How the palettes were made" below.
 
 ## Browse online
 
 Every palette, with its colors, reference photo and provenance, is browsable
-and filterable at <https://bmaitner.github.io/rglyos/articles/browse.html>.
+and filterable at <https://bmaitner.github.io/glyospalettes/articles/browse.html>.
 Each card has a **Suggest a change** link that opens a prefilled GitHub issue
 where you can propose different colors or attach a cleaner photograph.
 
@@ -28,13 +28,13 @@ where you can propose different colors or attach a cleaner photograph.
 
 ```r
 # install.packages("pak")
-pak::pak("bmaitner/rglyos")
+pak::pak("bmaitner/glyospalettes")
 ```
 
 ## Usage
 
 ```r
-library(rglyos)
+library(glyospalettes)
 
 # which companies are covered, and how many palettes each has
 glyos_companies()
@@ -209,9 +209,9 @@ palettes reflect how the plastic photographs rather than the pigment itself. Par
 and background than Onell's, so expect those palettes to be rougher.
 Corrections are welcome, ideally with a photograph or a manufacturer color
 description to back them up. Use the
-[palette browser](https://bmaitner.github.io/rglyos/articles/browse.html) to
+[palette browser](https://bmaitner.github.io/glyospalettes/articles/browse.html) to
 open a prefilled issue for a specific palette, or pick a form from the
-[issue templates](https://github.com/bmaitner/rglyos/issues/new/choose):
+[issue templates](https://github.com/bmaitner/glyospalettes/issues/new/choose):
 suggest a palette change, submit a cleaner reference photo (plain background,
 neutral light), or propose a new colorway. `glyos_show_palettes()` prints the
 hex codes under each swatch to make reporting easy.

@@ -1,6 +1,6 @@
 # Palette registry ---------------------------------------------------------
 #
-# Every palette in rglyos is defined here with its colours and metadata. The
+# Every palette in glyospalettes is defined here with its colours and metadata. The
 # exported objects `glyos_palettes` and `glyos_colorways` are derived from this
 # registry in R/palettes.R. Keep entries in one place so the two never drift.
 #
