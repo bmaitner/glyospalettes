@@ -37,8 +37,10 @@ reference:
       - glyos_palette_names
       - glyos_companies
       - glyos_show_palettes
-  - title: Choosing a palette for a plot
+  - title: Combining and choosing colors for a plot
     contents:
+      - glyos_combine
+      - glyos_pick
       - glyos_find_palettes
       - glyos_palette_stats
   - title: ggplot2 scales
