@@ -1,7 +1,7 @@
 #' glyospalettes: Color Palettes Inspired by Glyos Colorways
 #'
 #' Color palettes based on the named production colorways of the Glyos System
-#' Series toy line by Onell Design, plus ggplot2 colour and fill scales.
+#' Series toy line by Onell Design, plus ggplot2 color and fill scales.
 #'
 #' Start with [glyos_palette()] to pull colors from a colorway,
 #' [glyos_palette_names()] to list the available colorways, and
