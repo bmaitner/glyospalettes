@@ -314,24 +314,18 @@ print.glyos_palette <- function(x, ...) {
   key <- attr(x, "name")
   meta <- glyos_colorways[glyos_colorways$palette == key, ]
   if (isTRUE(attr(x, "picked"))) {
-    cat("Glyos pick of ", n, " colors from ", key, "
-", sep = "")
+    cat("Glyos pick of ", n, " colors from ", key, "\n", sep = "")
     cat(attr(x, "style"), " background ", attr(x, "background"),
         if (isTRUE(attr(x, "colorblind"))) ", colorblind-safe" else "",
-        ", min distance ", round(attr(x, "min_distance"), 1), "
-", sep = "")
+        ", min distance ", round(attr(x, "min_distance"), 1), "\n", sep = "")
   } else if (nrow(meta) == 1L) {
-    cat("Glyos colorway '", key, "' (", n, " colours)
-", sep = "")
-    cat(meta$company, " / ", meta$line, ": ", meta$colorway, "
-", sep = "")
+    cat("Glyos colorway '", key, "' (", n, " colors)\n", sep = "")
+    cat(meta$company, " / ", meta$line, ": ", meta$colorway, "\n", sep = "")
   } else {
-    cat("Glyos combined palette '", key, "' (", n, " colours)
-", sep = "")
+    cat("Glyos combined palette '", key, "' (", n, " colors)\n", sep = "")
   }
   if (!is.null(names(x))) {
-    cat(paste0(names(x), " = ", cols), sep = "
-")
+    cat(paste0(names(x), " = ", cols), sep = "\n")
   } else {
     cat(cols, sep = " ")
     cat("
