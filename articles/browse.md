@@ -1,10 +1,11 @@
 # Browse the palettes
 
-Every colorway in rglyos, with its colors, where it came from, and a
-photo of the figure it was sampled from. Filter by company, product line
-or what kind of plot it suits, click a swatch to copy its hex code, and
-use **Suggest a change** on any card to open a prefilled GitHub issue
-where you can propose different colors or attach a cleaner photograph.
+Every colorway in glyospalettes, with its colors, where it came from,
+and a photo of the figure it was sampled from. Filter by company,
+product line or what kind of plot it suits, click a swatch to copy its
+hex code, and use **Suggest a change** on any card to open a prefilled
+GitHub issue where you can propose different colors or attach a cleaner
+photograph.
 
 Search
 
@@ -45,7 +46,7 @@ form:
   up rocks, tables and studio walls. You can drag an image straight into
   the issue form.
 - [Propose a new
-  colorway](https://github.com/bmaitner/rglyos/issues/new?template=new-palette.yml)
+  colorway](https://github.com/bmaitner/glyospalettes/issues/new?template=new-palette.yml)
   if a figure or wave you care about is not covered yet.
 
 You need a GitHub account to open an issue. If you would rather not,

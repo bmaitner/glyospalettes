@@ -2,7 +2,7 @@
 
 Filters the palettes to those whose colors work for a given job, judged
 from the perceptual statistics in
-[`glyos_palette_stats()`](https://bmaitner.github.io/rglyos/reference/glyos_palette_stats.md).
+[`glyos_palette_stats()`](https://bmaitner.github.io/glyospalettes/reference/glyos_palette_stats.md).
 Many colorways look great on a figure but poor on a chart; this surfaces
 the ones that hold up.
 
@@ -40,7 +40,7 @@ glyos_find_palettes(
       chromatic colors) spanning at least 50 units of lightness, so a
       continuous gradient reads as low-to-high. Pair with `sort = TRUE`
       in
-      [`glyos_palette()`](https://bmaitner.github.io/rglyos/reference/glyos_palette.md)
+      [`glyos_palette()`](https://bmaitner.github.io/glyospalettes/reference/glyos_palette.md)
       or the `_c` scales.
 
   `"diverging"`
@@ -48,19 +48,19 @@ glyos_find_palettes(
   :   Exactly two distinct hue families plus a light or neutral color to
       sit between them. The curated order is not necessarily dark-A,
       light, dark-B; check
-      [`glyos_palette_stats()`](https://bmaitner.github.io/rglyos/reference/glyos_palette_stats.md)
+      [`glyos_palette_stats()`](https://bmaitner.github.io/glyospalettes/reference/glyos_palette_stats.md)
       and reorder the colors yourself for a continuous diverging scale.
 
   The thresholds are deliberately simple heuristics computed by
-  [`glyos_palette_stats()`](https://bmaitner.github.io/rglyos/reference/glyos_palette_stats.md);
+  [`glyos_palette_stats()`](https://bmaitner.github.io/glyospalettes/reference/glyos_palette_stats.md);
   treat the result as a shortlist to look at with
-  [`glyos_show_palettes()`](https://bmaitner.github.io/rglyos/reference/glyos_show_palettes.md),
+  [`glyos_show_palettes()`](https://bmaitner.github.io/glyospalettes/reference/glyos_show_palettes.md),
   not a guarantee.
 
 - company, line:
 
   Optional filters passed to
-  [`glyos_palette_names()`](https://bmaitner.github.io/rglyos/reference/glyos_palette_names.md).
+  [`glyos_palette_names()`](https://bmaitner.github.io/glyospalettes/reference/glyos_palette_names.md).
 
 - min_colours:
 

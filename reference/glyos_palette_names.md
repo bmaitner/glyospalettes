@@ -13,20 +13,20 @@ glyos_palette_names(company = NULL, line = NULL)
 - company:
 
   Optional company name (see
-  [`glyos_companies()`](https://bmaitner.github.io/rglyos/reference/glyos_companies.md))
+  [`glyos_companies()`](https://bmaitner.github.io/glyospalettes/reference/glyos_companies.md))
   to restrict the list to. Matched case-insensitively and by unique
   prefix, so `"godbeast"` and `"spy monkey"` work.
 
 - line:
 
   Optional product line (see the `line` column of
-  [glyos_colorways](https://bmaitner.github.io/rglyos/reference/glyos_colorways.md))
+  [glyos_colorways](https://bmaitner.github.io/glyospalettes/reference/glyos_colorways.md))
   to restrict the list to, matched the same way.
 
 ## Value
 
 A character vector of palette names accepted by
-[`glyos_palette()`](https://bmaitner.github.io/rglyos/reference/glyos_palette.md)
+[`glyos_palette()`](https://bmaitner.github.io/glyospalettes/reference/glyos_palette.md)
 and the `scale_*_glyos()` functions.
 
 ## Examples

@@ -1,7 +1,7 @@
 # Glyos colorway metadata
 
 Background information for every palette in
-[glyos_palettes](https://bmaitner.github.io/rglyos/reference/glyos_palettes.md):
+[glyos_palettes](https://bmaitner.github.io/glyospalettes/reference/glyos_palettes.md):
 the company and product line it comes from, the colorway name as the
 manufacturer uses it, the year and wave of the reference release where
 known, a plain-language description of the colors, the reference figure
@@ -22,13 +22,13 @@ A data frame with one row per palette and the columns:
 - palette:
 
   Palette name, as used by
-  [`glyos_palette()`](https://bmaitner.github.io/rglyos/reference/glyos_palette.md).
+  [`glyos_palette()`](https://bmaitner.github.io/glyospalettes/reference/glyos_palette.md).
 
 - company:
 
   Company that produced the colorway, e.g. `"Onell Design"` or
   `"TheGodBeast"`. See
-  [`glyos_companies()`](https://bmaitner.github.io/rglyos/reference/glyos_companies.md).
+  [`glyos_companies()`](https://bmaitner.github.io/glyospalettes/reference/glyos_companies.md).
 
 - line:
 

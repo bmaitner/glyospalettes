@@ -1,6 +1,6 @@
-# List the companies with palettes in rglyos
+# List the companies with palettes in glyospalettes
 
-List the companies with palettes in rglyos
+List the companies with palettes in glyospalettes
 
 ## Usage
 
@@ -12,9 +12,9 @@ glyos_companies()
 
 A character vector of company names, sorted with Onell Design first,
 that can be passed to the `company` argument of
-[`glyos_palette_names()`](https://bmaitner.github.io/rglyos/reference/glyos_palette_names.md)
+[`glyos_palette_names()`](https://bmaitner.github.io/glyospalettes/reference/glyos_palette_names.md)
 and
-[`glyos_show_palettes()`](https://bmaitner.github.io/rglyos/reference/glyos_show_palettes.md).
+[`glyos_show_palettes()`](https://bmaitner.github.io/glyospalettes/reference/glyos_show_palettes.md).
 
 ## Examples
 

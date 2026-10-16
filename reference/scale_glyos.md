@@ -50,7 +50,7 @@ scale_color_glyos(
 - palette:
 
   Name of a Glyos colorway. See
-  [`glyos_palette_names()`](https://bmaitner.github.io/rglyos/reference/glyos_palette_names.md).
+  [`glyos_palette_names()`](https://bmaitner.github.io/glyospalettes/reference/glyos_palette_names.md).
 
 - reverse:
 
@@ -71,7 +71,7 @@ scale_color_glyos(
   Logical, continuous scales only. Order the palette from darkest to
   lightest before building the gradient, so the scale reads as
   low-to-high. See
-  [`glyos_find_palettes()`](https://bmaitner.github.io/rglyos/reference/glyos_find_palettes.md)
+  [`glyos_find_palettes()`](https://bmaitner.github.io/glyospalettes/reference/glyos_find_palettes.md)
   for palettes that suit this.
 
 - discrete:

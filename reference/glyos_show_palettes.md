@@ -29,17 +29,17 @@ glyos_show_palettes(
 - company:
 
   Optional company name to restrict to; see
-  [`glyos_companies()`](https://bmaitner.github.io/rglyos/reference/glyos_companies.md).
+  [`glyos_companies()`](https://bmaitner.github.io/glyospalettes/reference/glyos_companies.md).
 
 - line:
 
   Optional product line to restrict to; see the `line` column of
-  [glyos_colorways](https://bmaitner.github.io/rglyos/reference/glyos_colorways.md).
+  [glyos_colorways](https://bmaitner.github.io/glyospalettes/reference/glyos_colorways.md).
 
 - use:
 
   Optional use case to restrict to; see
-  [`glyos_find_palettes()`](https://bmaitner.github.io/rglyos/reference/glyos_find_palettes.md).
+  [`glyos_find_palettes()`](https://bmaitner.github.io/glyospalettes/reference/glyos_find_palettes.md).
 
 - ncol:
 

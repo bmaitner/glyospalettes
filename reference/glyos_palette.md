@@ -21,7 +21,7 @@ glyos_palette(
 - name:
 
   Palette name. Case-insensitive; see
-  [`glyos_palette_names()`](https://bmaitner.github.io/rglyos/reference/glyos_palette_names.md).
+  [`glyos_palette_names()`](https://bmaitner.github.io/glyospalettes/reference/glyos_palette_names.md).
 
 - n:
 
@@ -45,7 +45,7 @@ glyos_palette(
   Logical. If `TRUE`, order the colors from darkest to lightest (by CIE
   lightness) before selecting or interpolating. Useful when a palette is
   used as a sequential gradient; see
-  [`glyos_find_palettes()`](https://bmaitner.github.io/rglyos/reference/glyos_find_palettes.md).
+  [`glyos_find_palettes()`](https://bmaitner.github.io/glyospalettes/reference/glyos_find_palettes.md).
 
 ## Value
 

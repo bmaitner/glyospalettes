@@ -8,9 +8,9 @@ colors holding only the plastic and paint colors of that colorway,
 ordered so that the first few colors are the most distinct from one
 another (body color first, then secondary plastic, then paint accents).
 Use
-[`glyos_palette()`](https://bmaitner.github.io/rglyos/reference/glyos_palette.md)
+[`glyos_palette()`](https://bmaitner.github.io/glyospalettes/reference/glyos_palette.md)
 to pull colors from a palette and
-[glyos_colorways](https://bmaitner.github.io/rglyos/reference/glyos_colorways.md)
+[glyos_colorways](https://bmaitner.github.io/glyospalettes/reference/glyos_colorways.md)
 for background on each colorway, including which company made it.
 
 ## Usage
@@ -36,11 +36,11 @@ palettes reflect how the plastic photographs.
 
 ## See also
 
-[`glyos_palette()`](https://bmaitner.github.io/rglyos/reference/glyos_palette.md),
-[`glyos_palette_names()`](https://bmaitner.github.io/rglyos/reference/glyos_palette_names.md),
-[`glyos_companies()`](https://bmaitner.github.io/rglyos/reference/glyos_companies.md),
-[glyos_colorways](https://bmaitner.github.io/rglyos/reference/glyos_colorways.md),
-[`glyos_show_palettes()`](https://bmaitner.github.io/rglyos/reference/glyos_show_palettes.md)
+[`glyos_palette()`](https://bmaitner.github.io/glyospalettes/reference/glyos_palette.md),
+[`glyos_palette_names()`](https://bmaitner.github.io/glyospalettes/reference/glyos_palette_names.md),
+[`glyos_companies()`](https://bmaitner.github.io/glyospalettes/reference/glyos_companies.md),
+[glyos_colorways](https://bmaitner.github.io/glyospalettes/reference/glyos_colorways.md),
+[`glyos_show_palettes()`](https://bmaitner.github.io/glyospalettes/reference/glyos_show_palettes.md)
 
 ## Examples
 
