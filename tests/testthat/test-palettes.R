@@ -96,7 +96,7 @@ min_pair <- function(hex) {
   min(d[upper.tri(d)])
 }
 
-test_that("glyos_combine takes one colour per palette", {
+test_that("glyos_combine takes one color per palette", {
   cl <- c("standard", "spectre", "hades", "infection", "glyaxia")
   comb <- glyos_combine(cl)
   expect_s3_class(comb, "glyos_palette")
@@ -113,9 +113,9 @@ test_that("glyos_combine takes one colour per palette", {
   deep <- glyos_combine(line = "Kabuto Mushi", which = 99)
   expect_equal(unname(deep[["kabuto_radioactive"]]), tail(glyos_palettes[["kabuto_radioactive"]], 1))
 
-  # distinct = TRUE spreads a set of similar palettes out: every colour still
+  # distinct = TRUE spreads a set of similar palettes out: every color still
   # comes from its own palette, none repeat, and the closest pair is at least
-  # as far apart as with the default first-colour rule
+  # as far apart as with the default first-color rule
   greys <- c("zorennor", "stealth", "ivorinium", "smoke", "neo_frontier")
   plain <- glyos_combine(greys)
   dist <- glyos_combine(greys, distinct = TRUE)

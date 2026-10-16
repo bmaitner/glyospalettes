@@ -11,7 +11,7 @@
 \alias{scale_color_glyos_d}
 \alias{scale_color_glyos_c}
 \alias{scale_color_glyos}
-\title{Glyos colour and fill scales for ggplot2}
+\title{Glyos color and fill scales for ggplot2}
 \usage{
 scale_colour_glyos_d(palette = "standard", reverse = FALSE, ...)
 
@@ -70,7 +70,7 @@ otherwise a continuous gradient scale.}
 A ggplot2 scale object.
 }
 \description{
-Colour and fill scales that use a Glyos colorway palette. The \verb{_d} variants
+Color and fill scales that use a Glyos colorway palette. The \verb{_d} variants
 are for discrete data, the \verb{_c} variants for continuous data, and
 \code{scale_colour_glyos()} / \code{scale_fill_glyos()} choose between the two with
 the \code{discrete} argument. \verb{scale_color_*} spellings are aliases.
@@ -85,7 +85,7 @@ less legible than the curated colors.
 \examples{
 library(ggplot2)
 
-ggplot(mpg, aes(displ, hwy, colour = class)) +
+ggplot(mpg, aes(displ, hwy, color = class)) +
   geom_point(size = 3) +
   scale_colour_glyos("glyaxia")
 

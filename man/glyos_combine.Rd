@@ -2,7 +2,7 @@
 % Please edit documentation in R/palettes.R
 \name{glyos_combine}
 \alias{glyos_combine}
-\title{Combine palettes: one colour from each of a set of colorways}
+\title{Combine palettes: one color from each of a set of colorways}
 \usage{
 glyos_combine(
   palettes = NULL,
@@ -18,35 +18,35 @@ glyos_combine(
 given.}
 
 \item{company, line}{Optional filters passed to \code{\link[=glyos_palette_names]{glyos_palette_names()}};
-every matching palette contributes one colour.}
+every matching palette contributes one color.}
 
-\item{which}{Which colour to take from each palette (1 is the main plastic
-colour). Palettes with fewer colours contribute their last one.}
+\item{which}{Which color to take from each palette (1 is the main plastic
+color). Palettes with fewer colors contribute their last one.}
 
 \item{distinct}{Logical. Choose each palette's contribution to be as
 different as possible from those already chosen, instead of position
 \code{which}?}
 }
 \value{
-A named character vector of hex colours with class
+A named character vector of hex colors with class
 \code{"glyos_palette"}, one per palette, in the order of \code{palettes} or of
 \code{\link[=glyos_palette_names]{glyos_palette_names()}}. Pass \code{unname()}d to
 \code{\link[ggplot2:scale_manual]{ggplot2::scale_colour_manual()}}.
 }
 \description{
-Takes one colour from each named palette, or from every palette of a
+Takes one color from each named palette, or from every palette of a
 company or product line, and returns them as a single categorical palette
-named by the colorway each colour came from. This is the quick way to get
-"one colour per Kabuto Mushi" or "one colour per Battle Tribes figure".
+named by the colorway each color came from. This is the quick way to get
+"one color per Kabuto Mushi" or "one color per Battle Tribes figure".
 }
 \details{
-By default the first colour of each palette is used, which is the main
-plastic colour and so is faithful to each figure but can repeat across a
+By default the first color of each palette is used, which is the main
+plastic color and so is faithful to each figure but can repeat across a
 line cast from shared plastics. \code{distinct = TRUE} instead picks, for each
-palette in turn, the colour from that palette that is farthest (in CIE
-Lab) from the colours already chosen, which keeps the result legible on a
+palette in turn, the color from that palette that is farthest (in CIE
+Lab) from the colors already chosen, which keeps the result legible on a
 chart at some cost to fidelity. For a stricter selection that also drops
-colours with poor contrast against the background, see \code{\link[=glyos_pick]{glyos_pick()}}.
+colors with poor contrast against the background, see \code{\link[=glyos_pick]{glyos_pick()}}.
 }
 \examples{
 glyos_combine(c("standard", "spectre", "hades", "infection", "glyaxia"))
@@ -55,7 +55,7 @@ glyos_combine(line = "Kabuto Mushi", distinct = TRUE)
 glyos_combine(company = "Toyfinity", which = 2)
 
 library(ggplot2)
-ggplot(mpg, aes(displ, hwy, colour = drv)) +
+ggplot(mpg, aes(displ, hwy, color = drv)) +
   geom_point(size = 2.5) +
   scale_colour_manual(values = unname(glyos_combine(c("glyaxia", "hades", "infection"))))
 }

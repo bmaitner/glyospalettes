@@ -7,7 +7,7 @@
 \title{glyospalettes: Color Palettes Inspired by Glyos Colorways}
 \description{
 Color palettes based on the named production colorways of the Glyos System
-Series toy line by Onell Design, plus ggplot2 colour and fill scales.
+Series toy line by Onell Design, plus ggplot2 color and fill scales.
 }
 \details{
 Start with \code{\link[=glyos_palette]{glyos_palette()}} to pull colors from a colorway,

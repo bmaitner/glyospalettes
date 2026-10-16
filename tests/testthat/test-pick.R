@@ -3,7 +3,7 @@ min_pair <- function(hex, ...) {
   min(d[upper.tri(d)])
 }
 
-test_that("glyos_pick returns n distinct colours drawn from the pool", {
+test_that("glyos_pick returns n distinct colors drawn from the pool", {
   p <- glyos_pick(c("glyaxia", "hades"), n = 5)
   expect_s3_class(p, "glyos_palette")
   expect_length(p, 5)
@@ -18,14 +18,14 @@ test_that("glyos_pick returns n distinct colours drawn from the pool", {
   expect_equal(attr(p, "name"), "glyaxia + hades")
 })
 
-test_that("light and dark styles drop colours that vanish into the background", {
-  # zorennor's light grey and light blue fail the 3:1 check against white
+test_that("light and dark styles drop colors that vanish into the background", {
+  # zorennor's light gray and light blue fail the 3:1 check against white
   light <- glyos_pick("zorennor", n = 2)
   expect_false("#C1C0BA" %in% unname(light))
   expect_false("#8FC7E0" %in% unname(light))
   expect_true(all(contrast_ratio(unname(light), "#FFFFFF") >= 3))
 
-  # hades is black-bodied: its darkest colours fail on a dark theme
+  # hades is black-bodied: its darkest colors fail on a dark theme
   dark <- glyos_pick("hades", n = 2, style = "dark")
   expect_false("#0F1210" %in% unname(dark))
   expect_true(all(contrast_ratio(unname(dark), "#121212") >= 3))
@@ -62,7 +62,7 @@ test_that("greedy search matches exhaustive on a moderate pool", {
              0.9 * subset_score(d2, choose_subset(d2, 4, max_exhaustive = 1e6)))
 })
 
-test_that("colorblind and greyscale change the criterion", {
+test_that("colorblind and grayscale change the criterion", {
   pals <- glyos_palette_names(line = "Battle Tribes")
   normal <- glyos_pick(pals, n = 4, min_contrast = 1)
   cb <- glyos_pick(pals, n = 4, colorblind = TRUE, min_contrast = 1)
@@ -70,7 +70,7 @@ test_that("colorblind and greyscale change the criterion", {
   expect_gte(min_pair(unname(cb), colorblind = TRUE), min_pair(unname(normal), colorblind = TRUE) - 1e-9)
   expect_equal(attr(cb, "min_distance"), min_pair(unname(cb), colorblind = TRUE))
 
-  grey <- glyos_pick(pals, n = 4, style = "greyscale", min_contrast = 1)
+  grey <- glyos_pick(pals, n = 4, style = "grayscale", min_contrast = 1)
   L <- srgb_to_lab(hex_to_srgb(unname(grey)))[, "L"]
   expect_equal(attr(grey, "min_distance"), min(diff(sort(L))))
   L0 <- srgb_to_lab(hex_to_srgb(unname(normal)))[, "L"]
@@ -97,13 +97,13 @@ test_that("company and line filters feed the pool and label the result", {
 })
 
 test_that("glyos_pick validates its inputs and reports an empty pool", {
-  # kabuto_radioactive has two colours and its neon green fails the contrast check
-  expect_error(glyos_pick("kabuto_radioactive", n = 3), "Only 1 of the 2 pooled colours")
-  expect_error(glyos_pick("kabuto_radioactive", n = 3, min_contrast = 1), "Only 2 of the 2 pooled colours")
+  # kabuto_radioactive has two colors and its neon green fails the contrast check
+  expect_error(glyos_pick("kabuto_radioactive", n = 3), "Only 1 of the 2 pooled colors")
+  expect_error(glyos_pick("kabuto_radioactive", n = 3, min_contrast = 1), "Only 2 of the 2 pooled colors")
   expect_error(glyos_pick(), "Give `palettes`")
   expect_error(glyos_pick(character(0)), "character vector")
   expect_error(glyos_pick("glyaxia", n = 0), "positive integer")
-  expect_error(glyos_pick("glyaxia", n = 2, background = "white"), "hex colour")
+  expect_error(glyos_pick("glyaxia", n = 2, background = "white"), "hex color")
   expect_error(glyos_pick("nobody", n = 2), "Unknown Glyos colorway")
   expect_error(glyos_pick("glyaxia", n = 2, style = "sepia"))
   expect_error(glyos_pick(company = "nope", n = 2), "Unknown or ambiguous")
@@ -117,6 +117,6 @@ test_that("print method describes a pick", {
   on.exit(grDevices::dev.off(), add = TRUE)
   expect_output(print(glyos_pick(c("glyaxia", "hades"), n = 3, style = "dark",
                                  colorblind = TRUE)),
-                "pick of 3 colours from glyaxia \\+ hades")
+                "pick of 3 colors from glyaxia \\+ hades")
   expect_output(print(glyos_pick("glyaxia", n = 3)), "min distance")
 })

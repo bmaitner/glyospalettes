@@ -12,7 +12,7 @@ test_that("palette stats cover every palette with sane values", {
   expect_true(all(!s$colorblind | s$categorical))
 })
 
-test_that("cvd simulation leaves greys alone and shifts reds and greens together", {
+test_that("cvd simulation leaves grays alone and shifts reds and greens together", {
   greys <- hex_to_srgb(c("#000000", "#808080", "#FFFFFF"))
   for (t in names(cvd_matrices)) {
     sim <- simulate_cvd(greys, t)
