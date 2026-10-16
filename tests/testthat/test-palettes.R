@@ -90,3 +90,52 @@ test_that("print method runs without error and names the company", {
   expect_output(print(glyos_palette("hades")), "Onell Design")
   expect_output(print(glyos_palette("wom_empyreus")), "Spy Monkey")
 })
+
+min_pair <- function(hex) {
+  d <- pick_distances(hex)
+  min(d[upper.tri(d)])
+}
+
+test_that("glyos_combine takes one colour per palette", {
+  cl <- c("standard", "spectre", "hades", "infection", "glyaxia")
+  comb <- glyos_combine(cl)
+  expect_s3_class(comb, "glyos_palette")
+  expect_equal(names(comb), cl)
+  for (p in cl) expect_equal(unname(comb[[p]]), glyos_palettes[[p]][1])
+  expect_equal(attr(comb, "name"), paste(cl, collapse = " + "))
+
+  km <- glyos_combine(line = "Kabuto Mushi")
+  expect_equal(names(km), glyos_palette_names(line = "Kabuto Mushi"))
+  expect_equal(attr(km, "name"), "kabuto mushi")
+
+  second <- glyos_combine(line = "Kabuto Mushi", which = 2)
+  expect_equal(unname(second[["kabuto_infection"]]), glyos_palettes[["kabuto_infection"]][2])
+  deep <- glyos_combine(line = "Kabuto Mushi", which = 99)
+  expect_equal(unname(deep[["kabuto_radioactive"]]), tail(glyos_palettes[["kabuto_radioactive"]], 1))
+
+  # distinct = TRUE spreads a set of similar palettes out: every colour still
+  # comes from its own palette, none repeat, and the closest pair is at least
+  # as far apart as with the default first-colour rule
+  greys <- c("zorennor", "stealth", "ivorinium", "smoke", "neo_frontier")
+  plain <- glyos_combine(greys)
+  dist <- glyos_combine(greys, distinct = TRUE)
+  expect_equal(names(dist), greys)
+  expect_equal(anyDuplicated(unname(dist)), 0)
+  for (p in names(dist)) expect_true(dist[[p]] %in% glyos_palettes[[p]], info = p)
+  expect_false(identical(unname(dist), unname(plain)))
+  expect_gte(min_pair(unname(dist)), min_pair(unname(plain)))
+  # duplicate names collapse to one contribution
+  expect_equal(names(glyos_combine(c("standard", "standard", "reverse"))), c("standard", "reverse"))
+
+  expect_error(glyos_combine(), "Give `palettes`")
+  expect_error(glyos_combine(company = "nope"), "Unknown or ambiguous")
+  expect_error(glyos_combine("glyaxia", which = 0), "positive integer")
+  expect_error(glyos_combine("nobody"), "Unknown Glyos colorway")
+})
+
+test_that("print method names combined palettes by source", {
+  grDevices::pdf(NULL)
+  on.exit(grDevices::dev.off(), add = TRUE)
+  expect_output(print(glyos_combine(line = "Kabuto Mushi")), "kabuto_infection = ")
+  expect_output(print(glyos_combine(line = "Kabuto Mushi")), "combined palette 'kabuto mushi'")
+})
