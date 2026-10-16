@@ -56,26 +56,26 @@ a print method that draws the swatches.
 
 ``` r
 glyos_palette("spectre")
-#> Glyos colorway 'spectre' (4 colours)
+#> Glyos colorway 'spectre' (4 colors)
 #> Onell Design / Glyos: Spectre
 #> #EEFADA #BCC99B #9EB49A #5FC3A8
 
 glyos_palette("glyaxia", 3)
-#> Glyos colorway 'glyaxia' (3 colours)
+#> Glyos colorway 'glyaxia' (3 colors)
 #> Onell Design / Glyos: Glyaxia Command
 #> #F2B61D #1575CC #124380
 
 glyos_palette("hades", 12, type = "continuous")
-#> Glyos colorway 'hades' (12 colours)
+#> Glyos colorway 'hades' (12 colors)
 #> Onell Design / Glyos: Hades Force
 #> #0F1210 #1A1E1C #252B28 #303734 #3D4A44 #4D6B5E #5D8B79 #6DAC93 #7BC0A6 #88CEB6 #95DCC6 #A3EAD6
 
 glyos_palette("hades", 12, type = "continuous", sort = TRUE)
-#> Glyos colorway 'hades' (12 colours)
+#> Glyos colorway 'hades' (12 colors)
 #> Onell Design / Glyos: Hades Force
 #> #0F1210 #1A1E1C #252B28 #303734 #3D4A44 #4D6B5E #5D8B79 #6DAC93 #7BC0A6 #88CEB6 #95DCC6 #A3EAD6
 glyos_palette("wom_empyreus")
-#> Glyos colorway 'wom_empyreus' (4 colours)
+#> Glyos colorway 'wom_empyreus' (4 colors)
 #> Spy Monkey Creations / Weaponeers of Monkaa: Empyreus
 #> #C22F2D #821E2B #2C2D53 #386DCF
 

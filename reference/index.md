@@ -15,8 +15,12 @@
 - [`glyos_show_palettes()`](https://bmaitner.github.io/glyospalettes/reference/glyos_show_palettes.md)
   : Display Glyos palettes
 
-## Choosing a palette for a plot
+## Combining and choosing colors for a plot
 
+- [`glyos_combine()`](https://bmaitner.github.io/glyospalettes/reference/glyos_combine.md)
+  : Combine palettes: one color from each of a set of colorways
+- [`glyos_pick()`](https://bmaitner.github.io/glyospalettes/reference/glyos_pick.md)
+  : Pick the most distinguishable colors from one or more palettes
 - [`glyos_find_palettes()`](https://bmaitner.github.io/glyospalettes/reference/glyos_find_palettes.md)
   : Find Glyos palettes that suit a plotting use case
 - [`glyos_palette_stats()`](https://bmaitner.github.io/glyospalettes/reference/glyos_palette_stats.md)
@@ -33,7 +37,7 @@
   [`scale_color_glyos_d()`](https://bmaitner.github.io/glyospalettes/reference/scale_glyos.md)
   [`scale_color_glyos_c()`](https://bmaitner.github.io/glyospalettes/reference/scale_glyos.md)
   [`scale_color_glyos()`](https://bmaitner.github.io/glyospalettes/reference/scale_glyos.md)
-  : Glyos colour and fill scales for ggplot2
+  : Glyos color and fill scales for ggplot2
 
 ## Package
 

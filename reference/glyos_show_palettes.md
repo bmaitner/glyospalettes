@@ -1,7 +1,7 @@
 # Display Glyos palettes
 
 Draws a swatch strip for each colorway on the current graphics device,
-labelled with the palette name and, by default, the hex code under each
+labeled with the palette name and, by default, the hex code under each
 swatch. Useful for picking a colorway or for reporting a color that
 looks wrong. With no arguments every palette is drawn, which is a lot;
 filter by `company`, `line` or `use` to narrow it down.

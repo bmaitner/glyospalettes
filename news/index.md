@@ -1,5 +1,24 @@
 # Changelog
 
+## glyospalettes 0.3.0
+
+- New
+  [`glyos_pick()`](https://bmaitner.github.io/glyospalettes/reference/glyos_pick.md)
+  pools the colors of one or more palettes (or of a whole company or
+  product line), drops those with poor WCAG contrast against a light,
+  dark or grayscale background, and returns the `n` colors whose closest
+  pair is farthest apart in CIE Lab, optionally judged under simulated
+  color-vision deficiency.
+- New
+  [`glyos_combine()`](https://bmaitner.github.io/glyospalettes/reference/glyos_combine.md)
+  takes one color from each of a set of palettes, so a product line
+  becomes a categorical palette with one color per figure;
+  `distinct = TRUE` spreads the choices out for legibility.
+- Both return named vectors (color by source palette) and print with
+  their provenance; picks draw their swatches on the background they
+  were chosen for. These mirror `tf_pick()` and `tf_team_palette()` in
+  the sibling transformerpalettes package.
+
 ## glyospalettes 0.2.2
 
 - The package is now called glyospalettes (it started life as rglyos),
@@ -11,7 +30,7 @@
 
 - Rebuilt every palette from plastic and paint colors only. The first
   pass sampled photographs without masking their backgrounds, so studio
-  greys, rock browns and blacks had crept into many palettes (Kabuto
+  grays, rock browns and blacks had crept into many palettes (Kabuto
   Mushi Radioactive, for example, is simply neon green and neon pink).
   Palettes now range from 2 to 6 colors.
 - `glyos_colorways` gains an `image` column with a direct link to the

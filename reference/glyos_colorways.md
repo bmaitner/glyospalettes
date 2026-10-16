@@ -85,8 +85,8 @@ head(glyos_colorways)
 #> 5 infection Onell Design Glyos   Infection 2013 Wave 27         4
 #> 6 neo_phase Onell Design Glyos   Neo Phase 2013 Wave 26         4
 #>                                                                                                          description
-#> 1 Light blue and grey plastic with grey painted eyes and grey detail lines; the original Pheyden colors from Wave 1.
-#> 2                                  Grey and light blue plastic (the Standard colors swapped) with pink painted eyes.
+#> 1 Light blue and gray plastic with gray painted eyes and gray detail lines; the original Pheyden colors from Wave 1.
+#> 2                                  Gray and light blue plastic (the Standard colors swapped) with pink painted eyes.
 #> 3                                                       Glow-in-the-dark green plastic with aqua green painted eyes.
 #> 4                                           Black plastic with aqua green accents and a glow-in-the-dark green head.
 #> 5                                                         Clear red plastic, originally developed with The GodBeast.

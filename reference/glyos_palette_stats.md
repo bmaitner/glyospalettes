@@ -67,7 +67,7 @@ A data frame with one row per palette and the columns:
 Distances are CIE76 (Euclidean in CIE Lab). Color-vision deficiency is
 simulated with the Machado, Oliveira and Fernandes (2009) matrices at
 full severity for deuteranopia, protanopia and tritanopia. Hue
-statistics only consider colors with chroma of at least 20, so greys and
+statistics only consider colors with chroma of at least 20, so grays and
 blacks do not count as a hue.
 
 ## Examples
