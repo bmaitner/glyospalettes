@@ -146,6 +146,23 @@ match_label <- function(x, choices, what) {
   hit
 }
 
+# Resolve a user-supplied palette name (any case, spaces or hyphens allowed)
+# to its key in glyos_palettes, or error.
+palette_key <- function(name) {
+  if (!is.character(name) || length(name) != 1L) {
+    stop("`name` must be a single string.", call. = FALSE)
+  }
+  key <- tolower(name)
+  key <- gsub("[ -]+", "_", key)
+  if (!key %in% names(glyos_palettes)) {
+    stop(
+      "Unknown Glyos colorway '", name, "'. See glyos_palette_names().",
+      call. = FALSE
+    )
+  }
+  key
+}
+
 #' Get colors from a Glyos colorway
 #'
 #' Returns `n` colors from the named colorway, either the first `n` curated
@@ -179,17 +196,7 @@ match_label <- function(x, choices, what) {
 glyos_palette <- function(name, n = NULL, type = c("discrete", "continuous"),
                           strict = TRUE, sort = FALSE) {
   type <- match.arg(type)
-  if (!is.character(name) || length(name) != 1L) {
-    stop("`name` must be a single string.", call. = FALSE)
-  }
-  key <- tolower(name)
-  key <- gsub("[ -]+", "_", key)
-  if (!key %in% names(glyos_palettes)) {
-    stop(
-      "Unknown Glyos colorway '", name, "'. See glyos_palette_names().",
-      call. = FALSE
-    )
-  }
+  key <- palette_key(name)
   pal <- glyos_palettes[[key]]
   if (isTRUE(sort)) {
     L <- srgb_to_lab(hex_to_srgb(pal))[, "L"]
@@ -209,7 +216,7 @@ glyos_palette <- function(name, n = NULL, type = c("discrete", "continuous"),
       if (n > length(pal)) {
         if (strict) {
           stop(
-            "Palette '", key, "' only has ", length(pal), " colours; ",
+            "Palette '", key, "' only has ", length(pal), " colors; ",
             n, " were requested. Use type = \"continuous\" or ",
             "strict = FALSE to interpolate.",
             call. = FALSE
@@ -224,25 +231,122 @@ glyos_palette <- function(name, n = NULL, type = c("discrete", "continuous"),
   structure(out, class = "glyos_palette", name = key)
 }
 
+#' Combine palettes: one color from each of a set of colorways
+#'
+#' Takes one color from each named palette, or from every palette of a
+#' company or product line, and returns them as a single categorical palette
+#' named by the colorway each color came from. This is the quick way to get
+#' "one color per Kabuto Mushi" or "one color per Battle Tribes figure".
+#'
+#' By default the first color of each palette is used, which is the main
+#' plastic color and so is faithful to each figure but can repeat across a
+#' line cast from shared plastics. `distinct = TRUE` instead picks, for each
+#' palette in turn, the color from that palette that is farthest (in CIE
+#' Lab) from the colors already chosen, which keeps the result legible on a
+#' chart at some cost to fidelity. For a stricter selection that also drops
+#' colors with poor contrast against the background, see [glyos_pick()].
+#'
+#' @param palettes Character vector of palette names; see
+#'   [glyos_palette_names()]. May be omitted when `company` or `line` is
+#'   given.
+#' @param company,line Optional filters passed to [glyos_palette_names()];
+#'   every matching palette contributes one color.
+#' @param which Which color to take from each palette (1 is the main plastic
+#'   color). Palettes with fewer colors contribute their last one.
+#' @param distinct Logical. Choose each palette's contribution to be as
+#'   different as possible from those already chosen, instead of position
+#'   `which`?
+#'
+#' @return A named character vector of hex colors with class
+#'   `"glyos_palette"`, one per palette, in the order of `palettes` or of
+#'   [glyos_palette_names()]. Pass `unname()`d to
+#'   [ggplot2::scale_colour_manual()].
+#' @seealso [glyos_pick()], [glyos_palette()]
+#' @examples
+#' glyos_combine(c("standard", "spectre", "hades", "infection", "glyaxia"))
+#' glyos_combine(line = "Kabuto Mushi")
+#' glyos_combine(line = "Kabuto Mushi", distinct = TRUE)
+#' glyos_combine(company = "Toyfinity", which = 2)
+#'
+#' library(ggplot2)
+#' ggplot(mpg, aes(displ, hwy, color = drv)) +
+#'   geom_point(size = 2.5) +
+#'   scale_colour_manual(values = unname(glyos_combine(c("glyaxia", "hades", "infection"))))
+#' @export
+glyos_combine <- function(palettes = NULL, company = NULL, line = NULL,
+                          which = 1L, distinct = FALSE) {
+  keys <- resolve_palette_set(palettes, company, line)
+  which <- as.integer(which)
+  if (length(which) != 1L || is.na(which) || which < 1L) {
+    stop("`which` must be a single positive integer.", call. = FALSE)
+  }
+  if (isTRUE(distinct)) {
+    chosen <- character(0)
+    for (p in keys) {
+      pal <- glyos_palettes[[p]]
+      if (length(chosen) == 0L) {
+        pick <- pal[1L]
+      } else {
+        lab_pal <- srgb_to_lab(hex_to_srgb(pal))
+        lab_chosen <- srgb_to_lab(hex_to_srgb(chosen))
+        d <- apply(lab_pal, 1, function(row) {
+          min(sqrt(colSums((t(lab_chosen) - row)^2)))
+        })
+        pick <- pal[which.max(d)]
+      }
+      chosen <- c(chosen, pick)
+    }
+    cols <- stats::setNames(chosen, keys)
+  } else {
+    cols <- vapply(keys, function(p) {
+      pal <- glyos_palettes[[p]]
+      pal[min(which, length(pal))]
+    }, character(1))
+  }
+  structure(cols, class = "glyos_palette",
+            name = set_label(palettes, company, line, keys))
+}
+
 #' @export
 print.glyos_palette <- function(x, ...) {
   cols <- as.character(x)
   n <- length(cols)
   key <- attr(x, "name")
   meta <- glyos_colorways[glyos_colorways$palette == key, ]
-  cat("Glyos colorway '", key, "' (", n, " colours)\n", sep = "")
-  if (nrow(meta) == 1L) {
-    cat(meta$company, " / ", meta$line, ": ", meta$colorway, "\n", sep = "")
+  if (isTRUE(attr(x, "picked"))) {
+    cat("Glyos pick of ", n, " colors from ", key, "
+", sep = "")
+    cat(attr(x, "style"), " background ", attr(x, "background"),
+        if (isTRUE(attr(x, "colorblind"))) ", colorblind-safe" else "",
+        ", min distance ", round(attr(x, "min_distance"), 1), "
+", sep = "")
+  } else if (nrow(meta) == 1L) {
+    cat("Glyos colorway '", key, "' (", n, " colours)
+", sep = "")
+    cat(meta$company, " / ", meta$line, ": ", meta$colorway, "
+", sep = "")
+  } else {
+    cat("Glyos combined palette '", key, "' (", n, " colours)
+", sep = "")
   }
-  cat(cols, sep = " ")
-  cat("\n")
+  if (!is.null(names(x))) {
+    cat(paste0(names(x), " = ", cols), sep = "
+")
+  } else {
+    cat(cols, sep = " ")
+    cat("
+")
+  }
 
-  old <- graphics::par(mar = c(0.5, 0.5, 2, 0.5))
+  bg <- attr(x, "background")
+  old <- graphics::par(mar = c(0.5, 0.5, 2, 0.5),
+                       bg = if (is.null(bg)) "white" else bg)
   on.exit(graphics::par(old), add = TRUE)
   graphics::plot(
     0, 0, type = "n", xlim = c(0, n), ylim = c(0, 1),
     axes = FALSE, xlab = "", ylab = "",
-    main = key, font.main = 1
+    main = key, font.main = 1,
+    col.main = if (!is.null(bg) && relative_luminance(bg) < 0.2) "white" else "black"
   )
   graphics::rect(seq_len(n) - 1, 0, seq_len(n), 1, col = cols, border = NA)
   invisible(x)
