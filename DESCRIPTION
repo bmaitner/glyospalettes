@@ -1,19 +1,22 @@
 Package: glyospalettes
 Title: Color Palettes Inspired by Glyos Colorways
-Version: 0.2.2
+Version: 0.3.0
 Authors@R: 
     person("Brian", "Maitner", , "bmaitner@gmail.com", role = c("aut", "cre"))
 Description: Color palettes based on the named colorways of the Glyos toy
     system: Onell Design's Glyos System Series and the Glyos-compatible lines
     from partner companies such as TheGodBeast, Spy Monkey Creations, Toyfinity
-    and the Four Horsemen. Includes ggplot2 colour and fill scales for discrete
+    and the Four Horsemen. Includes 'ggplot2' color and fill scales for discrete
     and continuous data, metadata linking each palette to its company and
-    product line, and helpers to shortlist palettes that suit categorical,
-    colour-blind-safe, sequential or diverging use. Hex values are
-    approximations curated from product photography; glyospalettes is a fan project
-    and is not affiliated with or endorsed by any of the companies.
+    product line, helpers to shortlist palettes that suit categorical,
+    color-blind-safe, sequential or diverging use, and tools to combine
+    palettes (one color per colorway) or pick the most distinguishable
+    colors from a pool for a light, dark or grayscale plot. Hex values are
+    approximations curated from product photography. This is a fan project and
+    is not affiliated with or endorsed by any of the companies.
 License: MIT + file LICENSE
 Encoding: UTF-8
+Language: en-US
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
 Depends: 
