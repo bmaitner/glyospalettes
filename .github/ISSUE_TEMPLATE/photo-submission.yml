@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        The palettes were sampled from product photographs, and busy backgrounds (rocks, tables, studio walls) sometimes leak into the colors. A photo of the figure on a plain white, grey or black background under daylight or neutral light lets the sampling run cleanly.
+        The palettes were sampled from product photographs, and busy backgrounds (rocks, tables, studio walls) sometimes leak into the colors. A photo of the figure on a plain white, gray or black background under daylight or neutral light lets the sampling run cleanly.
   - type: input
     id: palette
     attributes:
@@ -26,7 +26,7 @@ body:
       label: Background
       options:
         - Plain white
-        - Plain grey
+        - Plain gray
         - Plain black
         - Other plain color
         - Not plain, but the figure is easy to isolate
