@@ -5,7 +5,7 @@
 <!-- badges: end -->
 
 Color palettes for R and ggplot2 based on the named colorways of the
-[Glyos](https://www.onelldesign.com/) toy system: Onell Design's own Glyos
+[Glyos](https://onelldesign.blogspot.com/) toy system: Onell Design's own Glyos
 line plus the Glyos-compatible lines from partner companies such as
 TheGodBeast (Kabuto Mushi), Spy Monkey Creations (Weaponeers of Monkaa,
 Battle Tribes), Toyfinity (Robo Force, Zeroids, Manglors), the Four Horsemen
@@ -47,7 +47,7 @@ glyos_palette_names(line = "Battle Tribes")
 
 # the colors of one colorway (prints the swatches and the hex codes)
 glyos_palette("spectre")
-#> Glyos colorway 'spectre' (4 colours)
+#> Glyos colorway 'spectre' (4 colors)
 #> Onell Design / Glyos: Spectre
 #> #EEFADA #BCC99B #9EB49A #5FC3A8
 
@@ -59,24 +59,27 @@ glyos_palette("hades", 12, type = "continuous", sort = TRUE)
 # swatches with hex codes, for one company at a time
 glyos_show_palettes(company = "Onell Design")
 glyos_show_palettes(company = "Spy Monkey Creations", ncol = 2)
+
+# one color per colorway, or the most separable few colors from a pool
+glyos_combine(line = "Kabuto Mushi")
+glyos_pick(c("glyaxia", "hades"), n = 5)
 ```
 
 ![Onell Design palettes](man/figures/palettes-onell.png)
 
 ### ggplot2
 
-`scale_colour_glyos()` and `scale_fill_glyos()` build a discrete scale by
+`scale_color_glyos()` and `scale_fill_glyos()` build a discrete scale by
 default, or a continuous gradient with `discrete = FALSE`. The explicit
-`_d` and `_c` variants and the American `scale_color_*` spellings are also
-exported. `sort = TRUE` on a continuous scale orders the palette from
+`_d` and `_c` variants are also exported, and `scale_colour_*` spellings work as aliases. `sort = TRUE` on a continuous scale orders the palette from
 darkest to lightest first.
 
 ```r
 library(ggplot2)
 
-ggplot(mpg, aes(displ, hwy, colour = drv)) +
+ggplot(mpg, aes(displ, hwy, color = drv)) +
   geom_point(size = 2.5) +
-  scale_colour_glyos("glyaxia")
+  scale_color_glyos("glyaxia")
 
 ggplot(diamonds, aes(cut, fill = cut)) +
   geom_bar() +
@@ -86,9 +89,9 @@ ggplot(faithfuld, aes(waiting, eruptions, fill = density)) +
   geom_raster() +
   scale_fill_glyos_c("cosmic_wave", sort = TRUE)
 
-ggplot(economics_long, aes(date, value01, colour = variable)) +
+ggplot(economics_long, aes(date, value01, color = variable)) +
   geom_line() +
-  scale_colour_glyos("imperium")
+  scale_color_manual(values = unname(glyos_combine(c("glyaxia", "hades", "infection", "neo_phase", "gatekeeper"))))
 ```
 
 ![Example ggplot2 scales](man/figures/examples.png)
@@ -97,6 +100,66 @@ Set `reverse = TRUE` to flip a palette. If a discrete variable has more levels
 than a palette has colors, the palette is interpolated so every level still
 gets a color, at some cost to legibility.
 
+### Combining palettes
+
+`glyos_combine()` takes one color from each of a set of palettes, either
+named explicitly or all the palettes of a company or product line, and names
+each color after the colorway it came from. By default it takes the main
+plastic color of each, which is faithful but can repeat across a line cast
+from shared plastics; `distinct = TRUE` picks, for each palette in turn, the
+color from that palette that is farthest from the colors chosen so far.
+
+```r
+glyos_combine(c("standard", "spectre", "hades", "infection", "glyaxia"))
+#> Glyos combined palette 'standard + spectre + hades + infection + glyaxia' (5 colors)
+#> standard = #8ED7EE
+#> spectre = #EEFADA
+#> hades = #0F1210
+#> infection = #D00615
+#> glyaxia = #F2B61D
+
+glyos_combine(line = "Kabuto Mushi")                  # main plastic of each Mushi
+glyos_combine(line = "Kabuto Mushi", distinct = TRUE) # spread out for a chart
+glyos_combine(company = "Toyfinity", which = 2)       # second color of each
+```
+
+![Combined palettes](man/figures/combine-examples.png)
+
+### Picking the best few colors from one or more palettes
+
+Whole palettes are faithful to the figures, not to the chart. `glyos_pick()`
+pools the colors of the palettes you name (or of a whole company or line),
+drops any that would not read against the background (white for `"light"`
+and `"grayscale"`, near-black for `"dark"`, judged by WCAG contrast), and
+then chooses the `n` colors whose closest pair is farthest apart in CIE Lab.
+With `colorblind = TRUE` the distance is the worst case across simulated
+deuteranopia, protanopia and tritanopia; with `style = "grayscale"` only
+lightness counts, so the result survives a black-and-white printer.
+
+```r
+# five colors for a white-background plot, from two classic colorways
+glyos_pick(c("glyaxia", "hades"), n = 5)
+
+# four color-blind-safe colors for a dark theme, from a whole line
+glyos_pick(line = "Kabuto Mushi", n = 4, style = "dark", colorblind = TRUE)
+
+# printable in grayscale, from everything Toyfinity made
+glyos_pick(company = "Toyfinity", n = 4, style = "grayscale")
+
+ggplot(mpg, aes(displ, hwy, color = drv)) +
+  geom_point(size = 2.5) +
+  scale_color_manual(values = unname(glyos_pick(c("glyaxia", "hades"), 3)))
+```
+
+![glyos_pick examples](man/figures/pick-examples.png)
+
+Each color is named after the palette it came from, and the `min_distance`
+attribute reports how separable the closest pair is (above 20 is
+comfortable, below about 12 is risky). The contrast filter is strict on
+purpose: pale glow-in-the-dark and clear colors fail it against white, so a
+light-mode pick from Spectre alone has nothing to work with. Lower
+`min_contrast` to keep them, or pass a different `background`.
+
 ### Finding a palette that works for a plot
 
 Most colorways were designed to look good on a toy, not on a chart.
@@ -104,10 +167,10 @@ Most colorways were designed to look good on a toy, not on a chart.
 job, judged from the colors themselves:
 
 ```r
-glyos_find_palettes("categorical")   # every pair of colours clearly distinct
+glyos_find_palettes("categorical")   # every pair of colors clearly distinct
 glyos_find_palettes("colorblind")    # still distinct under simulated CVD
 glyos_find_palettes("sequential")    # one hue, wide lightness range
-glyos_find_palettes("diverging")     # two hues with a light colour between
+glyos_find_palettes("diverging")     # two hues with a light color between
 
 # restrict to a company, or see the shortlist as swatches
 glyos_find_palettes("colorblind", company = "Onell Design")
