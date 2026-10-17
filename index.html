@@ -190,10 +190,32 @@
 <p>The judgments come from <code><a href="reference/glyos_palette_stats.html">glyos_palette_stats()</a></code>, which reports the smallest pairwise distance between colors in CIE Lab, the same after simulating deuteranopia, protanopia and tritanopia, the lightness range, and the hue spread. The thresholds are simple heuristics, so treat the result as a shortlist to look at rather than a guarantee.</p>
 </div>
 <div class="section level3">
+<h3 id="crediting-the-designers">Crediting the designers<a class="anchor" aria-label="anchor" href="#crediting-the-designers"></a>
+</h3>
+<p>The colors belong to the people who designed the toys, so give them a line. <code><a href="reference/glyos_credit.html">glyos_credit()</a></code> writes that line from the palette metadata, grouped by company, and follows a <code><a href="reference/glyos_pick.html">glyos_pick()</a></code> or <code><a href="reference/glyos_combine.html">glyos_combine()</a></code> result back to every colorway that contributed. The caption form is one sentence; the acknowledgment form adds that the hex values are approximations that imply no endorsement, which is the wording journals tend to want. Cite the package itself with <code>citation("glyospalettes")</code>.</p>
+<div class="sourceCode" id="cb7"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="fu"><a href="reference/glyos_credit.html">glyos_credit</a></span><span class="op">(</span><span class="st">"kots_vice_knight"</span><span class="op">)</span></span>
+<span><span class="co">#&gt; [1] "Colors: Vice Knight colorway by Toy Pizza (Knights of the Slice), via the glyospalettes R package."</span></span>
+<span></span>
+<span><span class="fu"><a href="reference/glyos_credit.html">glyos_credit</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"glyaxia"</span>, <span class="st">"hades"</span>, <span class="st">"kabuto_infection"</span><span class="op">)</span><span class="op">)</span></span>
+<span><span class="co">#&gt; [1] "Colors: Glyaxia Command and Hades Force colorways by Onell Design (Glyos) and Infection colorway by TheGodBeast (Kabuto Mushi), via the glyospalettes R package."</span></span>
+<span></span>
+<span><span class="fu"><a href="reference/glyos_credit.html">glyos_credit</a></span><span class="op">(</span><span class="st">"glyaxia"</span>, format <span class="op">=</span> <span class="st">"acknowledgment"</span><span class="op">)</span></span>
+<span><span class="co">#&gt; [1] "Figure colors are derived from the Glyaxia Command colorway designed by Onell Design (Glyos). Hex values are approximations from the glyospalettes R package (Maitner 2026) and imply no endorsement by the designers."</span></span>
+<span></span>
+<span><span class="co"># straight into a figure caption</span></span>
+<span><span class="va">cols</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/glyos_pick.html">glyos_pick</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"glyaxia"</span>, <span class="st">"kabuto_infection"</span><span class="op">)</span>, n <span class="op">=</span> <span class="fl">3</span><span class="op">)</span></span>
+<span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html" class="external-link">ggplot</a></span><span class="op">(</span><span class="va">mpg</span>, <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html" class="external-link">aes</a></span><span class="op">(</span><span class="va">displ</span>, <span class="va">hwy</span>, color <span class="op">=</span> <span class="va">drv</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span></span>
+<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_point.html" class="external-link">geom_point</a></span><span class="op">(</span>size <span class="op">=</span> <span class="fl">2.5</span><span class="op">)</span> <span class="op">+</span></span>
+<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/scale_manual.html" class="external-link">scale_color_manual</a></span><span class="op">(</span>values <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/unname.html" class="external-link">unname</a></span><span class="op">(</span><span class="va">cols</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span></span>
+<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/labs.html" class="external-link">labs</a></span><span class="op">(</span>caption <span class="op">=</span> <span class="fu"><a href="reference/glyos_credit.html">glyos_credit</a></span><span class="op">(</span><span class="va">cols</span><span class="op">)</span><span class="op">)</span></span></code></pre></div>
+<p><code>format = "markdown"</code> links each colorway name to its reference page, for Quarto and R Markdown captions, and <code>package = FALSE</code> drops the package mention when it is cited elsewhere.</p>
+</div>
+<div class="section level3">
 <h3 id="colorway-background">Colorway background<a class="anchor" aria-label="anchor" href="#colorway-background"></a>
 </h3>
 <p><code>glyos_colorways</code> is a data frame with one row per palette: the company and product line, the colorway name as the manufacturer uses it, the year and wave of the reference release where known, a description of the colors, and a link to the reference figure in the Official Glyos Database (Onell) or the Glyos Wiki (partners).</p>
-<div class="sourceCode" id="cb7"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb8"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/base/t.html" class="external-link">t</a></span><span class="op">(</span><span class="va">glyos_colorways</span><span class="op">[</span><span class="va">glyos_colorways</span><span class="op">$</span><span class="va">palette</span> <span class="op">==</span> <span class="st">"kabuto_infection"</span>, <span class="op">]</span><span class="op">)</span></span>
 <span><span class="co">#&gt; palette          "kabuto_infection"</span></span>
 <span><span class="co">#&gt; company          "TheGodBeast"</span></span>

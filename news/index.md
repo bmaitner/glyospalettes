@@ -3,6 +3,13 @@
 ## glyospalettes 0.3.0
 
 - New
+  [`glyos_credit()`](https://bmaitner.github.io/glyospalettes/reference/glyos_credit.md)
+  writes a figure-caption or acknowledgments sentence naming the
+  colorways used and the companies that designed them, and follows picks
+  and combines back to their source palettes.
+  `citation("glyospalettes")` now returns a reference for the package
+  itself.
+- New
   [`glyos_pick()`](https://bmaitner.github.io/glyospalettes/reference/glyos_pick.md)
   pools the colors of one or more palettes (or of a whole company or
   product line), drops those with poor WCAG contrast against a light,

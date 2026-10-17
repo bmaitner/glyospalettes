@@ -7,11 +7,11 @@
 ## Citation
 
 Source:
-[`DESCRIPTION`](https://github.com/bmaitner/glyospalettes/blob/main/DESCRIPTION)
+[`inst/CITATION`](https://github.com/bmaitner/glyospalettes/blob/main/inst/CITATION)
 
-Maitner B (2026). *glyospalettes: Color Palettes Inspired by Glyos
-Colorways*. R package version 0.3.0,
-<https://bmaitner.github.io/glyospalettes/>.
+Maitner, B. (2026). glyospalettes: Color Palettes Inspired by Glyos
+Colorways. R package version 0.3.0.
+https://bmaitner.github.io/glyospalettes/
 
     @Manual{,
       title = {glyospalettes: Color Palettes Inspired by Glyos Colorways},

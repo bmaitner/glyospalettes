@@ -35,7 +35,8 @@
 
     <div class="section level2">
 <h2 class="pkg-version" data-toc-text="0.3.0" id="glyospalettes-030">glyospalettes 0.3.0<a class="anchor" aria-label="anchor" href="#glyospalettes-030"></a></h2>
-<ul><li>New <code><a href="../reference/glyos_pick.html">glyos_pick()</a></code> pools the colors of one or more palettes (or of a whole company or product line), drops those with poor WCAG contrast against a light, dark or grayscale background, and returns the <code>n</code> colors whose closest pair is farthest apart in CIE Lab, optionally judged under simulated color-vision deficiency.</li>
+<ul><li>New <code><a href="../reference/glyos_credit.html">glyos_credit()</a></code> writes a figure-caption or acknowledgments sentence naming the colorways used and the companies that designed them, and follows picks and combines back to their source palettes. <code>citation("glyospalettes")</code> now returns a reference for the package itself.</li>
+<li>New <code><a href="../reference/glyos_pick.html">glyos_pick()</a></code> pools the colors of one or more palettes (or of a whole company or product line), drops those with poor WCAG contrast against a light, dark or grayscale background, and returns the <code>n</code> colors whose closest pair is farthest apart in CIE Lab, optionally judged under simulated color-vision deficiency.</li>
 <li>New <code><a href="../reference/glyos_combine.html">glyos_combine()</a></code> takes one color from each of a set of palettes, so a product line becomes a categorical palette with one color per figure; <code>distinct = TRUE</code> spreads the choices out for legibility.</li>
 <li>Both return named vectors (color by source palette) and print with their provenance; picks draw their swatches on the background they were chosen for. These mirror <code>tf_pick()</code> and <code>tf_team_palette()</code> in the sibling transformerpalettes package.</li>
 </ul></div>

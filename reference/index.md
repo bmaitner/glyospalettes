@@ -14,6 +14,8 @@
   : List the companies with palettes in glyospalettes
 - [`glyos_show_palettes()`](https://bmaitner.github.io/glyospalettes/reference/glyos_show_palettes.md)
   : Display Glyos palettes
+- [`glyos_credit()`](https://bmaitner.github.io/glyospalettes/reference/glyos_credit.md)
+  : Credit the designers of the colorways behind a plot
 
 ## Combining and choosing colors for a plot
 

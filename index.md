@@ -210,6 +210,44 @@ lightness range, and the hue spread. The thresholds are simple
 heuristics, so treat the result as a shortlist to look at rather than a
 guarantee.
 
+### Crediting the designers
+
+The colors belong to the people who designed the toys, so give them a
+line.
+[`glyos_credit()`](https://bmaitner.github.io/glyospalettes/reference/glyos_credit.md)
+writes that line from the palette metadata, grouped by company, and
+follows a
+[`glyos_pick()`](https://bmaitner.github.io/glyospalettes/reference/glyos_pick.md)
+or
+[`glyos_combine()`](https://bmaitner.github.io/glyospalettes/reference/glyos_combine.md)
+result back to every colorway that contributed. The caption form is one
+sentence; the acknowledgment form adds that the hex values are
+approximations that imply no endorsement, which is the wording journals
+tend to want. Cite the package itself with `citation("glyospalettes")`.
+
+``` r
+
+glyos_credit("kots_vice_knight")
+#> [1] "Colors: Vice Knight colorway by Toy Pizza (Knights of the Slice), via the glyospalettes R package."
+
+glyos_credit(c("glyaxia", "hades", "kabuto_infection"))
+#> [1] "Colors: Glyaxia Command and Hades Force colorways by Onell Design (Glyos) and Infection colorway by TheGodBeast (Kabuto Mushi), via the glyospalettes R package."
+
+glyos_credit("glyaxia", format = "acknowledgment")
+#> [1] "Figure colors are derived from the Glyaxia Command colorway designed by Onell Design (Glyos). Hex values are approximations from the glyospalettes R package (Maitner 2026) and imply no endorsement by the designers."
+
+# straight into a figure caption
+cols <- glyos_pick(c("glyaxia", "kabuto_infection"), n = 3)
+ggplot(mpg, aes(displ, hwy, color = drv)) +
+  geom_point(size = 2.5) +
+  scale_color_manual(values = unname(cols)) +
+  labs(caption = glyos_credit(cols))
+```
+
+`format = "markdown"` links each colorway name to its reference page,
+for Quarto and R Markdown captions, and `package = FALSE` drops the
+package mention when it is cited elsewhere.
+
 ### Colorway background
 
 `glyos_colorways` is a data frame with one row per palette: the company
