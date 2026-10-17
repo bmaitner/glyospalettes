@@ -37,6 +37,7 @@ reference:
       - glyos_palette_names
       - glyos_companies
       - glyos_show_palettes
+      - glyos_credit
   - title: Combining and choosing colors for a plot
     contents:
       - glyos_combine
