@@ -242,6 +242,7 @@ so <- function(..., line = "Spaced Out") partner(..., company = "Spaced Out Desi
 ban <- function(...) partner(..., company = "Banimon", line = "Banimon")
 cp <- function(...) partner(..., company = "Culture Pirates", line = "Bit Figs")
 zb <- function(...) partner(..., company = "Zullbeasts", line = "Zullbeasts")
+pl <- function(...) partner(..., company = "Swamp City Collectibles", line = "Paleolords")
 
 .registry_partners <- list(
 
@@ -334,6 +335,12 @@ zb <- function(...) partner(..., company = "Zullbeasts", line = "Zullbeasts")
   bt("bt_eldritch_god", c("#A58AC5", "#886CAC", "#2D2361"),
      "Eldritch God", "Lavender purple plastic.",
      "Eldritch God", 2017, "Wave 8"),
+  bt("bt_void_minion", c("#5B5B6E", "#121013", "#27293B", "#79809C", "#AE8459"),
+     "Void Minion", "Slate gray-violet plastic with black and pale gray detail, tan weapons.",
+     "Void Minion", 2026, "Wave 46"),
+  bt("bt_savage_destroyer", c("#B67660", "#E7AAA8", "#74422E", "#18100B", "#696B72"),
+     "Savage Destroyer", "Tanned flesh plastic with brown gear, black hair and steel sword.",
+     "Savage Destroyer", 2026, "Wave 46"),
 
   ## Toyfinity ----
   tf("rf_maxx_zero", c("#E5D1AC", "#242123", "#B61D57", "#346091"),
@@ -474,6 +481,18 @@ zb <- function(...) partner(..., company = "Zullbeasts", line = "Zullbeasts")
   mm("maniax_ghost_fang", c("#190B6C", "#048177", "#035B66", "#4786E4", "#03385C"),
      "Ghost Fang", "Deep blue and teal green plastic.",
      "Ghost Fang", 2024, "Wave 6"),
+  mm("maniax_atom", c("#F88545", "#9DC0BC", "#F9B57B", "#23201D", "#795244", "#FED52D"),
+     "Atom", "Orange flesh plastic with silver-gray armor, brown boots and yellow hair.",
+     "Atom", 2026, "Wave 14"),
+  mm("maniax_saber", c("#5C9DD0", "#43249C", "#2B1A6F", "#674FB4", "#16181C"),
+     "Saber", "Light blue plastic with deep purple armor and hood.",
+     "Saber", 2026, "Wave 14"),
+  mm("maniax_heroic_duo", c("#899D92", "#62766D", "#E28241", "#885439", "#101012"),
+     "Heroic Duo", "Metallic silver plastic with orange and brown paint.",
+     "Mighty Duos", 2026, "Wave 14"),
+  mm("maniax_robert", c("#879D93", "#667D74", "#445A51", "#0B0C0D", "#3A98C6"),
+     "Robert", "Metallic silver plastic with black and a blue visor.",
+     "Robert Cop", 2026, "6th Anniversary"),
 
   ## Bio-Masters Design ----
   bm("biomass_endrax", c("#352269", "#3F2289", "#7B2C6D", "#4694B7", "#7661A2"),
@@ -578,6 +597,12 @@ zb <- function(...) partner(..., company = "Zullbeasts", line = "Zullbeasts")
   wor("wor_gol_oceanlord", c("#158D7B", "#CA8D0D", "#83580A", "#EEC61D", "#1C4F41", "#D5E7E3"),
       "Gol Oceanlord", "Teal plastic with gold and red-orange.",
       "Gol Oceanlord", 2019, "Wave 8"),
+  wor("wor_baron_ironblast", c("#F9F9F9", "#D5091F", "#C4C3C3", "#5F2021", "#141214"),
+      "Baron Ironblast", "White plastic with red chest and black boots and gloves.",
+      "Baron Ironblast", 2026),
+  wor("wor_elapid_saboteur", c("#6A6B34", "#A1AAAC", "#343411", "#BDC8CA", "#525227"),
+      "Elapid Saboteur", "Dark gray plastic with olive gear and light gray paint.",
+      "Elapid Saboteur", 2026),
 
   ## Nemo's Factory: A/V Robot ----
   nf("avrobot_deluxe_orange", c("#E99017", "#F9D74C", "#DA5D0A", "#383C34"),
@@ -604,6 +629,12 @@ zb <- function(...) partner(..., company = "Zullbeasts", line = "Zullbeasts")
   nf("avrobot_space_pirate_red", c("#F62218", "#BA1510", "#F75D43", "#DED4B9", "#FEB90D"),
      "Space Pirate Red", "Red-orange plastic with dark gray.",
      "A/V Robot Space Pirate Red"),
+  nf("avrobot_buildborn", c("#A02126", "#54121F", "#7C6D9D", "#5C456E", "#D73629"),
+     "Buildborn", "Deep red plastic with purple-gray parts.",
+     "A/V Robot Buildborn", 2026),
+  nf("avrobot_vurgon", c("#1D214D", "#2E315C", "#652F59", "#D197AA", "#15183B"),
+     "Vurgon Invasion", "Navy blue plastic with plum and pink paint; a team-up with INVDR Toys and Onell Design.",
+     "A/V Robot Vurgon Invasion", 2026),
 
   ## NiStuff: Outlander ----
   ni("outlander_original", c("#48ADCC", "#0C4B5D", "#62A4A8", "#3C5753"),
@@ -662,6 +693,9 @@ zb <- function(...) partner(..., company = "Zullbeasts", line = "Zullbeasts")
   cs("cappy_mischievers", c("#3ACF9A", "#20C0D0", "#C0392B", "#1A1A1A", "#8AC050"),
      "Mischievers", "Mint, cyan, red and black mini figures.",
      "Mischievers", 2023),
+  cs("cappy_techmi", c("#2A262B", "#665E5E", "#AE735C", "#D7685B", "#E2A78C"),
+     "Techmi", "Gunmetal black plastic with copper and salmon paint; a Mischievers henchbot and mecha.",
+     "Techmi", 2026),
 
   ## Spaced Out Design ----
   so("prismiria", c("#5CA4A3", "#327571", "#A4D7D8"),
@@ -723,7 +757,21 @@ zb <- function(...) partner(..., company = "Zullbeasts", line = "Zullbeasts")
      "Zulloid", 2024),
   zb("kaisyriax", c("#141118", "#4E1D98", "#6B2943", "#C1585E"),
      "Kaisyriax", "Dark purple plastic with pink.",
-     "Kaisyriax")
+     "Kaisyriax"),
+
+  ## Paleolords ----
+  pl("paleo_aeronaut", c("#2F5B64", "#38798A", "#753025", "#C1C86C", "#202625"),
+     "Arkship Aeronaut", "Teal blue plastic with rust red and yellow-green paint.",
+     "Aeronaut", 2026, "Wave 1"),
+  pl("paleo_grrellan", c("#96CE20", "#2C625D", "#4CA90E", "#C3E551", "#71351B"),
+     "Grrellan Navigator & Oplid", "Neon green plastic with a teal blue suit and brown accents.",
+     "Grrellan", 2026, "Wave 1"),
+  pl("paleo_podcraft", c("#46BDC3", "#2F968E", "#A1CFD1", "#ABBB4E", "#A34D2E"),
+     "Arkship Podcraft", "Light blue vinyl ship with neon green pilot and olive and rust paint.",
+     "Arkship Podcraft", 2026, "Wave 1"),
+  pl("paleo_caustic_marsh", c("#5E3C58", "#361D27", "#816589", "#ACC058", "#3D838F", "#9B422F"),
+     "Caustic Marsh", "Purple base plastic with neon green and light blue plants and a rust orange pool.",
+     "Paleolords Playset", 2026, "Wave 1")
 )
 
 .registry <- c(.registry_onell, .registry_partners)

@@ -249,21 +249,22 @@ sampled from, which is what the online browser shows.
 |---|---|---|---|
 | Onell Design | Glyos | 45 | none, e.g. `spectre`, `glyaxia` |
 | TheGodBeast | Kabuto Mushi | 10 | `kabuto_` |
-| Spy Monkey Creations | Weaponeers of Monkaa, Battle Tribes | 18 | `wom_`, `bt_` |
+| Spy Monkey Creations | Weaponeers of Monkaa, Battle Tribes | 20 | `wom_`, `bt_` |
 | Toyfinity | Robo Force, Mordles, Zeroids, Manglors | 12 | `rf_`, `mordles_`, `zeroids_`, `manglors_` |
 | Four Horsemen Studio | Outer Space Men, Power Lords | 12 | `osm_`, `powerlords_` |
 | Toy Pizza | Knights of the Slice | 10 | `kots_` |
-| Rocom Toys | Mighty Maniax | 10 | `maniax_` |
+| Rocom Toys | Mighty Maniax | 14 | `maniax_` |
 | Bio-Masters Design | Bio-Masters | 8 | `biomass_` |
 | Rawshark Studio | Callgrim | 10 | `callgrim_`, `order_` |
-| ManOrMonster? Studios | Warlords of Wor | 10 | `wor_` |
+| ManOrMonster? Studios | Warlords of Wor | 12 | `wor_` |
 | NiStuff | Outlander | 10 | `outlander_` |
-| Nemo's Factory | A/V Robot | 8 | `avrobot_` |
-| Cappy Space | Cappy Space | 8 | `cappy_` |
+| Nemo's Factory | A/V Robot | 10 | `avrobot_` |
+| Cappy Space | Cappy Space | 9 | `cappy_` |
 | Banimon | Banimon | 6 | `banimon_` |
 | Culture Pirates | Bit Figs | 5 | `bitfigs_` |
 | October Toys | Skeleton Warriors, Breaker Buildman | 4 | none |
 | Zullbeasts | Zullbeasts | 4 | none |
+| Swamp City Collectibles | Paleolords | 4 | `paleo_` |
 | Spaced Out Design | Spaced Out, Rise of Acris | 3 | none |
 
 Every partner company's palettes are drawn in `man/figures/palettes-<company>.png`;
@@ -317,6 +318,6 @@ Glyos, Pheyden and the Onell Design colorway names belong to Onell Design.
 Kabuto Mushi, Weaponeers of Monkaa, Battle Tribes, Robo Force, Zeroids,
 Manglors, Mordles, Outer Space Men, Power Lords, Knights of the Slice, Mighty
 Maniax, Bio-Masters, Callgrim, Warlords of Wor, Outlander, A/V Robot, Bit
-Figs, Banimon, Skeleton Warriors and Zullbeasts belong to their respective
+Figs, Banimon, Skeleton Warriors, Zullbeasts and Paleolords belong to their respective
 companies. This package only records approximate color values and uses the
 names to refer to them.

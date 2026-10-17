@@ -30,3 +30,8 @@ drop announcements on the Glyos Transmission Web Log
 (https://glyos.fandom.com/) for the partner lines.
 
 `make_figures.R` regenerates the README figures in `man/figures/`.
+
+`resample_2026-10.json` holds the same background-free clusters for the fifteen
+palettes added in October 2026 (Paleolords Wave 1 and new Battle Tribes, Mighty
+Maniax, Warlords of Wor, A/V Robot and Cappy Space figures), all sampled from
+the lead photograph of the figure's Glyos Wiki page.
