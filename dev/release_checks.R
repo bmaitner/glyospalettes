@@ -36,7 +36,12 @@ stopifnot(file.size(tb) < 4 * 1024^2)
 
 # 4. Remote builders (results arrive by email / GitHub) ---------------------
 devtools::check_win_devel()            # CRAN's Windows R-devel builder
-# rhub::rhub_setup(); rhub::rhub_check()  # CRAN-like Linux/clang configurations
+# R-hub v2 runs in this repo's own GitHub Actions (.github/workflows/rhub.yaml).
+# First time only: rhub::rhub_doctor(). Pure-R package, so the CRAN-flavoured
+# set below is enough; add "clang-asan" etc. only if compiled code appears.
+# rhub::rhub_check(platforms = c("linux", "windows", "macos",
+#                               "ubuntu-release", "ubuntu-next", "atlas",
+#                               "nosuggests", "donttest"))
 
 # 5. Submit -----------------------------------------------------------------
 # devtools::release()                  # interactive checklist, then uploads
