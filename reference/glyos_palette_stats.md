@@ -76,10 +76,10 @@ blacks do not count as a hue.
 s <- glyos_palette_stats()
 head(s[order(-s$min_de_deutan), c("palette", "min_de", "min_de_deutan")])
 #>                  palette   min_de min_de_deutan
-#> 86       osm_alpha_phase 68.70507      49.76224
-#> 76           rf_sentinel 47.62056      48.83391
+#> 88       osm_alpha_phase 68.70507      49.76224
+#> 78           rf_sentinel 47.62056      48.83391
 #> 69 bt_livid_dracosaurian 38.22175      37.96039
-#> 74          rf_maxx_zero 40.68568      34.57933
-#> 89     osm_jack_asteroid 38.14048      32.93691
-#> 90           osm_mystron 33.17829      29.66489
+#> 76          rf_maxx_zero 40.68568      34.57933
+#> 91     osm_jack_asteroid 38.14048      32.93691
+#> 92           osm_mystron 33.17829      29.66489
 ```

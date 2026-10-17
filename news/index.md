@@ -2,6 +2,11 @@
 
 ## glyospalettes 0.3.0
 
+- Fifteen new palettes from releases since the first sampling pass: the
+  Paleolords Wave 1 figures (Dan Suarez’s new Glyos-compatible line,
+  listed under his company “Swamp City Collectibles” with the `paleo_`
+  prefix), plus new Battle Tribes, Mighty Maniax, Warlords of Wor, A/V
+  Robot and Cappy Space figures. 208 palettes in total.
 - New
   [`glyos_credit()`](https://bmaitner.github.io/glyospalettes/reference/glyos_credit.md)
   writes a figure-caption or acknowledgments sentence naming the

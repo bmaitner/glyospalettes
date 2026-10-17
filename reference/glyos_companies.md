@@ -20,10 +20,14 @@ and
 
 ``` r
 glyos_companies()
-#>  [1] "Onell Design"          "Banimon"               "Bio-Masters Design"   
-#>  [4] "Cappy Space"           "Culture Pirates"       "Four Horsemen Studio" 
-#>  [7] "ManOrMonster? Studios" "Nemo's Factory"        "NiStuff"              
-#> [10] "October Toys"          "Rawshark Studio"       "Rocom Toys"           
-#> [13] "Spaced Out Design"     "Spy Monkey Creations"  "TheGodBeast"          
-#> [16] "Toy Pizza"             "Toyfinity"             "Zullbeasts"           
+#>  [1] "Onell Design"            "Banimon"                
+#>  [3] "Bio-Masters Design"      "Cappy Space"            
+#>  [5] "Culture Pirates"         "Four Horsemen Studio"   
+#>  [7] "ManOrMonster? Studios"   "Nemo's Factory"         
+#>  [9] "NiStuff"                 "October Toys"           
+#> [11] "Rawshark Studio"         "Rocom Toys"             
+#> [13] "Spaced Out Design"       "Spy Monkey Creations"   
+#> [15] "Swamp City Collectibles" "TheGodBeast"            
+#> [17] "Toy Pizza"               "Toyfinity"              
+#> [19] "Zullbeasts"             
 ```

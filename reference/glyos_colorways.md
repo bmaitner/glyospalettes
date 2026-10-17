@@ -114,18 +114,20 @@ head(glyos_colorways)
 #> 6 https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRD13XPwFsNB38_MxVAfOf5xA2V0U-e8rIG_f5qabSC58VqP5m9-mGduWsztdAdQCNQccGl60D3VO0bW05JBobG5xwjpSjEdi7AKXWvhdNUFylv8ByWSuRYgUZjWN4oAvt43GP00c3JnM/s1600/archive-pheyden-neophase2.jpg
 table(glyos_colorways$company)
 #> 
-#>               Banimon    Bio-Masters Design           Cappy Space 
-#>                     6                     8                     8 
-#>       Culture Pirates  Four Horsemen Studio ManOrMonster? Studios 
-#>                     5                    12                    10 
-#>        Nemo's Factory               NiStuff          October Toys 
-#>                     8                    10                     4 
-#>          Onell Design       Rawshark Studio            Rocom Toys 
-#>                    45                    10                    10 
-#>     Spaced Out Design  Spy Monkey Creations           TheGodBeast 
-#>                     3                    18                    10 
-#>             Toy Pizza             Toyfinity            Zullbeasts 
-#>                    10                    12                     4 
+#>                 Banimon      Bio-Masters Design             Cappy Space 
+#>                       6                       8                       9 
+#>         Culture Pirates    Four Horsemen Studio   ManOrMonster? Studios 
+#>                       5                      12                      12 
+#>          Nemo's Factory                 NiStuff            October Toys 
+#>                      10                      10                       4 
+#>            Onell Design         Rawshark Studio              Rocom Toys 
+#>                      45                      10                      14 
+#>       Spaced Out Design    Spy Monkey Creations Swamp City Collectibles 
+#>                       3                      20                       4 
+#>             TheGodBeast               Toy Pizza               Toyfinity 
+#>                      10                      10                      12 
+#>              Zullbeasts 
+#>                       4 
 subset(glyos_colorways, company == "TheGodBeast", c(palette, colorway))
 #>                      palette           colorway
 #> 46           kabuto_standard           Standard

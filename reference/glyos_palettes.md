@@ -46,7 +46,7 @@ photographs.
 
 ``` r
 length(glyos_palettes)
-#> [1] 193
+#> [1] 208
 glyos_palettes$spectre
 #> [1] "#EEFADA" "#BCC99B" "#9EB49A" "#5FC3A8"
 glyos_palettes$kabuto_infection
