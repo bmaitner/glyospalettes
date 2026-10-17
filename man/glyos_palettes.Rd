@@ -27,7 +27,7 @@ reference product photograph in the Official Glyos Database
 (\url{https://database.glyos.com/}) and adjusted against Onell's published
 color descriptions. Partner-company palettes were sampled from the lead
 photograph of the figure's page on the Glyos Wiki
-(\url{https://glyos.fandom.com/}). Clear, glow-in-the-dark, metallic and
+(glyos.fandom.com). Clear, glow-in-the-dark, metallic and
 pearlescent plastics cannot be captured by a single flat color; those
 palettes reflect how the plastic photographs.
 }

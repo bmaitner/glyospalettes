@@ -26,7 +26,7 @@ sampled from, hosted by the Official Glyos Database or the Glyos Wiki.}
 \source{
 Official Glyos Database, \url{https://database.glyos.com/}; the Glyos
 Transmission Web Log, \url{https://onelldesign.blogspot.com/}; and the Glyos
-Wiki, \url{https://glyos.fandom.com/}.
+Wiki (glyos.fandom.com).
 }
 \usage{
 glyos_colorways
