@@ -258,18 +258,18 @@ Database (Onell) or the Glyos Wiki (partners).
 
 ``` r
 
-t(glyos_colorways[glyos_colorways$palette == "kabuto_infection", ])
-#> palette          "kabuto_infection"
-#> company          "TheGodBeast"
-#> line             "Kabuto Mushi"
-#> colorway         "Infection"
-#> year             "2014"
-#> wave             NA
-#> n_colours        "3"
-#> description      "Clear red plastic."
-#> reference_figure "Infection Kabuto Mushi"
-#> source           "https://glyos.fandom.com/wiki/Infection_Kabuto_Mushi"
-#> image            "https://static.wikia.nocookie.net/glyos/images/..."
+t(glyos_colorways[glyos_colorways$palette == "volkriun", ])
+#> palette          "volkriun"
+#> company          "Onell Design"
+#> line             "Glyos"
+#> colorway         "Task Force Volkriun"
+#> year             "2011"
+#> wave             "Wave 16"
+#> n_colours        "5"
+#> description      "Pappysoup green and olive green plastic with light green visors."
+#> reference_figure "Glyan Task Force Volkriun"
+#> source           "https://database.glyos.com/2011/07/glyan-task-force-volkriun.html"
+#> image            "https://blogger.googleusercontent.com/img/.../archive-glyan-volkriun.jpeg"
 ```
 
 The `image` column is a direct link to the photograph each palette was
@@ -315,8 +315,8 @@ are approximations built in three steps:
     Design that is an entry in the [Official Glyos
     Database](https://database.glyos.com/), preferring a Pheyden or
     Glyan so that body, secondary and paint colors are all visible. For
-    partner companies it is the figure’s page on the [Glyos
-    Wiki](https://glyos.fandom.com/).
+    partner companies it is the figure’s page on the Glyos Wiki
+    (glyos.fandom.com).
 2.  The dominant colors of that figure’s lead photograph were extracted
     with k-means clustering, after masking out pixels that match the
     photo’s border colors so that studio backgrounds, rocks and

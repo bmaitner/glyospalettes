@@ -29,10 +29,10 @@ Hex values are approximations. Onell Design palettes were sampled from
 the reference product photograph in the Official Glyos Database
 (<https://database.glyos.com/>) and adjusted against Onell's published
 color descriptions. Partner-company palettes were sampled from the lead
-photograph of the figure's page on the Glyos Wiki
-(<https://glyos.fandom.com/>). Clear, glow-in-the-dark, metallic and
-pearlescent plastics cannot be captured by a single flat color; those
-palettes reflect how the plastic photographs.
+photograph of the figure's page on the Glyos Wiki (glyos.fandom.com).
+Clear, glow-in-the-dark, metallic and pearlescent plastics cannot be
+captured by a single flat color; those palettes reflect how the plastic
+photographs.
 
 ## See also
 

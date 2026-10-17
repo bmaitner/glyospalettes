@@ -71,7 +71,7 @@ A data frame with one row per palette and the columns:
 
 Official Glyos Database, <https://database.glyos.com/>; the Glyos
 Transmission Web Log, <https://onelldesign.blogspot.com/>; and the Glyos
-Wiki, <https://glyos.fandom.com/>.
+Wiki (glyos.fandom.com).
 
 ## Examples
 
