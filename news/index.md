@@ -2,6 +2,8 @@
 
 ## glyospalettes 0.3.0
 
+CRAN release: 2026-10-27
+
 - Fifteen new palettes from releases since the first sampling pass: the
   Paleolords Wave 1 figures (Dan Suarez’s new Glyos-compatible line,
   listed under his company “Swamp City Collectibles” with the `paleo_`
