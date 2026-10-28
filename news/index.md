@@ -1,5 +1,7 @@
 # Changelog
 
+## glyospalettes (development version)
+
 ## glyospalettes 0.3.0
 
 CRAN release: 2026-10-27

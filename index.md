@@ -26,6 +26,9 @@ where you can propose different colors or attach a cleaner photograph.
 
 ``` r
 
+install.packages("glyospalettes")
+
+# or the development version from GitHub
 # install.packages("pak")
 pak::pak("bmaitner/glyospalettes")
 ```
