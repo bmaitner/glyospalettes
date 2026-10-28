@@ -3,6 +3,7 @@
 <!-- badges: start -->
 [![CRAN status](https://www.r-pkg.org/badges/version/glyospalettes)](https://CRAN.R-project.org/package=glyospalettes)
 [![R-CMD-check](https://github.com/bmaitner/glyospalettes/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/bmaitner/glyospalettes/actions/workflows/R-CMD-check.yaml)
+[![DOI](https://zenodo.org/badge/1357515512.svg)](https://doi.org/10.5281/zenodo.23734114)
 <!-- badges: end -->
 
 Color palettes for R and ggplot2 based on the named colorways of the

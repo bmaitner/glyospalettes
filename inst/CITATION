@@ -9,10 +9,11 @@ bibentry(
   author  = person("Brian", "Maitner"),
   year    = year,
   note    = paste("R package version", meta$Version),
+  doi     = "10.5281/zenodo.23734114",
   url     = "https://bmaitner.github.io/glyospalettes/",
   textVersion = paste0(
     "Maitner, B. (", year, "). glyospalettes: Color Palettes Inspired by Glyos ",
     "Colorways. R package version ", meta$Version, ". ",
-    "https://bmaitner.github.io/glyospalettes/"
+    "doi:10.5281/zenodo.23734114"
   )
 )
