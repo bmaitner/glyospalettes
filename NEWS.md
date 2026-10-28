@@ -1,3 +1,5 @@
+# glyospalettes (development version)
+
 # glyospalettes 0.3.0
 
 * Fifteen new palettes from releases since the first sampling pass: the

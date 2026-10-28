@@ -1,6 +1,7 @@
 # glyospalettes
 
 <!-- badges: start -->
+[![CRAN status](https://www.r-pkg.org/badges/version/glyospalettes)](https://CRAN.R-project.org/package=glyospalettes)
 [![R-CMD-check](https://github.com/bmaitner/glyospalettes/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/bmaitner/glyospalettes/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
@@ -27,6 +28,9 @@ where you can propose different colors or attach a cleaner photograph.
 ## Installation
 
 ```r
+install.packages("glyospalettes")
+
+# or the development version from GitHub
 # install.packages("pak")
 pak::pak("bmaitner/glyospalettes")
 ```

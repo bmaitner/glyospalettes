@@ -1,6 +1,6 @@
 Package: glyospalettes
 Title: Color Palettes Inspired by Glyos Colorways
-Version: 0.3.0
+Version: 0.3.0.9000
 Authors@R: 
     person("Brian", "Maitner", , "bmaitner@gmail.com", role = c("aut", "cre"))
 Description: Color palettes based on the named colorways of the Glyos toy
